@@ -1,13 +1,15 @@
 {
   "username": "Maza16",
-  "motto": "I love Anything Abou Starry Night",
+  "motto": "I Love Anything About Starry Night.",
   "avatar": "",
   "tags": {
     "genre": [
+      "JRPG",
       "RPG",
-      "Platformer"
+      "Turn based"
     ],
     "style": [
+      "Anime",
       "Pixel Art",
       "Story Driven"
     ]
@@ -17,10 +19,10 @@
       "visible": true
     },
     "steam": {
-      "visible": true
+      "visible": false
     },
     "xbox": {
-      "visible": true
+      "visible": false
     }
   },
   "siteUrl": "",
