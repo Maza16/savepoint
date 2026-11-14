@@ -1,5 +1,22 @@
 # Changelog
 
+## v26.11.14
+Games from a Steam Family library in your play log, Steam icons that load again, nine more games that can be beaten, and template updates as a pull request
+
+### Steam
+
+- fix: **Icons** for newer games and achievements load again
+  Steam stopped serving newer icons from the address the site used; every Steam icon now comes from Steam's current one.
+- fix: **Steam Family games** show up in your play log and recently played
+  Games you play from someone else's library never appeared, because Steam leaves them out of your own games. Their session times are approximate, to the half hour, because Steam doesn't say when they were last played.
+- new: **Beaten markers** for nine more games
+  Terraria, Raft, Stardew Valley, Far Cry 3, Monster Hunter Rise, Sekiro, Left 4 Dead 2, Shining Resonance Refrain and TBH: Task Bar Hero.
+
+### Structure
+
+- new: **Template updates** arrive as a pull request every Monday
+  Merge it to update your site. Your config, series, art picks and avatar are kept. See Getting updates in the README.
+
 ## v26.11.11
 Your Savepoint hub, ready to fill with your own games.
 
