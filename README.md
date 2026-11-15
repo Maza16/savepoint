@@ -28,6 +28,7 @@ Savepoint is a template. You make your own copy, add your API keys as secrets, a
 - **Analytics**: hours, unlocks and sessions for any period, compared with the one before; peak hours, favourite day, top games, rarest unlocks.
 - **Completions**: mastered, perfect and beaten games across all platforms on one timeline.
 - **Series**: group games into series across platforms, with sub-series and progress for each.
+- **Memory Card**: a public page for each year in games (top five, finished games, rarest unlocks, when you play, a title for the year), with a picture to share and a link that previews that year.
 - **Admin panel** on your computer to edit series, pick art for games, set win conditions, start data runs and publish.
 
 <img src="docs/images/activity.jpg" alt="Activity page on desktop and phone" width="100%">
@@ -124,13 +125,15 @@ Open `data/hub/config.json` in your repository and click the pencil icon to edit
     "retroachievements": { "visible": true },
     "steam": { "visible": true },
     "xbox": { "visible": true }
-  }
+  },
+  "timezone": "Europe/London"
 }
 ```
 
 - `username`, `motto` and `tags` appear in the hub header.
 - `avatar`: any image URL (for example `https://avatars.githubusercontent.com/<your-github-name>`), or leave it empty and replace `assets/avatar.png`.
 - `platforms`: set a platform you don't use to `"visible": false` (see [Platforms](#turning-platforms-on-and-off)).
+- `timezone`: your [timezone name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones), so Memory Card counts your days and hours. Leave it out for UTC.
 
 Commit the change. That push deploys the site for the first time (without data yet).
 
@@ -227,7 +230,8 @@ You need [Node.js](https://nodejs.org) 20 or newer. `.env` holds the same keys a
 | **Pipelines** | Start real data runs on GitHub (needs `GH_DISPATCH_TOKEN`), run the pipelines locally as a test, and manage your cron-job.org jobs (needs `CRON_JOB_API_KEY`) |
 | **Data Diff** | What you changed, then **Commit**, **Push** or **Publish** both |
 | **Shared Series** | Series that mix platforms, shown on the Series page |
-| **Idle Games / Farm Games** | Games left running (idlers) or achievement farms to leave out of Playing and Analytics |
+| **Idle Games** | Games left running: their playtime is left out of Playing, Analytics and Memory Card, their unlocks still count |
+| **Hidden Games / Farm Games** | Games to leave out of Playing, Analytics and Memory Card entirely: any game you pick, or achievement farms (found on Steam automatically, or marked by hand) |
 | **RetroAchievements → Series / Art** | Series for the RA profile; pick wide art and stand-in icons from SteamGridDB (needs `SGDB_API_KEY`) |
 | **Steam / Xbox → Win Conditions** | The achievement that means "beaten" for a game, so it counts as beaten |
 | **Steam / Xbox → Series** | Series for those profiles |
@@ -246,6 +250,14 @@ Optional keys for the admin, all in `.env`:
 | `GITHUB_REPOSITORY`, `SITE_URL` | Only if your repository or site address can't be worked out from the git remote |
 
 ---
+
+## Memory Card
+
+<img src="docs/images/memory.jpg" alt="Memory Card: one year in games" width="100%">
+
+Every year with unlocks or play time gets its own page at `/memory-card/<year>/` (`/memory-card/` is the latest), linked from the hub header. It is made for other people: a title for the year picked from what made it stand out, the top five games, finished games, rarest unlocks, a save-block calendar of the year and when you play. **Share** hands out a story-sized or wide picture of it, and a shared link previews that year's picture.
+
+The pages and pictures are built on every deploy (`scripts/build-recap.js`, then `scripts/render-recap.js` with the runner's Chrome). Locally, `npm run data:pull` builds the pages; run `node scripts/render-recap.js` for the pictures. Farms and hidden games are left out, idle games count without their play time. Play time only exists from your first data run, so earlier years rank games by unlocks.
 
 ## Customising
 

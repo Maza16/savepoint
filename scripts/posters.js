@@ -12,6 +12,7 @@
 //   --header-pages hub,ra   which pages get it (hub, ra, steam, xbox, activity, …); default hub,ra
 //   --game <ra id>          the RetroAchievements game whose sheet is shown; default the last played
 //   --url <address>         shown in the browser frames; default you.github.io/savepoint
+//   --only memory,hero      only these posters (and only the screenshots they use)
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
@@ -24,6 +25,11 @@ const RENDER_ONLY = process.argv.includes('--render');
 const HEADER_ART = arg('header-art');
 const HEADER_PAGES = arg('header-pages', 'hub,ra').split(',');
 const URL_LABEL = arg('url', 'you.github.io/savepoint');
+const ONLY = arg('only')?.split(',');
+// The screenshots each poster uses, so --only shoots no more than it needs
+const USES = { hero: ['d-hub', 'hub'], profiles: ['d-ra', 'steam', 'xbox'], activity: ['d-activity', 'playing', 'activity'],
+    analytics: ['analytics', 'd-analytics'], collection: ['d-completions', 'series', 'sheet'], how: [], memory: ['memory', 'd-memory'] };
+const wanted = n => !ONLY || ONLY.some(p => USES[p]?.includes(n));
 
 let chromium;
 try { ({ chromium } = require('playwright')); }
@@ -52,8 +58,10 @@ async function capture() {
     const game = arg('game', ra?.recentlyPlayedGames?.[0]?.gameId ?? ra?.mostRecentGame?.gameId);
     const phone = [['hub', ''], ['ra', 'profile/ra/'], ['steam', 'profile/steam/'], ['xbox', 'profile/xbox/'], ['activity', 'activity/'],
         ['playing', 'activity/?view=playing'], ['analytics', 'analytics/?tab=time&period=3m'], ['completions', 'completions/'], ['series', 'series/'],
-        ...(game ? [['sheet', `profile/ra/?game=${game}`]] : [])];
-    const desktop = [['d-hub', ''], ['d-ra', 'profile/ra/'], ['d-activity', 'activity/'], ['d-analytics', 'analytics/?period=3m'], ['d-completions', 'completions/'], ['d-series', 'series/']];
+        ...(game ? [['sheet', `profile/ra/?game=${game}`]] : []), ['memory', 'memory-card/']].filter(([n]) => wanted(n));
+    const desktop = [['d-hub', ''], ['d-ra', 'profile/ra/'], ['d-activity', 'activity/'], ['d-analytics', 'analytics/?period=3m'], ['d-completions', 'completions/'], ['d-series', 'series/'],
+        ['d-memory', 'memory-card/']].filter(([n]) => wanted(n));
+    if (wanted('memory') && !fs.existsSync(path.join(ROOT, 'memory-card', 'index.html'))) console.warn('  no Memory Card pages: run node scripts/build-recap.js first');
 
     const server = await serve();
     const base = `http://127.0.0.1:${server.address().port}/`;
@@ -124,6 +132,15 @@ p.lede{font-size:23px;line-height:1.5;color:#9fb0bf;max-width:32ch}
   <span class="eyebrow"><i></i>${eyebrow}${center ? '<i></i>' : ''}</span><h2>${title}</h2>${lede ? `<p class="lede" style="font-size:21px;max-width:58ch">${lede}</p>` : ''}</div>`;
     const stage = (h, inner) => `<div style="position:relative;height:${h}px">${inner}</div>`;
 
+    // Memory Card: the page on desktop and phone, and the year's story picture as it's shared
+    const memoryPoster = () => {
+        const latest = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'memory-card', 'years.json'), 'utf8')).latest?.year; } catch { return null; } })();
+        const story = latest && path.join(ROOT, 'memory-card', 'share', `${latest}-story.jpg`);
+        const card = story && fs.existsSync(story) ? `<div class="phone dev" style="left:1190px;top:30px;width:250px;z-index:3;border-radius:22px;padding:8px"><img src="file://${story}" style="border-radius:15px"></div>` : '';
+        return `<div class="poster" style="height:980px">${G(200, 360, 900, 520, 'rgba(87,203,222,.22)')}${G(1050, 380, 560, 520, 'rgba(229,177,67,.2)')}
+    ${head('Memory Card', 'Your year in games, <span class="grad">ready to share</span>', 'A page for every year: your top five, finished games, rarest unlocks and a title picked from what made it different. Share it as a picture, or as a link that previews that year.')}
+    ${stage(640, browser('d-memory', '/memory-card', 0, 20, 960, 560) + phone('memory', 900, -20, 255, 2) + card)}</div>`;
+    };
     const posters = {
         hero: `<div class="poster" style="height:900px;display:grid;grid-template-columns:580px 1fr;align-items:center;gap:20px">
     ${G(820, 80, 760, 560, 'rgba(102,192,244,.30)')}${G(1100, 520, 520, 400, 'rgba(229,177,67,.22)')}${G(-200, 600, 600, 400, 'rgba(82,176,67,.12)')}
@@ -143,6 +160,7 @@ p.lede{font-size:23px;line-height:1.5;color:#9fb0bf;max-width:32ch}
         analytics: `<div class="poster" style="height:960px">${G(560, 320, 900, 520, 'rgba(229,177,67,.18)')}${G(0, 480, 640, 420, 'rgba(102,192,244,.24)')}
     ${head('Analytics', 'Months of play, <span class="grad">in charts</span>', 'Hours, unlocks and sessions for any period, compared with the one before. Your daily rhythm, peak hours and top game.')}
     ${stage(620, phone('analytics', 0, -30, 260, 2) + browser('d-analytics', '/analytics', 300, 20, 1140, 560))}</div>`,
+        memory: memoryPoster(),
         collection: `<div class="poster" style="height:980px">${G(260, 320, 820, 520, 'rgba(229,177,67,.24)')}${G(1000, 420, 600, 500, 'rgba(102,192,244,.22)')}
     ${head('Completions and series', 'Your collection, <span class="grad">organised</span>', 'Mastered, perfect and beaten games on one timeline. Series across platforms, with sub-series and progress for each.')}
     ${stage(640, browser('d-completions', '/completions', 0, 20, 920, 560) + phone('series', 940, -20, 255, 1) + phone('sheet', 1185, 40, 255, 2))}</div>`,
@@ -164,7 +182,7 @@ p.lede{font-size:23px;line-height:1.5;color:#9fb0bf;max-width:32ch}
     fs.mkdirSync(OUT, { recursive: true });
     const chrome = await chromium.launch();
     const page = await chrome.newPage({ viewport: { width: 1600, height: 800 } });
-    for (const [name, body] of Object.entries(posters)) {
+    for (const [name, body] of Object.entries(posters).filter(([n]) => !ONLY || ONLY.includes(n))) {
         const file = path.join(SHOTS, `poster-${name}.html`);
         fs.writeFileSync(file, `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>${body}</body></html>`);
         await page.goto('file://' + file, { waitUntil: 'networkidle' });

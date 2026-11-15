@@ -1,5 +1,23 @@
 # Changelog
 
+## v26.11.15
+Memory Card, a page to share for each year in games, and a list of games to hide from the numbers
+
+### Hub
+
+- new: **Memory Card** a page for each year in games, made to share
+  Top five games, the year's days as save blocks, finished games, rarest unlocks, when you play and a title for the year. Share it as a story or wide picture, or as a link that previews that year. Open it from the link under the totals in the header.
+
+### Analytics
+
+- new: **Hidden games** leave a game out of every number by hand
+  Picked in the admin, any platform. Turn it off in the Hide menu like farms.
+- improved: **Idle games** keep their unlocks, only their playtime is left out
+
+### Admin
+
+- new: **Hidden Games** page, and a **Timezone** field in Site Config for Memory Card
+
 ## v26.11.14
 Games from a Steam Family library in your play log, Steam icons that load again, ten more games that can be beaten, and template updates as a pull request
 

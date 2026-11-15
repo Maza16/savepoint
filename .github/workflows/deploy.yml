@@ -48,6 +48,9 @@ jobs:
       # Private files are excluded here :
       # notes, backlog, local tooling, and the pipeline-only caches from scripts/data-paths.json
       - name: Assemble site
+        env:
+          # Memory Card's link previews need the site's full address (custom domains included)
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
           rsync -a --exclude-from=- ./ _site/ <<'EOF'
           /.git/
@@ -78,6 +81,10 @@ jobs:
           for f in $(node -p "require('./scripts/data-paths.json').private.join(' ')"); do rm -f "_site/$f"; done
           # Shared series progress, from the hand-made data/hub/series.json and the platform data
           node scripts/build-series.js _site
+          # Memory Card: one page per year from memory-card/page.html, then each year's share pictures
+          node scripts/build-recap.js _site
+          rm -f _site/memory-card/page.html
+          node scripts/render-recap.js _site || echo "::warning::Memory Card share pictures were not rendered"
           # 404.html can be served at any depth, so its links are absolute: /<repo>/ or / on a custom domain
           base="${{ steps.pages.outputs.base_path }}/"
           sed -i "s#__BASE__#${base}#g" _site/404.html
