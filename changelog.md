@@ -7,6 +7,8 @@ Memory Card, a page to share for each year in games, and a list of games to hide
 
 - new: **Memory Card** a page for each year in games, made to share
   Top five games, the year's days as save blocks, finished games, rarest unlocks, when you play and a title for the year. Share it as a story or wide picture, or as a link that previews that year. Open it from the link under the totals in the header.
+- fix: **Memory Card** no more "undefinedm" for top games played before tracking
+  A game in the top five with unlocks but no logged play shows its unlock count instead.
 
 ### Analytics
 
