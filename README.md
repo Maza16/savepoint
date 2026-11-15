@@ -255,7 +255,7 @@ Optional keys for the admin, all in `.env`:
 
 <img src="docs/images/memory.jpg" alt="Memory Card: one year in games" width="100%">
 
-Every year with unlocks or play time gets its own page at `/memory-card/<year>/` (`/memory-card/` is the latest), linked from the hub header. It is made for other people: a title for the year picked from what made it stand out, the top five games, finished games, rarest unlocks, a save-block calendar of the year and when you play. **Share** hands out a story-sized or wide picture of it, and a shared link previews that year's picture.
+Every year with unlocks or play time gets its own page at `/memory-card/<year>/` (`/memory-card/` is the latest), linked from the hub header. It is made for other people: a title for the year picked from what made it stand out, the top five games, finished games, rarest unlocks, a save-block calendar of the year and when you play. **Play** runs the year back as full-screen slides, each one a card you can share from the slide itself. **Share** hands out a tall or wide picture of it in five styles (Card, Cover, Blocks, Shelf, Title) or any of the story's cards, and a shared link previews that year's picture.
 
 The pages and pictures are built on every deploy (`scripts/build-recap.js`, then `scripts/render-recap.js` with the runner's Chrome). Locally, `npm run data:pull` builds the pages; run `node scripts/render-recap.js` for the pictures. Farms and hidden games are left out, idle games count without their play time. Play time only exists from your first data run, so earlier years rank games by unlocks.
 
