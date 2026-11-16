@@ -258,9 +258,9 @@
         .thumbs { display: flex; align-items: center; height: 92px; gap: 8px; overflow-x: auto; margin: 0 -16px 12px; padding: 0 16px; scrollbar-width: none; }
         .thumbs::-webkit-scrollbar { display: none; }
         .th { flex: none; height: 88px; padding: 0; border-radius: 6px; overflow: hidden; border: 2px solid transparent; background: #0a0c13; opacity: 0.55; transition: opacity 160ms, border-color 160ms; }
-        .thumbs.k-link .th { height: 60px; }
+        .thumbs.k-link .th, .thumbs.k-wide .th { height: 60px; }
         .th img { height: 100%; width: auto; max-width: none; aspect-ratio: 9 / 16; object-fit: cover; display: block; }
-        .thumbs.k-link .th img { aspect-ratio: 1200 / 630; }
+        .thumbs.k-link .th img, .thumbs.k-wide .th img { aspect-ratio: 1200 / 630; }
         .th.on { border-color: rgb(var(--a)); opacity: 1; }
         .x { width: 34px; height: 34px; border-radius: 50%; background: rgba(255, 255, 255, 0.07); display: grid; place-items: center; }
         .x svg { width: 16px; height: 16px; }
@@ -319,7 +319,8 @@
         }
 
         /* ── Story: the year played back as slides (the Play button). Tap right / left, hold to pause. Every slide is a full
-              card, also rendered as a picture (?card=slide&s=<key>, 450 × 800 at 2.4×) so it can be shared from the story ── */
+              card, also rendered as a picture (?card=slide&s=<key>, 450 × 800 at 2.4×) so it can be shared from the story.
+              On a desktop it opens wide (see Desktop mode below) ── */
         .story { position: fixed; inset: 0; z-index: 60; background: #04050a; display: grid; place-items: center; animation: fade 200ms ease-out backwards; }
         .story, .story * { -webkit-tap-highlight-color: transparent; }
         .story [hidden] { display: none; }
@@ -345,19 +346,21 @@
             padding: calc(64px + env(safe-area-inset-top, 0px)) 20px calc(40px + env(safe-area-inset-bottom, 0px)); }
         .stage.out { animation: sout 220ms ease-in forwards; pointer-events: none; }
         @keyframes sout { to { opacity: 0; transform: translateY(-10px); } }
-        /* Pieces come in one after another: most rise, tiles and numbers pop, the year settles, strips wipe in, bars grow */
-        .sa { animation: rise 560ms cubic-bezier(.2, .7, .2, 1) backwards; animation-delay: calc(var(--i, 0) * 70ms + 140ms); }
-        .sa.pop { animation-name: spop; }
-        .sa.wipe { animation: swipe 1100ms cubic-bezier(.3, .6, .2, 1) backwards; animation-delay: calc(var(--i, 0) * 70ms + 200ms); }
-        .sa.yr { animation: syear 800ms cubic-bezier(.2, .7, .2, 1) backwards; transform-origin: left center; }
-        @keyframes spop { from { transform: scale(0.9); opacity: 0; } }
-        @keyframes swipe { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
-        @keyframes syear { from { transform: scale(1.14); opacity: 0; } }
+        /* Pieces come in one after another through one keyframe: where each starts from (--dx --dy --rx --ry --dr --ds), how
+           fast they follow (--st), the easing (--ee) and the order (--i) are set per slide by the story's plan, see storyPlan().
+           The values here are what a piece does without a plan. --t0 holds everything back while the cover is up */
+        .sa { animation: sin 620ms var(--ee, cubic-bezier(.2, .7, .2, 1)) backwards; animation-delay: calc(var(--i, 0) * var(--st, 70ms) + 140ms + var(--t0, 0ms)); }
+        .sa.pop { --dy: 0px; --ds: 0.9; }
+        .sa.wipe { animation: swipe 1100ms cubic-bezier(.3, .6, .2, 1) backwards; animation-delay: calc(var(--i, 0) * var(--st, 70ms) + 200ms + var(--t0, 0ms)); }
+        .sa.yr { --dy: 0px; --ds: 1.14; animation-duration: 800ms; transform-origin: left center; }
+        @keyframes sin { from { opacity: 0; transform: perspective(700px) translate(var(--dx, 0px), var(--dy, 14px)) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) rotate(var(--dr, 0deg)) scale(var(--ds, 1)); }
+            60% { opacity: 1; } to { transform: perspective(700px) translate(0px, 0px) rotateX(0deg) rotateY(0deg) rotate(0deg) scale(1); } }
+        @keyframes swipe { from { clip-path: var(--w0, inset(0 100% 0 0)); } to { clip-path: inset(0 0 0 0); } }
         @keyframes sgrowx { from { transform: scaleX(0); } }
         @keyframes szoom { from { transform: scale(1.1); } }
-        .stage .meter, .stage .split i { transform-origin: left; animation: sgrowx 800ms cubic-bezier(.2, .7, .2, 1) backwards; animation-delay: calc(var(--i, 0) * 70ms + 420ms); }
-        .stage .bars i { transform-origin: bottom; animation: grow 700ms cubic-bezier(.2, .7, .2, 1) backwards; animation-delay: calc(var(--i, 0) * 70ms + 380ms); }
-        .stage .feat .art { animation: szoom 8s ease-out backwards; }
+        .stage .meter, .stage .split i { transform-origin: left; animation: sgrowx 800ms cubic-bezier(.2, .7, .2, 1) backwards; animation-delay: calc(var(--i, 0) * 70ms + 420ms + var(--t0, 0ms)); }
+        .stage .bars i { transform-origin: bottom; animation: grow 700ms cubic-bezier(.2, .7, .2, 1) backwards; animation-delay: calc(var(--i, 0) * 70ms + 380ms + var(--t0, 0ms)); }
+        .stage .feat .art { animation: szoom 8s ease-out var(--t0, 0ms) backwards; }
         .stage .year { font-size: min(36cqw, 180px); margin: 0 0 0 -4px; }
         .stage h2 { margin: 0; font: 800 24px/1.05 var(--display); text-transform: uppercase; text-wrap: balance; }
         .shead { display: flex; align-items: baseline; gap: 10px; } .shead h2 { font-size: 28px; } .shead .px { margin-left: auto; color: rgb(var(--a)); white-space: nowrap; }
@@ -379,15 +382,62 @@
         .stage .duo { margin: 0; gap: 8px; grid-template-columns: 1fr 1fr; } .stage .mini { padding: 12px 14px; } .stage .mini .num { font-size: 26px; margin-top: 8px; }
         .stage .card { padding: 12px 14px; border-radius: 6px; } .stage .card .big { font-size: 20px; margin-top: 8px; } .stage .card .big small { font-size: 12px; }
         .stage .bars { height: 52px; margin-top: 10px; gap: 2px; }
-        .stage .rare { gap: 6px; } .stage .rr { padding: 8px 12px 8px 8px; } .stage .rr .ic, .stage .end .ic { width: 46px; height: 46px; }
+        .stage .rare { gap: 6px; grid-template-columns: 1fr; } .stage .rare .rr:first-child { grid-column: auto; } .stage .rr { padding: 8px 12px 8px 8px; } .stage .rr .ic, .stage .end .ic { width: 46px; height: 46px; }
         .stage .ends { gap: 6px; grid-template-columns: 1fr; } .stage .end { padding: 10px 12px; } .stage .end h3 { margin: 5px 0 1px; font-size: 15px; }
         .stage.s-end { text-align: center; } .stage.s-end .lead b { color: var(--text, #fff); font-weight: 700; }
         .sfan { position: relative; height: 250px; margin-bottom: 10px; pointer-events: none; }
         .sfan img { position: absolute; left: 50%; top: 0; height: 100%; width: auto; max-width: none; aspect-ratio: 9 / 16; margin-left: -70px; border-radius: 8px; border: 1px solid var(--line); box-shadow: 0 14px 34px rgba(0, 0, 0, 0.55);
-            transform: translateX(var(--x)) rotate(var(--r)); transform-origin: 50% 120%; animation: sfan 520ms cubic-bezier(.2, .8, .2, 1) calc(120ms + var(--i) * 80ms) backwards; }
+            transform: translateX(var(--x)) rotate(var(--r)); transform-origin: 50% 120%; animation: sfan 520ms cubic-bezier(.2, .8, .2, 1) calc(120ms + var(--i) * 80ms + var(--t0, 0ms)) backwards; }
         .sfan img:nth-child(2) { z-index: 1; }
         @keyframes sfan { from { opacity: 0; transform: translateX(0) rotate(0) scale(0.9); } } .stage .btns { display: flex; gap: 8px; justify-content: center; }
         .stage .btn { height: 42px; padding: 0 18px; font-size: 14px; }
+        /* Cover: every slide opens on a full-colour card with one line of big moving type; it arrives through one shape
+           (--c0 → --c1) and leaves through another (--o1 → --o0) to show the slide. Three colourings (.p0 the year's colour,
+           .p1 dark, .p2 the colour deepened), eight ways for the words to land (.k-*), flat shapes off the edges */
+        .scover { position: absolute; inset: 0; z-index: 2; overflow: hidden; display: grid; place-items: center; container-type: size; pointer-events: none;
+            padding: calc(70px + env(safe-area-inset-top, 0px)) 22px calc(50px + env(safe-area-inset-bottom, 0px)); background: var(--cb); color: var(--ci);
+            animation: scin 460ms cubic-bezier(.7, 0, .2, 1) backwards, scout 520ms cubic-bezier(.7, 0, .2, 1) var(--hold, 2100ms) forwards; }
+        .scover.p0 { --cb: rgb(var(--a)); --ci: #0b0d14; --ch: #fff; }
+        .scover.p1 { --cb: #0b0d14; --ci: #fff; --ch: rgb(var(--a)); }
+        .scover.p2 { --cb: color-mix(in srgb, rgb(var(--a)) 40%, #05060a); --ci: #fff; --ch: color-mix(in srgb, rgb(var(--a)) 45%, #fff); }
+        @keyframes scin { from { clip-path: var(--c0); } to { clip-path: var(--c1); } }
+        @keyframes scout { from { clip-path: var(--o1); } to { clip-path: var(--o0); } }
+        .sline { position: relative; z-index: 1; width: 100%; text-align: center; }
+        .sline .px { display: block; margin-bottom: 16px; font-size: 11px; opacity: 0.8; animation: fade 320ms ease-out 220ms backwards; }
+        .sline h2 { margin: 0; font: 800 var(--fs, 11cqmin)/1.04 var(--display); letter-spacing: -0.01em; text-transform: uppercase; text-wrap: balance; overflow-wrap: anywhere; }
+        .sline .w { display: inline-block; vertical-align: top; }
+        .sline .w i { display: inline-block; font-style: normal; color: var(--wc, inherit); animation: 560ms cubic-bezier(.2, .8, .2, 1) calc(260ms + var(--w) * var(--ks, 90ms)) backwards; }
+        .sline .w.hl { --wc: var(--ch); }
+        .sline u { text-decoration: none; color: var(--ci); -webkit-text-stroke-color: var(--ci); }
+        .k-rise .w { overflow: hidden; padding-block: 0.06em; } .k-rise .w i { animation-name: kwrise; }
+        .k-slam .w i { animation-name: kwslam; animation-duration: 380ms; animation-timing-function: cubic-bezier(.5, 0, .2, 1); }
+        .k-flip .w i { animation-name: kwflip; transform-origin: 50% 100%; }
+        .k-side .w i { animation-name: kwside; }
+        .k-drop .w i { animation-name: kwdrop; animation-timing-function: cubic-bezier(.3, 1.5, .5, 1); }
+        .k-spin .w i { animation-name: kwspin; animation-timing-function: cubic-bezier(.3, 1.5, .5, 1); }
+        .k-fill .w i { animation-name: kwfill; animation-duration: 900ms; animation-timing-function: linear; -webkit-text-stroke: 1.5px var(--wc, var(--ci)); }
+        .k-skew .w i { animation-name: kwskew; }
+        @keyframes kwrise { from { transform: translateY(108%); } }
+        @keyframes kwslam { from { transform: scale(2.6); opacity: 0; } }
+        @keyframes kwflip { from { transform: perspective(400px) rotateX(-92deg); opacity: 0; } }
+        @keyframes kwside { from { transform: translateX(calc(var(--sg) * 48px)); opacity: 0; } }
+        @keyframes kwdrop { from { transform: translateY(-70px) rotate(calc(var(--sg) * 9deg)); opacity: 0; } 50% { opacity: 1; } }
+        @keyframes kwspin { from { transform: scale(0.4) rotate(calc(var(--sg) * -16deg)); opacity: 0; } 50% { opacity: 1; } }
+        @keyframes kwfill { 0% { color: transparent; opacity: 0; transform: scale(0.9); } 25% { opacity: 1; transform: none; } 65% { color: transparent; } }
+        @keyframes kwskew { from { transform: translateX(-34px) skewX(-18deg); opacity: 0; } }
+        /* Shapes: big flat pieces hanging off the edges, on the cover and (.sdeco, faint) drifting behind the slide */
+        .sdeco { position: absolute; inset: 0; z-index: -1; overflow: hidden; container-type: size; pointer-events: none; }
+        .shp { position: absolute; left: var(--x); top: var(--y); width: var(--s); height: var(--s); margin: calc(var(--s) / -2) 0 0 calc(var(--s) / -2);
+            transform: rotate(var(--r)); animation: shdrift var(--sd, 9s) ease-in-out infinite alternate; }
+        .shp i { display: block; width: 100%; height: 100%; background: var(--sc); animation: shin 720ms cubic-bezier(.3, 1.4, .5, 1) calc(var(--j) * 90ms + 60ms + var(--t0, 0ms)) backwards; }
+        .shp .ring { background: none; border: calc(var(--s) * 0.17) solid var(--sc); border-radius: 50%; box-sizing: border-box; } .shp .circle { border-radius: 50%; }
+        .shp .quarter { border-radius: 100% 0 0 0; } .shp .half { height: 50%; border-radius: 999px 999px 0 0; } .shp .pill { height: 36%; margin-top: 32%; border-radius: 999px; }
+        .shp .square { border-radius: 6%; } .shp .tri { clip-path: polygon(50% 4%, 100% 96%, 0 96%); }
+        .shp .plus { clip-path: polygon(34% 0, 66% 0, 66% 34%, 100% 34%, 100% 66%, 66% 66%, 66% 100%, 34% 100%, 34% 66%, 0 66%, 0 34%, 34% 34%); }
+        .shp .star { clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); }
+        .shp .blocks { background: conic-gradient(from 90deg at 18% 18%, transparent 90deg, var(--sc) 0) 0 0 / 25% 25%; }
+        @keyframes shin { from { transform: scale(0) rotate(-50deg); } }
+        @keyframes shdrift { to { transform: translate(var(--mx), var(--my)) rotate(calc(var(--r) + var(--mr))); } }
         @media (min-width: 720px) {
             .story .frame { width: auto; height: min(100dvh - 40px, 900px); aspect-ratio: 9 / 16; border-radius: 10px; border: 1px solid var(--line); }
         }
@@ -396,6 +446,38 @@
         .story.still { position: static; width: 450px; height: 800px; animation: none; }
         .story.still *, .story.still *::before { animation: none !important; }
         .story.still .stop { top: 20px; } .story.still .stage { padding-top: 54px; }
+        /* Desktop mode: the same slides laid out wide, 800 × 420 (the wide card's shape) and scaled to the window. Slides
+           marked `two` put their .hf1 / .hf2 halves side by side; on a phone those wrappers vanish and the pieces stack.
+           Rendered as pictures too (?card=slide&wide&s=<key>, at 1.5× = 1200 × 630) */
+        .stage .hf1, .stage .hf2, .stage .late { display: contents; }
+        .stage .late > * { order: 9; } .stage .wonly { display: none; }
+        .story.wide .frame { flex: none; width: 800px; height: 420px; aspect-ratio: auto; transform: scale(var(--k, 1)); border-radius: 8px; border: 1px solid var(--line); }
+        .story.wide .sbars { top: 8px; } .story.wide .stop { top: 16px; left: 22px; right: 14px; }
+        .story.wide .sfoot { left: 24px; right: 24px; bottom: 12px; }
+        .story.wide .stage { padding: 50px 24px 36px; gap: 10px; }
+        .story.wide .stage.two { flex-direction: row; align-items: stretch; gap: 22px; }
+        .story.wide .stage.two > .hf1, .story.wide .stage.two > .hf2 { display: flex; flex-direction: column; justify-content: center; gap: 10px; flex: 1 1 0; min-width: 0; }
+        .story.wide .stage .wonly { display: flex; }
+        .story.wide .stage .year { font-size: 112px; }
+        .story.wide .stage .title { padding-block: 10px; } .story.wide .stage .title h2 { font-size: 22px; }
+        .story.wide .stage .snum { padding: 10px 12px; } .story.wide .stage .snum .num { font-size: 28px; }
+        .story.wide .stage .strip { --c: calc((365px - 53 * var(--g)) / 54); }
+        .story.wide .stage .feat { max-height: none; min-height: 0; } .story.wide .stage .feat h3 { font-size: 22px; }
+        .story.wide .stage .grow { min-height: 58px; padding-block: 8px; }
+        .story.wide .stage .done { grid-template-columns: repeat(var(--cw, 4), 1fr); } .story.wide .stage .dn { height: var(--thw, 130px); }
+        .story.wide .stage .done .dn:last-child:nth-child(odd) { grid-column: auto; }
+        .story.wide .stage.two .done { grid-template-columns: 1fr 1fr; } .story.wide .stage.two .dn { height: 100px; } .story.wide .stage.two .done .dn:last-child:nth-child(odd) { grid-column: 1 / -1; }
+        .story.wide .stage .mini { padding: 9px 12px; } .story.wide .stage .mini .num { font-size: 22px; margin-top: 5px; }
+        .story.wide .stage .card { padding: 10px 12px; } .story.wide .stage .bars { height: 44px; margin-top: 8px; }
+        .story.wide .stage .rr { padding-block: 5px; } .story.wide .stage .rr .ic, .story.wide .stage .end .ic { width: 40px; height: 40px; }
+        .story.wide .stage.s-end { text-align: left; align-items: center; gap: 34px; }
+        .story.wide .stage.s-end .slot { justify-content: flex-start !important; } .story.wide .stage.s-end .btns { justify-content: flex-start; }
+        .story.wide .scover { padding: 56px 44px 40px; } .story.wide .sline .px { margin-bottom: 12px; } .story.wide .sline h2 { font-size: calc(var(--fs) * 1.3); }
+        .story.wide .sfan { height: 210px; margin: 0; }
+        .story.wide .sfan img { top: 44px; height: 122px; aspect-ratio: 1200 / 630; margin-left: -116px; transform: translateX(calc(var(--x) * 0.55)) rotate(var(--r)); transform-origin: 50% 160%; }
+        .story.still.wide { width: 800px; height: 420px; } .story.still.wide .frame { transform: none; border: 0; border-radius: 0; }
+        .story.still.wide .stop { top: 16px; } .story.still.wide .stage { padding-top: 50px; }
+        .story .x.mode svg { width: 15px; height: 15px; }
 
         /* ── Share images: ?card=link (1200 × 630) and ?card=story (1080 × 1920), each in three styles (&style=cover | blocks,
               none = card), rendered by scripts/render-recap.js ── */
@@ -581,6 +663,8 @@
             down: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M6 11l6 6 6-6M4 21h16"/></svg>',
             x: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>',
             play: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 4.5v15l12-7.5z"/></svg>',
+            tall: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><rect x="7" y="3" width="10" height="18" rx="2"/></svg>',
+            wide: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/></svg>',
             again: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"/></svg>' };
 
         const byTime = R.rankBy === 'time';
@@ -830,34 +914,36 @@
         ].filter(Boolean);
 
         // ── Story slides: each one a full card, shown in the story and rendered as a picture. Slides with nothing to show are left out ──
-        const slidePic = key => `${BASE}memory-card/share/${R.year}-slide-${key}.jpg`;
+        const slideFile = (key, wide) => `${R.year}-slide-${key}${wide ? '-wide' : ''}.jpg`;
+        const slidePic = (key, wide) => `${BASE}memory-card/share/${slideFile(key, wide)}`;
+        const DESK = matchMedia('(min-width: 900px) and (min-aspect-ratio: 5/4)');      // where the story and its pictures go wide
         const count = v => { const d = String(v).replace(/\D/g, ''); return /^[\d,.\s]+$/.test(String(v)) && +d >= 10 ? ` data-count="${d}"` : ''; };
         const uIcon = u => img([sized(u.game, u.icon, 128), sized(u.game, u.game.icon, 128)], 'ic') || '<span class="ic"></span>';
         const sRare = u => `<div class="rr sa">${uIcon(u)}<div style="min-width:0"><h3>${esc(u.name)}</h3><p><img src="${ICON[u.game.platform]}" alt=""><span>${esc(u.game.name)} · ${day(u.day)}</span></p></div>
             <div class="pct"><div class="num">${u.pct}%</div><span>of players</span></div></div>`;
         const sEnd = (u, label) => !u ? '' : `<div class="end sa">${uIcon(u)}<div style="min-width:0"><div class="px">${label} · ${day(u.day)}</div><h3>${esc(u.name)}</h3><p>${esc(u.game.name)}</p></div></div>`;
-        const sTiles = (list, max) => { const rows = Math.ceil(Math.min(list.length, max) / 2);
-            return `<div class="done" style="--th:${Math.min(180, Math.floor(540 / rows))}px">${list.slice(0, max).map(g => tileHtml(g, 'div', 'sa pop')).join('')}</div>${list.length > max ? `<p class="lead sa">and ${list.length - max} more</p>` : ''}`; };
+        const sTiles = (list, max) => { const shown = Math.min(list.length, max), rows = Math.ceil(shown / 2), wrows = shown > 4 ? 2 : 1;      // wide: up to four across
+            return `<div class="done" style="--th:${Math.min(180, Math.floor(540 / rows))}px;--thw:${wrows > 1 ? 128 : 240}px;--cw:${Math.ceil(shown / wrows)}">${list.slice(0, max).map(g => tileHtml(g, 'div', 'sa pop')).join('')}</div>${list.length > max ? `<p class="lead sa">and ${list.length - max} more</p>` : ''}`; };
         const fewDone = R.completions.length > 0 && R.completions.length < 3;      // too few for a slide of their own: they join the rarest finds
         const tierLine = `${T.completed ? `★ ${T.completed} ` : ''}${T.beaten ? `⚑ ${T.beaten}` : ''}`;
         const SLIDES = [
-            { key: 'year', name: 'The year', html: `<div class="slot px sa"><i></i>Slot ${slotNo} <b>of ${YEARS.length} · ${R.partial ? `so far, to ${day(R.asOf)}` : 'year complete'}</b></div>
+            { key: 'year', name: 'The year', two: true, html: `<div class="hf1"><div class="slot px sa"><i></i>Slot ${slotNo} <b>of ${YEARS.length} · ${R.partial ? `so far, to ${day(R.asOf)}` : 'year complete'}</b></div>
                 <div class="year sa yr"${yearArt}>${R.year}</div><h2 class="sa">${esc(R.user.name)}’s year in games</h2>
-                <div class="title sa"><div class="px">Title earned</div><h2>${esc(R.title.name)}</h2><p>${esc(R.title.why)}</p></div>
-                <div class="snums">${headline.map(h => `<div class="snum sa pop"><div class="num"><span${count(h.v)}>${h.v}</span>${h.unit ? '<small>hours</small>' : ''}</div><span>${h.lab}</span></div>`).join('')}</div>
+                <div class="title sa"><div class="px">Title earned</div><h2>${esc(R.title.name)}</h2><p>${esc(R.title.why)}</p></div></div>
+                <div class="hf2"><div class="snums">${headline.map(h => `<div class="snum sa pop"><div class="num"><span${count(h.v)}>${h.v}</span>${h.unit ? '<small>hours</small>' : ''}</div><span>${h.lab}</span></div>`).join('')}</div>
                 ${plats.length > 1 ? `<div class="splat sa"><div class="split">${plats.map(p => `<i style="flex:${Math.max(T.byPlatform[p], 0.01)};background:${PCOLOR[p]}"></i>`).join('')}</div>
                     <p>${plats.map(p => `<span><img src="${ICON[p]}" alt=""><b>${n(T.byPlatform[p])}</b> unlocks</span>`).join('')}</p></div>` : ''}
-                <div class="sa wipe">${strip()}</div><p class="lead sa">${n(T.activeDays)} of ${daysSoFar} days played</p>` },
-            top1 && { key: 'top', name: listName, html: `<div class="shead sa"><h2>${listName}</h2><span class="px">Top ${R.top.length}</span></div>
+                <div class="sa wipe">${strip()}</div><p class="lead sa">${n(T.activeDays)} of ${daysSoFar} days played</p></div>` },
+            top1 && { key: 'top', name: listName, two: R.top.length > 1, html: `<div class="hf1"><div class="shead sa"><h2>${listName}</h2><span class="px">Top ${R.top.length}</span></div>
                 <div class="feat sa">${img(bigArt(top1), 'art' + (pix(top1) ? ' pixart' : ''))}<div class="rank"><small>Save file</small>01</div>
                     <div class="in"><div class="tags">${platTag(top1)}${tierTag(top1.tier)}</div><h3>${esc(top1.name)}</h3>
                     <div class="facts">${[...gameFacts(top1), top1.sessions ? { v: n(top1.sessions), l: plural(top1.sessions, 'session') } : null, top1.total ? { v: `${top1.unlockedAll ?? top1.unlocks}/${top1.total}`, l: 'achievements' } : null]
-                        .filter(Boolean).map(f => `<div class="fact"><div class="num">${f.v}</div><span>${f.l}</span></div>`).join('')}</div></div></div>
-                <div class="rows">${R.top.slice(1).map((g, i) => rowHtml(g, i + 2, 'div', 'sa')).join('')}</div>` },
+                        .filter(Boolean).map(f => `<div class="fact"><div class="num">${f.v}</div><span>${f.l}</span></div>`).join('')}</div></div></div></div>
+                ${R.top.length > 1 ? `<div class="hf2"><div class="rows">${R.top.slice(1).map((g, i) => rowHtml(g, i + 2, 'div', 'sa')).join('')}</div></div>` : ''}` },
             R.completions.length >= 3 && { key: 'done', name: 'Seen through', html: `<div class="shead sa"><h2>Seen through</h2><span class="px">${tierLine}</span></div>${sTiles(R.completions, 8)}` },
-            T.unlocks && { key: 'blocks', name: 'Blocks', html: `<div class="shead sa"><h2>${n(T.activeDays)} blocks used</h2><span class="px">of ${daysSoFar} days</span></div>
-                <div class="sa wipe">${strip()}</div><div class="duo">${minis('sa pop')}</div>
-                <div class="duo"><div class="card sa"><h3>Time of day</h3><div class="big">${esc(R.dayPart.label)}<small>${R.dayPart.pct}% of unlocks</small></div>
+            T.unlocks && { key: 'blocks', name: 'Blocks', two: true, html: `<div class="hf1"><div class="shead sa"><h2>${n(T.activeDays)} blocks used</h2><span class="px">of ${daysSoFar} days</span></div>
+                <div class="sa wipe">${strip()}</div><div class="duo">${minis('sa pop')}</div></div>
+                <div class="hf2"><div class="duo"><div class="card sa"><h3>Time of day</h3><div class="big">${esc(R.dayPart.label)}<small>${R.dayPart.pct}% of unlocks</small></div>
                         <div class="bars">${R.hours.map((v, h) => `<div><i class="${hot.includes(h) ? 'hot' : ''}" style="height:${100 * v / maxHour}%"></i></div>`).join('')}</div>
                         <div class="axis sparse"><span>00</span><span>06</span><span>12</span><span>18</span><span>23</span></div></div>
                     <div class="card sa"><h3>Day of the week</h3><div class="big">${WEEKDAYS[topWd]}s<small>${Math.round(100 * R.weekdays[topWd] / T.unlocks)}% of unlocks</small></div>
@@ -865,18 +951,88 @@
                         <div class="axis">${WEEKDAYS.map(d => `<span>${d[0]}</span>`).join('')}</div></div></div>
                 <div class="card sa"><h3>Month by month</h3>
                     <div class="bars">${MONTHS.map((_, m) => `<div>${['xbox', 'steam', 'ra'].filter(p => R.months[m][p]).map(p => `<i class="${p}" style="height:${100 * R.months[m][p] / maxMonth}%"></i>`).join('') || '<i style="height:0;background:rgba(255,255,255,0.12)"></i>'}</div>`).join('')}</div>
-                    <div class="axis">${MONTHS.map(m => `<span>${m[0]}</span>`).join('')}</div></div>` },
-            (R.rarest.length || R.first) && { key: 'rare', name: 'Rarest finds', html: `${fewDone ? `<div class="shead sa"><h2>Seen through</h2><span class="px">${tierLine}</span></div>${sTiles(R.completions, 2)}` : ''}
-                ${R.rarest.length ? `<div class="shead sa"><h2>Rarest finds</h2><span class="px">One per game</span></div><div class="rare">${R.rarest.slice(0, fewDone ? 3 : 5).map(sRare).join('')}</div>` : ''}
-                ${R.first ? `${R.rarest.length ? '' : '<div class="shead sa"><h2>Bookends</h2></div>'}<div class="ends">${sEnd(R.first, 'First unlock')}${sEnd(R.last, R.partial ? 'Latest unlock' : 'Last unlock')}</div>` : ''}` },
+                    <div class="axis">${MONTHS.map(m => `<span>${m[0]}</span>`).join('')}</div></div></div>` },
+            (R.rarest.length || R.first) && (() => {
+                // Up to three blocks (finished games when too few for their own slide, rarest finds, first / last unlock) in two halves;
+                // the bookends always come last when stacked (.late), and get a heading of their own only when wide (.wonly)
+                const seen = fewDone ? `<div class="shead sa"><h2>Seen through</h2><span class="px">${tierLine}</span></div>${sTiles(R.completions, 2)}` : '';
+                const rare = R.rarest.length ? `<div class="shead sa"><h2>Rarest finds</h2><span class="px">One per game</span></div><div class="rare">${R.rarest.slice(0, fewDone ? 3 : 5).map(sRare).join('')}</div>` : '';
+                const ends = R.first ? `<div class="late"><div class="shead sa${rare ? ' wonly' : ''}"><h2>Bookends</h2></div><div class="ends">${sEnd(R.first, 'First unlock')}${sEnd(R.last, R.partial ? 'Latest unlock' : 'Last unlock')}</div></div>` : '';
+                const halves = seen ? [seen + ends, rare] : rare ? [rare, ends] : [ends, ''];
+                return { key: 'rare', name: 'Rarest finds', two: !!halves[1], html: `<div class="hf1">${halves[0]}</div>${halves[1] ? `<div class="hf2">${halves[1]}</div>` : ''}` };
+            })(),
         ].filter(Boolean);
+        // ── Story choreography: what makes one year's story play unlike another's. Everything is drawn from a seed (the year
+        //    and the owner's name), so a year always plays the same way and no two years share a plan: the line on each
+        //    cover, its colouring, the shapes on it, how its words land, the shapes it arrives and leaves through, and
+        //    where the slide's pieces come from, in which order and how fast ──
+        const hash = t => [...t].reduce((h, c) => Math.imul(h ^ c.charCodeAt(0), 16777619), 2166136261) >>> 0;
+        const rng = seed => () => { seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+        const shuffled = (list, r) => { const a = [...list]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+        const WHO = hash(R.user.name), SEED = hash(`${R.year}·${R.user.name}`);
+        const sg = i => i % 2 ? 1 : -1;
+        // Where a piece starts from: (index, random) → the custom properties of the `sin` keyframe
+        const MOVES = [() => ({ dy: '30px' }), () => ({ dy: '-30px' }), () => ({ dx: '-46px', dy: '0px' }), () => ({ dx: '46px', dy: '0px' }), i => ({ dx: `${sg(i) * 46}px`, dy: '0px' }),
+            i => ({ dy: '24px', dr: `${sg(i) * 5}deg` }), () => ({ dy: '0px', ds: 0.8 }), () => ({ dy: '-8px', rx: '-78deg' }), i => ({ dy: '0px', ry: `${sg(i) * 72}deg` }), () => ({ dy: '36px', dr: '-6deg', ds: 0.9 }),
+            (i, r) => ({ dx: `${Math.round(r() * 110 - 55)}px`, dy: `${Math.round(r() * 80 - 40)}px`, dr: `${Math.round(r() * 22 - 11)}deg` }), () => ({ dx: '120px', dy: '0px' })];
+        const POPS = [() => ({ dy: '0px', ds: 0.55 }), i => ({ dy: '0px', ry: `${sg(i) * 90}deg` }), () => ({ dy: '-48px', ds: 1 }), i => ({ dy: '0px', dr: `${sg(i) * 14}deg`, ds: 0.5 }), () => ({ dy: '42px', ds: 0.9 }), () => ({ dy: '0px', rx: '90deg', ds: 1 }),
+            (i, r) => ({ dx: `${Math.round(r() * 90 - 45)}px`, dy: `${Math.round(r() * 90 - 45)}px`, ds: 0.7 })];
+        const YRS = [{ dy: '0px', ds: 1.14 }, { dx: '-80px', dy: '0px', ds: 1 }, { dy: '0px', ds: 0.5 }, { dy: '70px', ds: 1 }, { dy: '0px', dr: '-8deg', ds: 1.25 }, { dy: '0px', rx: '80deg', ds: 1 }];
+        const WIPES = ['inset(0 100% 0 0)', 'inset(0 0 0 100%)', 'inset(0 50% 0 50%)'];
+        const EASES = ['cubic-bezier(.2, .7, .2, 1)', 'cubic-bezier(.3, 1.45, .45, 1)', 'cubic-bezier(.16, 1, .3, 1)'];
+        // Shapes the cover arrives or leaves through: clip-path, closed → open
+        const MASKS = [...['0% 0%', '100% 0%', '0% 100%', '100% 100%'].map(c => [`circle(0% at ${c})`, `circle(150% at ${c})`]), ['circle(0% at 50% 50%)', 'circle(75% at 50% 50%)'],
+            ['inset(0 100% 0 0)', 'inset(0 0 0 0)'], ['inset(0 0 0 100%)', 'inset(0 0 0 0)'], ['inset(100% 0 0 0)', 'inset(0 0 0 0)'], ['inset(0 0 100% 0)', 'inset(0 0 0 0)'],
+            ['inset(0 50% 0 50%)', 'inset(0 0 0 0)'], ['inset(50% 0 50% 0)', 'inset(0 0 0 0)'],
+            ['polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%)', 'polygon(50% -100%, 200% 50%, 50% 200%, -100% 50%)'],
+            ['polygon(0% 0%, 0% 0%, -60% 100%, -60% 100%)', 'polygon(0% 0%, 160% 0%, 100% 100%, -60% 100%)'], ['polygon(100% 0%, 100% 0%, 160% 100%, 160% 100%)', 'polygon(100% 0%, -60% 0%, 0% 100%, 160% 100%)']];
+        const KINDS = ['rise', 'slam', 'flip', 'side', 'drop', 'spin', 'fill', 'skew'];
+        const SHAPES = ['circle', 'ring', 'quarter', 'half', 'pill', 'square', 'tri', 'plus', 'star', 'blocks'];
+        const INKS = [['rgba(9, 11, 18, 0.16)', 'rgba(255, 255, 255, 0.3)'], ['rgb(var(--a))', 'rgba(255, 255, 255, 0.1)'], ['rgba(var(--a), 0.6)', 'rgba(0, 0, 0, 0.28)']];       // shape colours per cover colouring
+        const shapesHtml = (r, spots, inks, [s0, s1], drift) => shuffled(spots, r).slice(0, drift ? 2 : 3).map(([x, y], j) => {
+            const size = Math.round(s0 + r() * (s1 - s0));
+            return `<span class="shp" style="--x:${x + Math.round(r() * 12 - 6)}%;--y:${y + Math.round(r() * 12 - 6)}%;--s:${size}cqmin;--r:${Math.round(r() * 360)}deg;--j:${j};--sc:${inks[j % inks.length]};--mx:${Math.round((r() - 0.5) * drift)}px;--my:${Math.round((r() - 0.5) * drift)}px;--mr:${Math.round((r() - 0.5) * (drift ? 70 : 24))}deg;--sd:${(7 + r() * 5).toFixed(1)}s"><i class="${SHAPES[Math.floor(r() * SHAPES.length)]}"></i></span>`;
+        }).join('');
+        // The lines: [fits this year?, text]. One per cover, taken in turn by year so neighbouring years never open a slide alike.
+        // Written to no one in particular, so they read right to the owner and to a visitor. <b> marks the word in the highlight colour
+        const B = v => `<b>${v}</b>`, short = g => g && g.name.length <= 24, wk = R.weekdays.filter(Boolean).length > 1;
+        const LINES = {
+            year: [[1, `${B(R.year)}. Press start.`], [1, `One year. One card. ${B(R.year)}.`], [T.unlocks >= 100, `${B(n(T.unlocks))} unlocks. Every one earned.`], [T.activeDays >= 60, `${B(T.activeDays)} days of showing up.`],
+                [1, `Save file found: ${B(R.year)}.`], [1, `A year well played.`], [T.games >= 20, `${B(T.games)} games. No regrets.`], [T.minutes >= 6000, `${B(hrs(T.minutes))} hours. Worth every minute.`],
+                [1, `Slot ${B(slotNo)}. Here is what got saved.`], [T.unlocks < 40, `A small year. It still counts.`], [R.partial, `Still going. ${B(R.year)} so far.`], [!R.partial, `Rewind to ${B(R.year)}.`],
+                [!R.partial, `Remember ${B(R.year)}? The card does.`], [T.newGames >= 10, `${B(T.newGames)} new games. Curiosity wins.`], [1, `Now loading: ${B(R.year)}.`], [T.unlocks >= 40, `Progress is progress. ${B(n(T.unlocks))} times.`]],
+            top: [[1, `One game ran the year.`], [short(top1), `${B(esc(top1?.name))}. Obviously.`], [top1?.minutes >= 600, `${B(hrs(top1?.minutes))} hours in one world.`], [1, `Favourites earn their spot.`],
+                [1, `The save that kept getting loaded.`], [short(top1), `Top of the stack: ${B(esc(top1?.name))}.`], [top1?.sessions >= 10, `${B(top1?.sessions)} sessions. Always one more.`], [1, `Some games just stick.`],
+                [top1?.unlocks >= 20, `${B(top1?.unlocks)} unlocks from a single game.`], [byTime, `This one got the hours.`], [short(top1), `Player’s choice: ${B(esc(top1?.name))}.`], [1, `Hard to put down. Clearly.`],
+                [1, `Time well spent looks like this.`], [R.top.length > 2, `${B(R.top.length)} games made the cut. One led.`]],
+            done: [[1, `${B(R.completions.length)} games seen through.`], [1, `Started. Finished. Repeat.`], [1, `Credits rolled ${B(R.completions.length)} times.`], [1, `Plenty get started. These got finished.`],
+                [T.completed >= 1, `${B(T.completed)} at 100%. Nothing left behind.`], [1, `The backlog: ${B(R.completions.length)} lighter.`], [1, `The end, ${B(R.completions.length)} times over.`], [1, `Finishing is a skill.`],
+                [1, `Seen through to the last screen.`], [1, `Every cleared list began with one unlock.`], [1, `${B(R.completions.length)} done. Next.`], [1, `Final bosses: handled.`], [T.beaten >= 1, `${B(T.beaten)} beaten. The credits were earned.`]],
+            blocks: [[T.activeDays >= 30, `${B(T.activeDays)} days. That is a habit.`], [R.streak?.days >= 5, `${B(R.streak?.days)} days in a row. No skips.`], [1, `Show up. Play. Repeat.`], [R.dayPart, `${B(esc(R.dayPart?.label))} is prime time.`],
+                [R.bestDay?.unlocks >= 10, `Best day: ${B(R.bestDay?.unlocks)} unlocks. What a run.`], [1, `Every lit block is a day well spent.`], [T.activeDays >= 100, `Consistency beats intensity. ${B(T.activeDays)} days.`], [1, `A little, often. It adds up.`],
+                [wk, `${B(WEEKDAYS[topWd] + 's')} carried the year.`], [1, `The calendar does not lie.`], [1, `Blocks filled, one day at a time.`], [T.sessions >= 50, `${B(n(T.sessions))} sessions. Each one a choice.`],
+                [T.activeDays < 40, `Few days. Big days.`], [1, `One block at a time.`]],
+            rare: [[R.rarest[0], `Only ${B(R.rarest[0]?.pct + '%')} of players got this far.`], [R.rarest.length, `The hard ones count double.`], [R.rarest.length, `Rare finds. Proper bragging rights.`], [R.rarest.length, `Most players never see these.`],
+                [T.rare >= 2, `${B(T.rare)} rare unlocks. Patience pays.`], [R.rarest.length, `Difficulty is just a longer road.`], [R.rarest.length, `Off the beaten path.`], [R.rarest.length, `Earned, not handed out.`],
+                [R.first, `First unlock to last: the whole arc.`], [R.first, `Where it began. Where it stands.`], [R.rarest.length, `The ones worth the retries.`], [R.rarest.length, `Top shelf.`], [!R.rarest.length, `Every year has a first step.`]],
+            end: [[1, `That is the card.`], [1, `Saved. Do not turn off the power.`], [1, `Good game.`], [!R.partial, `One more year in the bank.`], [1, `Not bad. Not bad at all.`], [1, `Game saved.`], [!R.partial, `Roll credits.`],
+                [1, `Same time next year?`], [R.partial, `Still writing this one.`], [1, `Slot ${B(slotNo)} filled.`], [T.unlocks >= 40, `A year to be proud of.`], [1, `Well played.`], [R.partial, `${B(R.year)} is not over yet.`]],
+            after: [[1, `The next slot is empty. Go fill it.`], [1, `Progress saved. Keep going.`], [1, `On to the next one.`], [1, `The backlog is waiting.`], [R.partial, `The year is not over. Neither is the list.`], [1, `See you at the next save point.`], [1, `Continue?`]],
+        };
+        const lineFor = (key, salt = 0) => { const fits = (LINES[key] ?? LINES.end).filter(x => x[0]); return fits[(R.year + WHO + salt) % fits.length][1]; };
+        const storyPlan = () => {
+            const r = rng(SEED), moves = shuffled(MOVES, r), pops = shuffled(POPS, r), masks = shuffled(MASKS, r), kinds = shuffled(KINDS, r), looks = shuffled([0, 1, 2], r);
+            const ease = EASES[Math.floor(r() * EASES.length)], yr = YRS[Math.floor(r() * YRS.length)], step = [50, 70, 90, 110][Math.floor(r() * 4)], turn = Math.floor(r() * 3), out = 3 + Math.floor(r() * (MASKS.length - 4));
+            return k => ({ move: moves[k % moves.length], pop: pops[k % pops.length], yr, ease, step, wipe: WIPES[(k + turn) % WIPES.length], order: (k + turn) % 3,       // 0 in order, 1 backwards, 2 shuffled
+                enter: masks[k % masks.length], leave: masks[(k + out) % masks.length], kind: kinds[k % kinds.length], look: looks[k % looks.length], r: rng(SEED + (k + 1) * 7919) });
+        };
         const storyFrame = (inner, chrome = '') => `${top1 ? img(bigArt(top1), 'sbg') : ''}${chrome}${inner}
             <div class="sfoot"><b>${esc(R.user.name)}’s ${R.year}</b><span>${esc(D.site.replace(/^https?:\/\//, ''))}/memory-card/${R.year}</span></div>`;
         if (CARD === 'slide') {
-            const sl = SLIDES.find(x => x.key === Q.get('s')) ?? SLIDES[0];
+            const sl = SLIDES.find(x => x.key === Q.get('s')) ?? SLIDES[0], wide = Q.has('wide');
             document.body.classList.add('shot');
             document.body.dataset.slides = SLIDES.map(x => x.key).join(',');       // the renderer reads the list from here
-            document.getElementById('app').innerHTML = `<div class="story still"><div class="frame">${storyFrame(`<div class="stage s-${sl.key}">${sl.html}</div>`, `<div class="stop">${brand}</div>`)}</div></div>`;
+            document.getElementById('app').innerHTML = `<div class="story still${wide ? ' wide' : ''}"><div class="frame">${storyFrame(`<div class="stage s-${sl.key}${sl.two ? ' two' : ''}">${sl.html}</div>`, `<div class="stop">${brand}</div>`)}</div></div>`;
             document.querySelectorAll('img.pixart').forEach(i => { i.style.imageRendering = 'pixelated'; });
             shotReady();
             return;
@@ -936,10 +1092,11 @@
                 return 'shared';
             } catch (err) { return err?.name === 'AbortError' ? 'cancelled' : 'failed'; }
         };
-        const openShare = (from = 'story') => {
-            // Three sections, one picture picked from thumbnails in each: the tall and the wide picture in their five styles, and the story's slides
+        const openShare = (from = 'story', wide = DESK.matches) => {
+            // Three sections, one picture picked from thumbnails in each: the tall and the wide picture in their five styles, and the story's
+            // slides (wide ones on a desktop, or when the story was playing wide)
             let kind = from, pick = '';
-            const picks = () => kind === 'slides' ? SLIDES.map(x => ({ id: `slide-${x.key}`, name: x.name, url: slidePic(x.key), file: `${R.year}-slide-${x.key}.jpg` }))
+            const picks = () => kind === 'slides' ? SLIDES.map(x => ({ id: `slide-${x.key}`, name: x.name, url: slidePic(x.key, wide), file: slideFile(x.key, wide) }))
                 : STYLES.map(([id, name]) => ({ id, name, url: imageUrl(kind, id), file: picName(kind, id) }));
             const el = document.createElement('div');
             el.className = 'scrim';
@@ -958,7 +1115,7 @@
                 el.querySelectorAll('[data-kind]').forEach(b => b.classList.toggle('on', b.dataset.kind === kind));
                 if (drawn !== kind) {
                     drawn = kind;
-                    thumbs.className = `thumbs k-${kind}`;
+                    thumbs.className = `thumbs k-${kind}${kind === 'slides' && wide ? ' k-wide' : ''}`;
                     thumbs.innerHTML = list.map(x => `<button class="th" data-pick="${x.id}" aria-label="${esc(x.name)}" title="${esc(x.name)}"><img src="${x.url}" alt="" loading="lazy" onerror="this.parentNode.remove()"></button>`).join('');
                 }
                 thumbs.querySelectorAll('.th').forEach(b => b.classList.toggle('on', b.dataset.pick === pick));
@@ -991,34 +1148,75 @@
         // ── Story: the slides played back. Each bar on top fills while its slide shows and its end moves on; tap right / left
         //    to step, hold to pause. The share button sends the picture of the slide on screen; the last slide opens the Share sheet ──
         const openStory = () => {
-            const slides = [...SLIDES.map(x => ({ ...x, ms: 8000 })), { key: null, cls: 'end', ms: 8000, html: `<div class="sfan sa">${(n => SLIDES.slice(0, 3).map((x, i) => `<img src="${slidePic(x.key)}" alt="" style="--r:${(i - (n - 1) / 2) * 9}deg;--x:${(i - (n - 1) / 2) * 62}px;--i:${i}" onerror="this.remove()">`).join(''))(Math.min(3, SLIDES.length))}</div>
-                <div class="slot px sa" style="justify-content:center"><i></i>Slot ${slotNo} <b>of ${YEARS.length} · saved</b></div>
+            // Wide on a desktop, where a button in the top bar switches between the two shapes (remembered on this device)
+            let wide = DESK.matches && (() => { try { return localStorage.getItem('mc:storyShape') !== 'tall'; } catch { return true; } })();
+            const endHtml = () => `<div class="hf1"><div class="sfan sa">${(n => SLIDES.slice(0, 3).map((x, i) => `<img src="${slidePic(x.key, wide)}" alt="" style="--r:${(i - (n - 1) / 2) * 9}deg;--x:${(i - (n - 1) / 2) * 62}px;--i:${i}" onerror="this.remove()">`).join(''))(Math.min(3, SLIDES.length))}</div></div>
+                <div class="hf2"><div class="slot px sa" style="justify-content:center"><i></i>Slot ${slotNo} <b>of ${YEARS.length} · saved</b></div>
                 <h2 class="sa">${R.year} saved</h2>
                 <p class="lead sa">${esc(R.title.name)} · ${headline.slice(0, 3).map(h => `<b>${h.v}</b> ${h.unit ? 'hours' : h.lab.toLowerCase()}`).join(' · ')}</p>
-                <div class="btns sa"><button class="btn go" data-share>${svg.share}Share ${R.year}</button></div>` }];
+                <p class="lead sa">${lineFor('after', 3)}</p>
+                <div class="btns sa"><button class="btn go" data-share>${svg.share}Share ${R.year}</button></div></div>`;
+            const slides = [...SLIDES.map(x => ({ ...x, ms: 8000 })), { key: null, name: 'Saved', two: true, ms: 8000, get html() { return endHtml(); } }];
+            const plan = storyPlan();
+            // A cover's line as words that land one by one; punctuation after a highlighted word stays with it, in the plain colour
+            const lineHtml = (text, kicker, kind) => {
+                const words = [];
+                text.split(/(<b>.*?<\/b>)/).forEach(part => part.replace(/<\/?b>/g, '').split(/\s+/).filter(Boolean).forEach(t => {
+                    if (/^[.,:;?!]/.test(t) && words.length) words[words.length - 1].tail = t; else words.push({ t, hl: part.startsWith('<b>') }); }));
+                const len = words.reduce((a, w) => a + w.t.length + 1, 0), fs = len <= 18 ? 14 : len <= 26 ? 12.5 : len <= 38 ? 11 : len <= 50 ? 9.6 : 8.4;
+                return { count: words.length, html: `<div class="sline k-${kind}" style="--fs:${fs}cqmin;--ks:${words.length > 7 ? 60 : 90}ms"><span class="px">${kicker}</span><h2>${words.map((w, i) =>
+                    `<span class="w${w.hl ? ' hl' : ''}" style="--w:${i};--sg:${sg(i)}"><i>${w.t}${w.tail ? `<u>${w.tail}</u>` : ''}</i></span>`).join(' ')}</h2></div>` };
+            };
             let at = 0, held = false, holdTimer = 0, toastTimer = 0;
             const el = document.createElement('div');
             el.className = 'story';
             el.innerHTML = `<div class="frame" role="dialog" aria-modal="true" aria-label="${R.year} played back">${storyFrame('', `
                 <div class="sbars">${slides.map(() => '<i><b></b></i>').join('')}</div>
-                <div class="stop">${brand}<button class="x" data-shot aria-label="Share this card">${svg.share}</button><button class="x" data-close aria-label="Close">${svg.x}</button></div>`)}</div>`;
-            const frame = el.firstElementChild, foot = el.querySelector('.sfoot'), bars = [...el.querySelectorAll('.sbars i')], shot = el.querySelector('[data-shot]');
-            const go = k => {
+                <div class="stop">${brand}<button class="x mode" data-mode ${DESK.matches ? '' : 'hidden'}></button><button class="x" data-shot aria-label="Share this card">${svg.share}</button><button class="x" data-close aria-label="Close">${svg.x}</button></div>`)}</div>`;
+            const frame = el.firstElementChild, foot = el.querySelector('.sfoot'), bars = [...el.querySelectorAll('.sbars i')], shot = el.querySelector('[data-shot]'), mode = el.querySelector('[data-mode]');
+            const fit = () => el.style.setProperty('--k', Math.min((innerWidth - 40) / 800, (innerHeight - 40) / 420, 1.7).toFixed(3));      // the wide frame is drawn at 800 × 420 and scaled
+            const shape = () => {
+                el.classList.toggle('wide', wide);
+                mode.innerHTML = wide ? svg.tall : svg.wide;
+                mode.setAttribute('aria-label', wide ? 'Tall cards' : 'Wide cards'); mode.title = wide ? 'Tall cards' : 'Wide cards';
+            };
+            // A slide opens on its cover (the line), which swaps the slide in once it fills the frame and then leaves; `quick`
+            // (and reduced motion) swaps at once, without a cover
+            const go = (k, quick) => {
                 if (k < 0 || k >= slides.length) return;
                 at = k;
+                const sl = slides[at], p = plan(at), cover = !calm && !quick;
+                const line = lineHtml(lineFor(sl.key ?? 'end'), at ? esc(sl.name) : `Slot ${slotNo} of ${YEARS.length}`, p.kind), hold = Math.min(2600, 1500 + line.count * 110);
                 bars.forEach(b => { b.className = ''; });
                 void frame.offsetWidth;                                  // so a bar shown again starts over
                 bars.forEach((b, j) => { b.className = j < at ? 'past' : j === at ? 'on' : ''; });
-                el.style.setProperty('--dur', `${slides[at].ms}ms`);
-                frame.querySelectorAll('.stage').forEach(old => { old.classList.add('out'); setTimeout(() => old.remove(), 230); });
-                const stage = document.createElement('div');
-                stage.className = `stage s-${slides[at].key ?? 'end'}`;
-                stage.innerHTML = slides[at].html;
-                stage.querySelectorAll('.sa').forEach((e, i) => e.style.setProperty('--i', i));
-                stage.querySelectorAll('img.pixart').forEach(i => { i.style.imageRendering = 'pixelated'; });
-                frame.insertBefore(stage, foot);
-                countUp(stage);
-                shot.hidden = !slides[at].key;
+                el.style.setProperty('--dur', `${sl.ms + (cover ? hold : 0)}ms`);
+                shot.hidden = !sl.key;
+                frame.querySelectorAll('.scover').forEach(c => c.remove());
+                const swap = () => {
+                    frame.querySelectorAll('.stage, .sdeco').forEach(old => { if (cover || !old.matches('.stage')) return old.remove(); old.classList.add('out'); setTimeout(() => old.remove(), 230); });
+                    const stage = document.createElement('div'), t0 = cover ? hold - 450 : 0;
+                    stage.className = `stage s-${sl.key ?? 'end'}${sl.two ? ' two' : ''}`;
+                    stage.style.cssText = `--t0:${t0}ms;--st:${p.step}ms;--ee:${p.ease}`;
+                    stage.innerHTML = sl.html;
+                    const pieces = [...stage.querySelectorAll('.sa')], turn = p.order === 2 ? shuffled(pieces.map((_, i) => i), p.r) : null;
+                    pieces.forEach((e, i) => {
+                        e.style.setProperty('--i', turn ? turn[i] : p.order ? pieces.length - 1 - i : i);
+                        const from = e.classList.contains('wipe') ? { w0: p.wipe } : e.classList.contains('yr') ? p.yr : (e.classList.contains('pop') ? p.pop : p.move)(i, p.r);
+                        for (const v in from) e.style.setProperty(`--${v}`, from[v]);
+                    });
+                    stage.querySelectorAll('img.pixart').forEach(i => { i.style.imageRendering = 'pixelated'; });
+                    frame.insertBefore(stage, foot);
+                    if (!calm) stage.insertAdjacentHTML('beforebegin', `<div class="sdeco" style="--t0:${t0}ms">${shapesHtml(p.r, [[0, 0], [100, 0], [0, 100], [100, 100], [0, 50], [100, 50], [50, 100]], ['rgba(var(--a), 0.14)', 'rgba(255, 255, 255, 0.05)'], [50, 90], 70)}</div>`);
+                    if (!cover) countUp(stage);
+                };
+                if (!cover) return swap();
+                const c = document.createElement('div');
+                c.className = `scover p${p.look}`;
+                c.style.cssText = `--c0:${p.enter[0]};--c1:${p.enter[1]};--o0:${p.leave[0]};--o1:${p.leave[1]};--hold:${hold}ms`;
+                c.innerHTML = shapesHtml(rng(SEED + (at + 1) * 104729), [[0, 0], [100, 0], [0, 100], [100, 100], [50, 0], [50, 100]], INKS[p.look], [46, 78], 0) + line.html;
+                c.swap = swap;
+                frame.append(c);
             };
             const toast = text => {
                 clearTimeout(toastTimer); frame.querySelector('.stoast')?.remove();
@@ -1027,18 +1225,19 @@
             };
             const sharePic = async key => {                               // the story waits while the share sheet is up
                 hold(true);
-                const got = await sendPic(slidePic(key), `memory-card-${R.year}-${key}.jpg`);
+                const got = await sendPic(slidePic(key, wide), `memory-card-${slideFile(key, wide)}`);
                 hold(false);
                 if (got === 'saved') toast('Picture saved'); else if (got === 'failed') toast('This picture isn’t built yet');
             };
-            const close = () => { el.remove(); document.documentElement.style.overflow = ''; document.removeEventListener('keydown', onKey); };
+            const close = () => { el.remove(); document.documentElement.style.overflow = ''; document.removeEventListener('keydown', onKey); removeEventListener('resize', fit); };
             const hold = on => { held = on; el.classList.toggle('paused', on); };
             const onKey = e => {
                 if (e.key === 'Escape') close();
                 else if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); go(at + 1); }
                 else if (e.key === 'ArrowLeft') go(at - 1);
             };
-            el.addEventListener('animationend', e => { if (e.animationName === 'sbar') go(at + 1); });
+            el.addEventListener('animationend', e => { const a = e.animationName; if (a === 'sbar') go(at + 1); else if (a === 'scin') e.target.swap?.(); else if (a === 'scout') e.target.remove(); });
+            el.addEventListener('animationstart', e => { if (e.animationName === 'scout') countUp(frame.querySelector('.stage')); });        // numbers count as the cover leaves
             el.addEventListener('contextmenu', e => e.preventDefault());
             frame.addEventListener('pointerdown', e => { if (!e.target.closest('button')) holdTimer = setTimeout(() => hold(true), 220); });
             frame.addEventListener('pointercancel', () => { clearTimeout(holdTimer); hold(false); });
@@ -1053,11 +1252,14 @@
                 const t = e.target.closest('button');
                 if (e.target === el || t?.dataset.close != null) return close();
                 if (t?.dataset.shot != null) return sharePic(slides[at].key);
-                if (t?.dataset.share != null) { close(); openShare('slides'); }
+                if (t?.dataset.mode != null) { wide = !wide; try { localStorage.setItem('mc:storyShape', wide ? 'wide' : 'tall'); } catch {} shape(); return go(at, true); }
+                if (t?.dataset.share != null) { close(); openShare('slides', wide); }
             });
             document.addEventListener('keydown', onKey);
             document.documentElement.style.overflow = 'hidden';
             document.body.append(el);
+            addEventListener('resize', fit);
+            fit(); shape();
             go(0);
         };
         document.addEventListener('click', e => {
