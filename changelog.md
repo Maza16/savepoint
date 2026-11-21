@@ -1,7 +1,12 @@
 # Changelog
 
 ## v26.11.21
-Completions speaks one visual language: the same marks for the same things everywhere
+Every game opens its own sheet in place, and Completions uses the same marks everywhere
+
+### Hub
+
+- improved: **Every game opens its sheet** instead of leaving the app
+  Tap a game anywhere (Recent activity, Playing, Activity, Completions, Analytics, Series, unlock rows, the want-to-play list) to see its achievements right there. The links to RetroAchievements, Steam and Xbox are now inside the sheet.
 
 ### Completions
 
