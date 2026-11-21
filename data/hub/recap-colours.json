@@ -1,0 +1,9 @@
+{
+ "about": "Memory Card: the main hue (OKLCH degrees, -1 = none) of each year’s top game art, read once by scripts/build-recap.js",
+ "hues": {
+  "https://cdn.akamai.steamstatic.com/steam/apps/108710/header.jpg": 245,
+  "https://cdn.akamai.steamstatic.com/steam/apps/108710/library_hero.jpg": 252,
+  "https://cdn.akamai.steamstatic.com/steam/apps/648800/library_hero.jpg": 194,
+  "https://media.retroachievements.org/Images/169567.png": 116
+ }
+}

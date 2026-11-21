@@ -1,0 +1,1404 @@
+{
+    "recentAchievements": [
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "11",
+            "displayName": "Cliques",
+            "description": "Reach a 5-heart friend level with 4 people.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/dafe0ceff688bebb1c8554cbfa478e9826eb7074.jpg",
+            "unlockedAt": "2026-08-05T10:27:14.000Z",
+            "globalPct": 28.8
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "7",
+            "displayName": "Best Friends",
+            "description": "Reach a 10-heart friend level with someone.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/da975460e6ca17e1cf397d598d4eb9c65502f786.jpg",
+            "unlockedAt": "2026-08-01T12:54:52.000Z",
+            "globalPct": 32
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "25",
+            "displayName": "Ol' Mariner",
+            "description": "Catch 24 different fish.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/2400541f7661159b571cf767db7af4bd1125341a.jpg",
+            "unlockedAt": "2026-08-01T12:37:07.000Z",
+            "globalPct": 42.8
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "38",
+            "displayName": "An Unforgettable Soup",
+            "description": "Delight the Governor.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/544ed7db7ee3328cd09404329cb25926794e4830.jpg",
+            "unlockedAt": "2026-07-31T09:04:43.000Z",
+            "globalPct": 13
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "28",
+            "displayName": "Treasure Trove",
+            "description": "Donate 40 different items to the museum.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/2c8433424f9e87d55b64b1ddbdcef1ea75d36d4c.jpg",
+            "unlockedAt": "2026-07-30T12:42:45.000Z",
+            "globalPct": 44.3
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "29",
+            "displayName": "Gofer",
+            "description": "Complete 10 'Help Wanted' requests.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/ac76efc80def3d8a94b0deb8afa50acd635acb0d.jpg",
+            "unlockedAt": "2026-07-30T07:32:46.000Z",
+            "globalPct": 31.1
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "27",
+            "displayName": "Mother Catch",
+            "description": "Catch 100 fish.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/cdc37596680321cfc1f5aef5f6c02e8384d07d62.jpg",
+            "unlockedAt": "2026-07-29T12:10:39.000Z",
+            "globalPct": 49.5
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "6",
+            "displayName": "A New Friend",
+            "description": "Reach a 5-heart friend level with someone.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/73b81a2c4c59bfdf3d87bab03cb2932b4953fe18.jpg",
+            "unlockedAt": "2026-07-29T09:39:31.000Z",
+            "globalPct": 40.4
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "24",
+            "displayName": "Fisherman",
+            "description": "Catch 10 different fish.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/e3c6269d906e909415d31d5b7962166c0951509d.jpg",
+            "unlockedAt": "2026-07-27T13:20:06.000Z",
+            "globalPct": 57.6
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "20",
+            "displayName": "D.I.Y.",
+            "description": "Craft 15 different items.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/354c8650487d1359012892dd35ac23c7d83f4266.jpg",
+            "unlockedAt": "2026-07-26T14:46:14.000Z",
+            "globalPct": 37.7
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "1",
+            "displayName": "Cowpoke",
+            "description": "Earn 50,000g",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/2a5c84271214a05435ea1c7a60bacc1cbbc5fa5a.jpg",
+            "unlockedAt": "2026-07-26T14:43:19.000Z",
+            "globalPct": 55.4
+        },
+        {
+            "appId": 413150,
+            "gameName": "Stardew Valley",
+            "apiName": "a0",
+            "displayName": "Greenhorn",
+            "description": "Earn 15,000g",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/dac82a85ceb1493bb2155d41890b4a6099f5eaa5.jpg",
+            "unlockedAt": "2026-07-25T10:30:38.000Z",
+            "globalPct": 62.6
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_100006",
+            "displayName": "Hell? Better Than Monday.",
+            "description": "Clear Hell mode for the first time!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/e2c16b1b07f312b751d700007437134d2ff90085.jpg",
+            "unlockedAt": "2026-07-25T03:14:07.000Z",
+            "globalPct": 59.9
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_token_tangaroa_30",
+            "displayName": "Big Spender!",
+            "description": "Spend 30 tokens.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/5e1162e666a0917433c7c474e2719c8c2f3b3e7d.jpg",
+            "unlockedAt": "2026-07-19T09:25:36.000Z",
+            "globalPct": 10.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_finalCutscene",
+            "displayName": "There Is A Utopia!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/74aa5ef04e8f5b7c5555d464a04236467d32b706.jpg",
+            "unlockedAt": "2026-07-19T09:23:13.000Z",
+            "globalPct": 14.6
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_birdKiller_50",
+            "displayName": "Expert Bird Hunter!",
+            "description": "Kill 50 birds.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/e781e85a80c3969b927c4db96df9bd0c36599a81.jpg",
+            "unlockedAt": "2026-07-19T08:38:38.000Z",
+            "globalPct": 9.9
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_allNotes_Temperance",
+            "displayName": "Temperance Historian!",
+            "description": "Find all notes in Temperance.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/8d22eaf6b4076a1744c55ea2f7731213eaf2a0d3.jpg",
+            "unlockedAt": "2026-07-19T06:50:21.000Z",
+            "globalPct": 7.3
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_allCharactersUnlocked",
+            "displayName": "All Aboard!",
+            "description": "Unlock all playable characters.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/072650978ac3895e4ed0fbb9f745c3c000ae0d40.jpg",
+            "unlockedAt": "2026-07-19T06:18:03.000Z",
+            "globalPct": 14.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_snowmobileIsNotABoat",
+            "displayName": "That's Not A Boat...",
+            "description": "Drive a snowmobile into the sea.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/b00b5409673cd1be4df4b6df07f7bf3a66cfbacf.jpg",
+            "unlockedAt": "2026-07-16T16:06:19.000Z",
+            "globalPct": 16.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_allNotes_Varuna",
+            "displayName": "Varuna Point Historian!",
+            "description": "Find all notes in Varuna Point.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/8d22eaf6b4076a1744c55ea2f7731213eaf2a0d3.jpg",
+            "unlockedAt": "2026-07-16T15:41:47.000Z",
+            "globalPct": 16.2
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_varunaBossKill",
+            "displayName": "Explosive Force!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/d401edefbadb72e2058c501db6d5fdf5b79bf24c.jpg",
+            "unlockedAt": "2026-07-16T15:18:13.000Z",
+            "globalPct": 20.6
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_anglerFishKiller_1",
+            "displayName": "Beginner Anglerfish Hunter!",
+            "description": "Kill 1 Anglerfish.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/fad82bdb5bfad8b9eda02debd2dbe976f53de0b2.jpg",
+            "unlockedAt": "2026-07-16T14:11:43.000Z",
+            "globalPct": 19.9
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_diveDeep",
+            "displayName": "Exploring The depths!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/dafd7000f9e359725b4b84af4033c017e9996979.jpg",
+            "unlockedAt": "2026-07-16T13:42:06.000Z",
+            "globalPct": 35.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_zip_OneGo",
+            "displayName": "Zip Zap!",
+            "description": "Travel 50 meters on a zipline without disjointing.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/71153eb8536bcac2b5281e44ff7af3bb8fea6099.jpg",
+            "unlockedAt": "2026-07-16T13:17:50.000Z",
+            "globalPct": 19.7
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_113002",
+            "displayName": "Outshining Jewels",
+            "description": "Successfully apply a Tier 5+ engraving option for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/cc02f4b8f4df8898b5c9a4388cad6dcabe8becab.jpg",
+            "unlockedAt": "2026-07-14T12:46:44.000Z",
+            "globalPct": 35
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_122007",
+            "displayName": "Legend of the Taskbar",
+            "description": "Reach Hero level 80 for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/25dc6652ee2db5e3b701ec8ea5826919cb7f84e1.jpg",
+            "unlockedAt": "2026-07-11T12:59:31.000Z",
+            "globalPct": 39.1
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_103003",
+            "displayName": "Heaven-Sent Gear",
+            "description": "Obtain a Celestial grade gear for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/71ebaf794682b681701baa95baeec9adcc351437.jpg",
+            "unlockedAt": "2026-07-11T07:14:46.000Z",
+            "globalPct": 55.3
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_103002",
+            "displayName": "Gear Beyond Limits",
+            "description": "Obtain a Beyond grade gear for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/613d06e7374839896723e3036084d40aec8c1e6d.jpg",
+            "unlockedAt": "2026-07-06T08:47:48.000Z",
+            "globalPct": 71.7
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_instrument_notes_1",
+            "displayName": "Instrumentalist!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/335dbfbd9e69400f149e05fc1f284bd178c85789.jpg",
+            "unlockedAt": "2026-07-05T15:41:37.000Z",
+            "globalPct": 15.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_allNotes_Tangaroa",
+            "displayName": "Tangaroa Historian! ",
+            "description": "Find all notes in Tangaroa!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/8d22eaf6b4076a1744c55ea2f7731213eaf2a0d3.jpg",
+            "unlockedAt": "2026-07-05T15:25:08.000Z",
+            "globalPct": 22.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_tangaroa_cockpitLaunch",
+            "displayName": "Launch Initiated!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/15931555c59ea4d6e48ff1b9d2013db07dde1266.jpg",
+            "unlockedAt": "2026-07-05T15:17:01.000Z",
+            "globalPct": 24.4
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_token_tangaroa_20",
+            "displayName": "Medium Spender!",
+            "description": "Spend 20 tokens.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/328a58f69ddd25017e6185fe0c29e139d791449e.jpg",
+            "unlockedAt": "2026-07-05T15:15:55.000Z",
+            "globalPct": 16.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_token_tangaroa_10",
+            "displayName": "Small Spender! ",
+            "description": "Spend 10 tokens.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/c56ccb66cd6e789071cc9f66cb32d947db142c0f.jpg",
+            "unlockedAt": "2026-07-05T15:07:21.000Z",
+            "globalPct": 22.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_botKiller_10",
+            "displayName": "Intermediate Disruptor!",
+            "description": "Disrupt 10 Butler-Bots.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/be0d65a53400fa35c9171b01dc2e433ee9285817.jpg",
+            "unlockedAt": "2026-07-05T14:50:03.000Z",
+            "globalPct": 18.8
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_zip_100m",
+            "displayName": "Beginner Ziponaut!",
+            "description": "Travel 100 meters with the zipline tool.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/ed8c5bd702545b94b3d12d4d1488e9cde8f988b3.jpg",
+            "unlockedAt": "2026-07-05T14:10:50.000Z",
+            "globalPct": 26
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_botKiller_1",
+            "displayName": "Beginner Disruptor!",
+            "description": "Disrupt 1 Butler-Bot.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/e20d919bf56bd403e22c1aa4410c50bda7dd6a41.jpg",
+            "unlockedAt": "2026-07-05T14:07:25.000Z",
+            "globalPct": 26.6
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_allNotes_RadioTower",
+            "displayName": "Radio Tower Historian!",
+            "description": "Find all notes on the Radio Tower!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/8d22eaf6b4076a1744c55ea2f7731213eaf2a0d3.jpg",
+            "unlockedAt": "2026-07-05T13:24:28.000Z",
+            "globalPct": 34.8
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_captureRareAnimal",
+            "displayName": "Some Look Different!",
+            "description": "Capture a rare animal.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/59073cd69333aebfd5db02a6133cff4e410c6f4b.jpg",
+            "unlockedAt": "2026-07-05T11:20:06.000Z",
+            "globalPct": 18.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_firstPurchaseAtTrader",
+            "displayName": "Beginner Merchant!",
+            "description": "Purchase an item at a trading post.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/76d6773aaa41413311bd30d96c68ded895209193.jpg",
+            "unlockedAt": "2026-07-04T08:55:11.000Z",
+            "globalPct": 26.7
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_captureAnimal_1",
+            "displayName": "Beginner Wrangler!",
+            "description": "Capture 1 animal.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/ece40fd344c5a9ab6d98620317d3bb81d248f1c2.jpg",
+            "unlockedAt": "2026-07-04T08:53:57.000Z",
+            "globalPct": 34.4
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_reach_captainIsland",
+            "displayName": "O Captain! My Captain!?",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/7622ad7e6dea318193016f9c96a92a45a92c3bb0.jpg",
+            "unlockedAt": "2026-07-04T08:34:23.000Z",
+            "globalPct": 18
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_cookedRecipe",
+            "displayName": "A More Complex Concoction!",
+            "description": "Cook a meal by following a recipe.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/2a5cd6f5c634cd90351b2458653307299566ea77.jpg",
+            "unlockedAt": "2026-07-04T08:16:19.000Z",
+            "globalPct": 42.2
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_excevator_1",
+            "displayName": "Beginner Excavator!",
+            "description": "Dig up a treasure.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/9ab16cc0e0fcc3114d1f88ca5c9e5a96481b97b0.jpg",
+            "unlockedAt": "2026-07-04T07:46:17.000Z",
+            "globalPct": 24.3
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_allNotes_Caravan",
+            "displayName": "Caravan Town Historian!",
+            "description": "Find all notes on Caravan Town!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/8d22eaf6b4076a1744c55ea2f7731213eaf2a0d3.jpg",
+            "unlockedAt": "2026-07-04T07:22:39.000Z",
+            "globalPct": 26.6
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_103001",
+            "displayName": "Starlit Gear",
+            "description": "Obtain an Arcana grade gear for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/b3faec94fd5a7708028c56f758d9579b76e4fc1a.jpg",
+            "unlockedAt": "2026-07-03T06:43:02.000Z",
+            "globalPct": 81
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_115001",
+            "displayName": "First Wish",
+            "description": "Successfully make an offering for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/7126e62ab2542d94a7f7fd02885acea18fadcf12.jpg",
+            "unlockedAt": "2026-07-02T10:49:15.000Z",
+            "globalPct": 45.8
+        },
+        {
+            "appId": 548430,
+            "gameName": "Deep Rock Galactic",
+            "apiName": "GOODSHEPHERD",
+            "displayName": "Good Shepherd",
+            "description": "Successfully complete 25 missions where at least 1 player is 10 player ranks lower than you.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/548430/387201e02fd453f632895f2dc3a30af5e823ef20.jpg",
+            "unlockedAt": "2026-07-02T09:06:50.000Z",
+            "globalPct": 12.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_pufferKiller_1",
+            "displayName": "Beginner Poison-Puffer Hunter!",
+            "description": "Kill 1 Poison-puffer.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6fcf886e0c0244ccc542ce6687f1368e20fc70df.jpg",
+            "unlockedAt": "2026-07-01T15:19:04.000Z",
+            "globalPct": 42
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_stoneBirdKiller_1",
+            "displayName": "Beginner Screecher Hunter!",
+            "description": "Kill 1 Screecher.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/8ec5a415bf845cc25a51cea86cfcc25a624108af.jpg",
+            "unlockedAt": "2026-07-01T15:12:05.000Z",
+            "globalPct": 32.2
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_beeCaptures_1",
+            "displayName": "Beginner Bee-nevolent!",
+            "description": "Capture 1 bee.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/08c27fc9a6dedec30f5565a705c8113a8337b737.jpg",
+            "unlockedAt": "2026-07-01T14:36:50.000Z",
+            "globalPct": 30.6
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_fixErrol",
+            "displayName": "Fix Errol!",
+            "description": "There you go, Errol.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6c5704b6e56234e7f7a294a537ce02eb76c640d2.jpg",
+            "unlockedAt": "2026-07-01T14:00:41.000Z",
+            "globalPct": 25.4
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_bearKiller_10",
+            "displayName": "Intermediate Bear Hunter!",
+            "description": "Kill 10 Bears.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/852352350f7fa3258c6170e0522b054e4af8e218.jpg",
+            "unlockedAt": "2026-07-01T13:59:45.000Z",
+            "globalPct": 26.5
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_tinyLittleMurderer",
+            "displayName": "Tiny Little Murderer",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a45eaddb11943c762060cde55a28e7fa5203859.jpg",
+            "unlockedAt": "2026-07-01T13:50:45.000Z",
+            "globalPct": 31.7
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_allNotes_Balboa",
+            "displayName": "Balboa Historian!",
+            "description": "Find all notes on Balboa!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/8d22eaf6b4076a1744c55ea2f7731213eaf2a0d3.jpg",
+            "unlockedAt": "2026-07-01T13:50:37.000Z",
+            "globalPct": 24.2
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_brunosToolboard",
+            "displayName": "A Revelation!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/bb891bbaa45554a3784bb26ed81dfa83a3097cbd.jpg",
+            "unlockedAt": "2026-07-01T13:33:52.000Z",
+            "globalPct": 29.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_balboaBicycle",
+            "displayName": "Pling!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/2036e072186cd4af3c31335c367236299660d245.jpg",
+            "unlockedAt": "2026-07-01T13:15:51.000Z",
+            "globalPct": 27.9
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_122006",
+            "displayName": "Almost There",
+            "description": "Reach Hero level 70 for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/84f4addde3b17c4bd1e8324a807dd975f3f27f24.jpg",
+            "unlockedAt": "2026-07-01T12:30:46.000Z",
+            "globalPct": 44.4
+        },
+        {
+            "appId": 550,
+            "gameName": "Left 4 Dead 2",
+            "apiName": "ACH_KILL_SPITTER_FAST",
+            "displayName": "ACID REFLEX",
+            "description": "Kill a Spitter before she is able to spit.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/550/8d94a8ffcb20fd11de547a6972bcef319fd93bf6.jpg",
+            "unlockedAt": "2026-07-01T06:23:50.000Z",
+            "globalPct": 67
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_119002",
+            "displayName": "Decubed Cain",
+            "description": "Reach Cube level 50.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/f4d2e2aa1cb9bef66ae8e56ec375123b21b95660.jpg",
+            "unlockedAt": "2026-06-28T13:31:19.000Z",
+            "globalPct": 39.3
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_bearKiller_1",
+            "displayName": "Beginner Bear Hunter!",
+            "description": "Kill 1 Bear.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/ef673a710fd180e51af535437014a980597f1c3a.jpg",
+            "unlockedAt": "2026-06-28T09:10:29.000Z",
+            "globalPct": 38
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_allMysteryLootUnlocked",
+            "displayName": "The Renovator!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/92642687aa9a06d2ed3ca324cb015d176698ef78.jpg",
+            "unlockedAt": "2026-06-28T08:58:12.000Z",
+            "globalPct": 31.9
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_sharkKiller_10",
+            "displayName": "Intermediate Shark Hunter!",
+            "description": "Kill 10 sharks.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/0230c5cee1ce1d1da0d8586a3e90ef09b477f307.jpg",
+            "unlockedAt": "2026-06-28T08:06:17.000Z",
+            "globalPct": 43.3
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_allNotes_Vasagatan",
+            "displayName": "Vasagatan Historian!",
+            "description": "Find all notes on Vasagatan!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/8d22eaf6b4076a1744c55ea2f7731213eaf2a0d3.jpg",
+            "unlockedAt": "2026-06-28T07:48:11.000Z",
+            "globalPct": 37.8
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_vasagatan_Bomb",
+            "displayName": "Bootleg Fireworks!",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/366b98a73e8b190e82d43cfb82968515740fa219.jpg",
+            "unlockedAt": "2026-06-28T07:48:00.000Z",
+            "globalPct": 39.8
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_ratKiller_10",
+            "displayName": "Intermediate Lurker Hunter!",
+            "description": "Kill 10 Lurkers.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/a59a26fb5c53ea1e002cfc6b2869fda5385194d2.jpg",
+            "unlockedAt": "2026-06-28T07:45:49.000Z",
+            "globalPct": 39.4
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_ratKiller_1",
+            "displayName": "Beginner Lurker Hunter!",
+            "description": "Kill 1 Lurker.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/09253208a08d2c9c147e7dd40b6133c177d7b29b.jpg",
+            "unlockedAt": "2026-06-28T07:26:46.000Z",
+            "globalPct": 42.3
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_radiotower",
+            "displayName": "Is There A Utopia?",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/3b914edbbe33614da8d9449ffec52c24202c2524.jpg",
+            "unlockedAt": "2026-06-28T06:23:48.000Z",
+            "globalPct": 46.4
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_122005",
+            "displayName": "Unleashed Potential",
+            "description": "Reach Hero level 60 for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/3a53f6c2f6c46c81731f1f5bc090a08049bf0892.jpg",
+            "unlockedAt": "2026-06-27T14:47:46.000Z",
+            "globalPct": 49.8
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_survivor_month",
+            "displayName": "Expert Survivor!",
+            "description": "Survive 30 days.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/91009567652d091bd9b1440d33bdcc3c023ac509.jpg",
+            "unlockedAt": "2026-06-27T14:43:35.000Z",
+            "globalPct": 50.2
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_birdKiller_10",
+            "displayName": "Intermediate Bird Hunter!",
+            "description": "Kill 10 birds.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/e79564b3a48e033bd8219c7f9037138e6cb290ae.jpg",
+            "unlockedAt": "2026-06-27T14:30:40.000Z",
+            "globalPct": 33.4
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_sailor",
+            "displayName": "Aye Aye Captain!",
+            "description": "Place a sail and a stationary anchor on the same raft.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/a4290bc88b97c598997dd7fb2154e677971f453c.jpg",
+            "unlockedAt": "2026-06-27T12:49:31.000Z",
+            "globalPct": 58
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_boarKiller_1",
+            "displayName": "Beginner Warthog Hunter!",
+            "description": "Kill 1 Warthog.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/f3f188117147249b4b5897593f8b31071cc28b95.jpg",
+            "unlockedAt": "2026-06-27T09:56:18.000Z",
+            "globalPct": 60.2
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_survivor_week",
+            "displayName": "Intermediate Survivor!",
+            "description": "Survive 7 days.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/7af778292af2311972720d45d66c8d475809c394.jpg",
+            "unlockedAt": "2026-06-27T08:27:33.000Z",
+            "globalPct": 74.3
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_build_cookingstandOne",
+            "displayName": "Dinnertime!",
+            "description": "Craft and place a simple grill.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/a062114af753a3acdb2574f54236bb2aedc9aea9.jpg",
+            "unlockedAt": "2026-06-27T08:26:41.000Z",
+            "globalPct": 70.1
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_birdKiller_1",
+            "displayName": "Beginner Bird Hunter!",
+            "description": "Kill 1 bird.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/980b66f66fe869498a6998ad1666212eeff3429b.jpg",
+            "unlockedAt": "2026-06-27T07:58:51.000Z",
+            "globalPct": 57
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_gatherer_100",
+            "displayName": "Beginner Gatherer!",
+            "description": "Hook 100 items.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/5da12354657e88f02460ccdda2a75830d294520c.jpg",
+            "unlockedAt": "2026-06-27T06:50:45.000Z",
+            "globalPct": 76.5
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_reach_bigIsland",
+            "displayName": "Large Landmass Ahoy!",
+            "description": "Discover a large island.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/7378b61f0a25511bb1c23ac4fe70c9221f58cc0b.jpg",
+            "unlockedAt": "2026-06-27T06:25:14.000Z",
+            "globalPct": 72.6
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_sharkKiller_1",
+            "displayName": "Beginner Shark Hunter!",
+            "description": "Kill 1 shark.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/1febd4acad109ee809489828b11cfbca80e2473f.jpg",
+            "unlockedAt": "2026-06-27T06:03:39.000Z",
+            "globalPct": 75.7
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_playwithfriend",
+            "displayName": "Teamplay!",
+            "description": "Team up with a friend in multiplayer.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/b75e3a0b192e3303aafc6ee14f1ee48050084e2d.jpg",
+            "unlockedAt": "2026-06-27T05:54:43.000Z",
+            "globalPct": 79.9
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_100005",
+            "displayName": "The Nightmare Begins",
+            "description": "Clear Nightmare mode for the first time!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/01377e9dce67aaad1f93c03d6c3b45f52af9d892.jpg",
+            "unlockedAt": "2026-06-27T05:33:55.000Z",
+            "globalPct": 70.8
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_112002",
+            "displayName": "Decoration is an Art",
+            "description": "Successfully apply a Tier 5+ decoration option for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/a24355d600128ffd3b05b6aa6f11c0fad78e41bf.jpg",
+            "unlockedAt": "2026-06-27T05:26:50.000Z",
+            "globalPct": 42.5
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_build_foundation_10",
+            "displayName": "Beginner Builder!",
+            "description": "Build 10 foundations.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/5736d279ef6a7dd455665e41c7d28655375efd6e.jpg",
+            "unlockedAt": "2026-06-27T05:03:22.000Z",
+            "globalPct": 78.2
+        },
+        {
+            "appId": 550,
+            "gameName": "Left 4 Dead 2",
+            "apiName": "ACH_SAVE_PLAYER_FROM_JOCKEY_FAST",
+            "displayName": "A RIDE DENIED",
+            "description": "Kill a Jockey within 2 seconds of it jumping on a Survivor.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/550/b65a6518c0680448e996e2190d1ed6b00ad14935.jpg",
+            "unlockedAt": "2026-06-26T15:03:06.000Z",
+            "globalPct": 65.5
+        },
+        {
+            "appId": 550,
+            "gameName": "Left 4 Dead 2",
+            "apiName": "ACH_BILE_A_TANK",
+            "displayName": "SEPTIC TANK",
+            "description": "Use a bile bomb on a Tank.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/550/415db2343ce702f2ff1f60f25e62b856cd7d5827.jpg",
+            "unlockedAt": "2026-06-26T14:55:35.000Z",
+            "globalPct": 32.8
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_survivor_day",
+            "displayName": "Beginner Survivor!",
+            "description": "Survive 1 day.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/932e2512b22f9c2bb9eaaa4782d5b95eeef3dddb.jpg",
+            "unlockedAt": "2026-06-26T06:18:04.000Z",
+            "globalPct": 92.6
+        },
+        {
+            "appId": 648800,
+            "gameName": "Raft",
+            "apiName": "ach_build_purifierOne",
+            "displayName": "It's Better Without The Salt.",
+            "description": "Craft and place a simple purifier.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/9e95ebc07776295682c20d3d5f50be6c9d1346ae.jpg",
+            "unlockedAt": "2026-06-26T06:17:19.000Z",
+            "globalPct": 73.5
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_104003",
+            "displayName": "Overflowing Vault",
+            "description": "Earn 100,000,000 gold.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/ef481b20427ebe4a7803bb4c854e96908c0dca22.jpg",
+            "unlockedAt": "2026-06-25T21:52:17.000Z",
+            "globalPct": 42.6
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_111004",
+            "displayName": "Recipe for Immortality",
+            "description": "Successfully synthesize an Immortal grade item for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/b2de6c6b1c24b864ba2a268a1a85a0b2c24c8475.jpg",
+            "unlockedAt": "2026-06-25T10:57:23.000Z",
+            "globalPct": 61.9
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_117001",
+            "displayName": "Essence Extracted",
+            "description": "Successfully extract for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/fa7b50a201d3887ed3692a37534b22689529e0c9.jpg",
+            "unlockedAt": "2026-06-25T09:57:57.000Z",
+            "globalPct": 45.4
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_131001",
+            "displayName": "Heroes Never Walk Alone",
+            "description": "Raise 4 heroes to level 50 or above.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/3afed9824324f1dc44914a527ac66055d4fbfff5.jpg",
+            "unlockedAt": "2026-06-25T06:03:21.000Z",
+            "globalPct": 18.2
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_131006",
+            "displayName": "In the Blink of an Eye",
+            "description": "Clear any stage within 10 seconds.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/0e738c449de5b833b22e6588601216e7d57242c3.jpg",
+            "unlockedAt": "2026-06-24T09:52:56.000Z",
+            "globalPct": 47.5
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_122004",
+            "displayName": "Half-Legend",
+            "description": "Reach Hero level 50 for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/33321893e8059a4d43fb8d5959f46d8517c4cded.jpg",
+            "unlockedAt": "2026-06-21T10:16:37.000Z",
+            "globalPct": 58.8
+        },
+        {
+            "appId": 3052450,
+            "gameName": "Morimens",
+            "apiName": "SteamAchievAPI_05",
+            "displayName": "Golden Foil",
+            "description": "Complete Investigation Event \"East District's Enigma\"",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3052450/204f4119c913ff89f4b03a650f7cda3c6df68246.jpg",
+            "unlockedAt": "2026-06-20T11:29:35.000Z",
+            "globalPct": 22.1
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_131007",
+            "displayName": "...Wait, I'm the Only One Left?",
+            "description": "Clear Normal 3-10 act boss with 2 party members dead in a 3-player party.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/5b8f8313723e7bfcc2d66d86613b959bb6dba15e.jpg",
+            "unlockedAt": "2026-06-16T14:20:22.000Z",
+            "globalPct": 5.8
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_102003",
+            "displayName": "The Big Boss's Treasure",
+            "description": "Open 10 act boss boxes.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/7dae01e2b7ff23d349c7dbea18dc162ffd4bc71d.jpg",
+            "unlockedAt": "2026-06-16T13:12:22.000Z",
+            "globalPct": 80.6
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_100004",
+            "displayName": "Normal? That's Boring.",
+            "description": "Clear Normal mode for the first time!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/36d5779ac65675813978855a3a851b1951969b51.jpg",
+            "unlockedAt": "2026-06-16T13:10:41.000Z",
+            "globalPct": 78
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_122003",
+            "displayName": "Getting the Hang of It",
+            "description": "Reach Hero level 30 for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/2c226cedf1696755a73c5627a1c91e7f16c438ef.jpg",
+            "unlockedAt": "2026-06-14T06:23:55.000Z",
+            "globalPct": 70.4
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_101003",
+            "displayName": "Monsters? What Monsters?",
+            "description": "Defeat 100,000 monsters.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/6faede05b252fcb524a38db41eee09db6b7af276.jpg",
+            "unlockedAt": "2026-06-13T03:59:36.000Z",
+            "globalPct": 82.4
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_100003",
+            "displayName": "Still Not Off the Clock",
+            "description": "Clear stage 2-10 for the first time!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/6f02168d62194a5640cd62241c72beb1d34a5374.jpg",
+            "unlockedAt": "2026-06-13T03:51:46.000Z",
+            "globalPct": 84.2
+        },
+        {
+            "appId": 548430,
+            "gameName": "Deep Rock Galactic",
+            "apiName": "EXPERTMINER",
+            "displayName": "Expert Miner",
+            "description": "Complete 100 missions.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/548430/17848de404d275a933178c572a38296c35f9d3d9.jpg",
+            "unlockedAt": "2026-06-13T00:11:42.000Z",
+            "globalPct": 16.9
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_true_ranger",
+            "displayName": "If it's hostile, you kill it.",
+            "description": "Become a true ranger.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/6d668bd9ece2006f26c39cc46e2ffd4bb0b11fca.jpg",
+            "unlockedAt": "2026-06-10T07:51:58.000Z",
+            "globalPct": 32.3
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_survival",
+            "displayName": "Survivor 2033",
+            "description": "Complete the game in Survival Mode.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/20199771d4ccc26990f194ff0fa552ab47252109.jpg",
+            "unlockedAt": "2026-06-10T07:51:49.000Z",
+            "globalPct": 23.2
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_inquisitor",
+            "displayName": "Inquisitor",
+            "description": "Kill 2 demons.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/23decef7644d80d814a4611856e864916d8d71c6.jpg",
+            "unlockedAt": "2026-06-10T07:37:08.000Z",
+            "globalPct": 26.8
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_hunter",
+            "displayName": "Hunter",
+            "description": "Kill 200 Mutants.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/bc8abf848cdc8ced11ac0b2f8c4323a229712e7e.jpg",
+            "unlockedAt": "2026-06-10T07:30:30.000Z",
+            "globalPct": 37
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_watchman_hunter",
+            "displayName": "Watchman hunter",
+            "description": "Kill 50 Watchmen.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/76bd60a98eca07d4ba672853cff149ba82f40326.jpg",
+            "unlockedAt": "2026-06-10T07:29:01.000Z",
+            "globalPct": 38.1
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_pyro",
+            "displayName": "Pyro",
+            "description": "Kill 30 enemies with a flamethrower.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/f7cfee9571424414bf12644385d72a391cab53bd.jpg",
+            "unlockedAt": "2026-06-09T07:35:54.000Z",
+            "globalPct": 17
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_spider_hunter",
+            "displayName": "Spider hunter",
+            "description": "Kill 10 Spiders.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/e9b622508d42eb728c454bc1d225bc8e1f6bc75e.jpg",
+            "unlockedAt": "2026-06-09T07:34:14.000Z",
+            "globalPct": 10
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_heavy_reader",
+            "displayName": "Heavy Reader",
+            "description": "Kill a librarian.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/7a6bcc63b569f0d34cc87db51f6d6d7207eb8690.jpg",
+            "unlockedAt": "2026-06-09T05:48:39.000Z",
+            "globalPct": 25.2
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_tonic_man",
+            "displayName": "Tonic Man",
+            "description": "Use a Medkit 75 times.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/dfdccdd537a9cf4dbd95d57cb74a6b3ce3de29e6.jpg",
+            "unlockedAt": "2026-06-09T05:29:49.000Z",
+            "globalPct": 27.8
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_113001",
+            "displayName": "Baby Steps in Engraving",
+            "description": "Successfully apply a Tier 1+ engraving option for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/f82f343988dfbf9af57faf5504027eeffaf6c147.jpg",
+            "unlockedAt": "2026-06-07T12:39:48.000Z",
+            "globalPct": 50.4
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_121001",
+            "displayName": "Friend of the Night",
+            "description": "Unlock the Bat pet.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/b792026c795a5f1c227de3f03cd9164454284b9d.jpg",
+            "unlockedAt": "2026-06-07T03:43:21.000Z",
+            "globalPct": 85.4
+        },
+        {
+            "appId": 548430,
+            "gameName": "Deep Rock Galactic",
+            "apiName": "DISCJOCKEY",
+            "displayName": "Disc Jockey",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/548430/c51a4061438011e4bb771040a712b908b709db92.jpg",
+            "unlockedAt": "2026-06-07T02:20:52.000Z",
+            "globalPct": 7.9
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_116002",
+            "displayName": "The Immortal Artisan",
+            "description": "Successfully craft an Immortal grade or higher accessory for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/c7a74fc77e4143661d25a5eb844c5336bdae62bc.jpg",
+            "unlockedAt": "2026-06-06T14:08:38.000Z",
+            "globalPct": 46.7
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_122002",
+            "displayName": "Still Warming Up",
+            "description": "Reach Hero level 20 for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/527ffdc0e2b9bbf09781690d7903b9cbaed689e1.jpg",
+            "unlockedAt": "2026-06-06T02:07:52.000Z",
+            "globalPct": 85.4
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_104002",
+            "displayName": "Millionaire Dreams",
+            "description": "Earn 1,000,000 gold.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/ff242cad5ae782ead56db6c66644d8c30b71bbcc.jpg",
+            "unlockedAt": "2026-06-05T13:53:49.000Z",
+            "globalPct": 61.8
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_sniper_33",
+            "displayName": "Sniper",
+            "description": "Kill 30 human enemies with headshots.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/fef13865245745781e4a038a22ecd3722de525d7.jpg",
+            "unlockedAt": "2026-06-05T12:51:39.000Z",
+            "globalPct": 42
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_gunman",
+            "displayName": "Gunman",
+            "description": "Kill 100 enemies with shotguns.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/b913eed408ad804cb3c87fcf30b4ddf39ea89fb2.jpg",
+            "unlockedAt": "2026-06-05T12:44:26.000Z",
+            "globalPct": 36.3
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_111003",
+            "displayName": "Legends Are Made, Not Born",
+            "description": "Successfully synthesize a Legendary grade item for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/7ce2b35a7e525e4e64a8ad36c04b171e165e5ac6.jpg",
+            "unlockedAt": "2026-06-05T12:02:48.000Z",
+            "globalPct": 79.1
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_fireinthehole",
+            "displayName": "Fire in the hole",
+            "description": "Kill 20 lurkers.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/6f5dd91e0a779b7bbb0b9ef1da092b857be470cc.jpg",
+            "unlockedAt": "2026-06-05T07:08:32.000Z",
+            "globalPct": 32.4
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_warior",
+            "displayName": "Warrior",
+            "description": "Kill 100 Human Enemies.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/602146079e62c02d625735fe50e613b190e8eda8.jpg",
+            "unlockedAt": "2026-06-05T06:27:14.000Z",
+            "globalPct": 43.3
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_112001",
+            "displayName": "A Decorative Awakening",
+            "description": "Successfully apply a Tier 1+ decoration option for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/bdf23f9db5953eaba1a6ef6f0a27fc16224a45e6.jpg",
+            "unlockedAt": "2026-06-05T05:12:44.000Z",
+            "globalPct": 68.2
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_101002",
+            "displayName": "I Was Just Idling...",
+            "description": "Defeat 10,000 monsters.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/a5d0892db8f8ee357849b36633a45114ad6c29a0.jpg",
+            "unlockedAt": "2026-06-04T09:50:42.000Z",
+            "globalPct": 97.2
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_120001",
+            "displayName": "Rookie Merchant",
+            "description": "List an item on the Trading Ship for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/4a00168043e4a907fa4540629ea465d276afb946.jpg",
+            "unlockedAt": "2026-06-04T06:03:32.000Z",
+            "globalPct": 69.6
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_119001",
+            "displayName": "Horroric Cube",
+            "description": "Reach Cube level 10.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/3d0481b10b0a5fb7fa5f53a1d0b6a4a0de334a0b.jpg",
+            "unlockedAt": "2026-06-04T06:02:50.000Z",
+            "globalPct": 65.5
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_100002",
+            "displayName": "TBH, This Game Slaps",
+            "description": "Clear stage 1-10 for the first time!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/cedf6ef06edb228ca62e6e2a555626fd4c6ca71c.jpg",
+            "unlockedAt": "2026-06-03T13:26:39.000Z",
+            "globalPct": 97.2
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_111002",
+            "displayName": "Hey, Not Bad!",
+            "description": "Successfully synthesize a Rare grade item for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/a996213a9209259fa38ca62cc1a29d2c735e13ad.jpg",
+            "unlockedAt": "2026-06-03T11:10:57.000Z",
+            "globalPct": 93.6
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_110001",
+            "displayName": "Alchemy 101",
+            "description": "Earn 1,000 gold through alchemy.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/bf6e84dab570d47b7e628af1f73410adbf783c87.jpg",
+            "unlockedAt": "2026-06-03T04:35:42.000Z",
+            "globalPct": 61.6
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_116001",
+            "displayName": "Accessory Workshop: OPEN!",
+            "description": "Successfully craft a Common grade or higher accessory for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/aea3db65685e9aea72b3adf867f846138585de32.jpg",
+            "unlockedAt": "2026-06-03T04:34:21.000Z",
+            "globalPct": 60
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_122001",
+            "displayName": "Hero's First Awakening",
+            "description": "Reach Hero level 10 for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/b8884e4b8ab50f18c815c25682f7c445e184a344.jpg",
+            "unlockedAt": "2026-06-03T04:25:34.000Z",
+            "globalPct": 100
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_102002",
+            "displayName": "A Gift from the Boss",
+            "description": "Open 10 stage boss boxes.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/1c603c937460530acbd16b3aa724f58b1259a978.jpg",
+            "unlockedAt": "2026-06-02T13:27:56.000Z",
+            "globalPct": 100
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_111001",
+            "displayName": "Tasted the Power of Synthesis",
+            "description": "Successfully synthesize an Uncommon grade item for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/dee1dba3733d48cca924fcfd7cb7ae4eb275bf21.jpg",
+            "unlockedAt": "2026-06-02T13:26:08.000Z",
+            "globalPct": 100
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_101001",
+            "displayName": "Gone Without a Trace",
+            "description": "Defeat 1,000 monsters.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/27b537fa7628124bbdc81b76f6b08234683da397.jpg",
+            "unlockedAt": "2026-06-02T12:41:07.000Z",
+            "globalPct": 100
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_123001",
+            "displayName": "The Sacred Calling",
+            "description": "Unlock the Priest hero.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/132e35684258605cdc4659b80cfa4e65c8c0bdf6.jpg",
+            "unlockedAt": "2026-06-02T12:27:19.000Z",
+            "globalPct": 70.6
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_102001",
+            "displayName": "Package Delivered~",
+            "description": "Open 10 normal boxes.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/d8cd9dc30981161e783f239d9094ab4df115cb56.jpg",
+            "unlockedAt": "2026-06-02T12:16:05.000Z",
+            "globalPct": 100
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_104001",
+            "displayName": "First Paycheck",
+            "description": "Earn 1,000 gold.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/c377bcfc7c8add1ec197aa4f69faead77322aee7.jpg",
+            "unlockedAt": "2026-06-02T11:49:52.000Z",
+            "globalPct": 81.7
+        },
+        {
+            "appId": 3678970,
+            "gameName": "TBH: Task Bar Hero",
+            "apiName": "STEAM_ACHIEVEMENT_100001",
+            "displayName": "Hero Out of the Taskbar",
+            "description": "Clear stage 1-1 for the first time.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/dd6df541669b34846b34e1b17f6c037cc41ab704.jpg",
+            "unlockedAt": "2026-06-02T11:34:54.000Z",
+            "globalPct": 100
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_demolitionist",
+            "displayName": "Demolitionist",
+            "description": "Blow up the tunnel and airlock at CURSED STATION.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/a8bd74299f1258a740d6312371f3688e0826478a.jpg",
+            "unlockedAt": "2026-05-31T13:19:22.000Z",
+            "globalPct": 46.7
+        },
+        {
+            "appId": 286690,
+            "gameName": "Metro 2033 Redux",
+            "apiName": "2033_who_goes_there",
+            "displayName": "Who goes there?",
+            "description": "Wipe your Gas Mask 20 times.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/3943e01e7e7918115e567ffea3de873da01ddfc9.jpg",
+            "unlockedAt": "2026-05-31T13:01:15.000Z",
+            "globalPct": 32.7
+        },
+        {
+            "appId": 548430,
+            "gameName": "Deep Rock Galactic",
+            "apiName": "BABYDIVER",
+            "displayName": "Going Deeper",
+            "description": "Complete A Deep Dive",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/548430/e0cdc0d804fde1086c82e60d33be42fb302b88cd.jpg",
+            "unlockedAt": "2026-05-31T10:42:25.000Z",
+            "globalPct": 18.2
+        },
+        {
+            "appId": 548430,
+            "gameName": "Deep Rock Galactic",
+            "apiName": "THICKSKINNED",
+            "displayName": "Thick-Skinned",
+            "description": "Survive a Hazard Level 4 mission from start to finish.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/548430/d01a6bc0e2d033862db4ce3566d8c75030ac2c19.jpg",
+            "unlockedAt": "2026-05-28T07:01:01.000Z",
+            "globalPct": 34.2
+        }
+    ]
+}

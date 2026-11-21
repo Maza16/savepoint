@@ -1,0 +1,27 @@
+{
+    "metadata": {
+        "generatedAt": "2026-11-17T21:00:39Z",
+        "year": 2026
+    },
+    "games": {
+        "23701": {
+            "name": "~Hack~ Mega Man Star Force DX",
+            "icon": "/Images/126519.png",
+            "console": "Nintendo DS"
+        }
+    },
+    "sessions": [
+        {
+            "start": "2026-11-14T23:04:47Z",
+            "end": "2026-11-14T23:46:47Z",
+            "gameId": 23701,
+            "minutes": 42
+        },
+        {
+            "start": "2026-11-17T12:45:18Z",
+            "end": "2026-11-17T12:54:18Z",
+            "gameId": 23701,
+            "minutes": 9
+        }
+    ]
+}

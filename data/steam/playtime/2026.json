@@ -1,0 +1,117 @@
+{
+    "metadata": {
+        "generatedAt": "2026-11-21T06:54:56Z",
+        "year": 2026
+    },
+    "games": {
+        "8980": {
+            "name": "Borderlands GOTY",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/8980/eb45fb32b7f4e75564a30a52aa3c35a191253ea0.jpg"
+        },
+        "413150": {
+            "name": "Stardew Valley",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg"
+        },
+        "582010": {
+            "name": "Monster Hunter: World",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/582010/6ec147f2d423f435e15eb79b3d82f771913de634.jpg"
+        },
+        "648800": {
+            "name": "Raft",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg"
+        },
+        "3678970": {
+            "name": "TBH: Task Bar Hero",
+            "icon": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/293a05477b85149969a15de321eb0ed066187f51.jpg"
+        }
+    },
+    "sessions": [
+        {
+            "start": "2026-11-13T10:45:41Z",
+            "end": "2026-11-13T13:43:12Z",
+            "gameId": 3678970,
+            "minutes": 177
+        },
+        {
+            "start": "2026-11-14T01:17:01Z",
+            "end": "2026-11-14T02:00:01Z",
+            "gameId": 3678970,
+            "minutes": 43
+        },
+        {
+            "start": "2026-11-14T08:09:09Z",
+            "end": "2026-11-14T08:19:09Z",
+            "gameId": 3678970,
+            "minutes": 10
+        },
+        {
+            "start": "2026-11-15T00:29:32Z",
+            "end": "2026-11-15T01:38:32Z",
+            "gameId": 3678970,
+            "minutes": 69
+        },
+        {
+            "start": "2026-11-15T04:33:06Z",
+            "end": "2026-11-15T06:10:06Z",
+            "gameId": 648800,
+            "minutes": 97,
+            "approx": true
+        },
+        {
+            "start": "2026-11-15T13:41:52Z",
+            "end": "2026-11-15T14:49:52Z",
+            "gameId": 8980,
+            "minutes": 68,
+            "approx": true
+        },
+        {
+            "start": "2026-11-15T12:25:52Z",
+            "end": "2026-11-15T14:49:52Z",
+            "gameId": 413150,
+            "minutes": 144,
+            "approx": true
+        },
+        {
+            "start": "2026-11-16T17:19:46Z",
+            "end": "2026-11-16T18:39:46Z",
+            "gameId": 8980,
+            "minutes": 80,
+            "approx": true
+        },
+        {
+            "start": "2026-11-18T17:35:09Z",
+            "end": "2026-11-18T20:39:09Z",
+            "gameId": 648800,
+            "minutes": 184,
+            "approx": true
+        },
+        {
+            "start": "2026-11-19T18:29:48Z",
+            "end": "2026-11-19T20:44:48Z",
+            "gameId": 582010,
+            "minutes": 135,
+            "approx": true
+        },
+        {
+            "start": "2026-11-20T19:50:44Z",
+            "end": "2026-11-20T20:28:44Z",
+            "gameId": 8980,
+            "minutes": 38,
+            "approx": true
+        },
+        {
+            "start": "2026-11-20T18:57:44Z",
+            "end": "2026-11-20T20:28:44Z",
+            "gameId": 582010,
+            "minutes": 91,
+            "approx": true
+        },
+        {
+            "start": "2026-11-21T03:35:56Z",
+            "end": "2026-11-21T06:54:56Z",
+            "gameId": 648800,
+            "minutes": 199,
+            "approx": true
+        }
+    ]
+}

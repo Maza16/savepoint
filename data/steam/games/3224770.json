@@ -1,0 +1,290 @@
+{
+    "appId": 3224770,
+    "hasAchievements": true,
+    "total": 20,
+    "unlocked": 0,
+    "gameName": "Umamusume: Pretty Derby",
+    "achievements": [
+        {
+            "apiName": "CgkIhYPDs_QDEAIQAg",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Play through 10 trainees' Careers",
+            "description": "Complete a Career playthrough for 10 trainees",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 37.2
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQAw",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Play through 30 trainees' Careers",
+            "description": "Complete a Career playthrough for 30 trainees",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 27.1
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQBA",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Play through 50 trainees' Careers",
+            "description": "Complete a Career playthrough for 50 trainees",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 21.9
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQBQ",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Reach a good ending in Career",
+            "description": "Reach the good ending for a trainee",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 39.2
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQCA",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Reach 3 good endings in Career",
+            "description": "Reach the good ending for 3 trainees",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 31.7
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQCg",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Collect 20 trophies",
+            "description": "Collect 20 trophies in Career",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 36.9
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQCQ",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Reach 5 good endings in Career",
+            "description": "Reach the good ending for 5 trainees",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 28
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQCw",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Collect 40 trophies",
+            "description": "Collect 40 trophies in Career",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 28.9
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQDg",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Collect 60 trophies",
+            "description": "Collect 60 trophies in Career",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 21.4
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQEA",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Play Team Trials 50 times",
+            "description": "Race other players in Team Trials 50 times",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 22.7
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQFg",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Play Team Trials 500 times",
+            "description": "Race other players in Team Trials 500 times",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 7.6
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQFQ",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Play Team Trials 100 times",
+            "description": "Race other players in Team Trials 100 times",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 18
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQFw",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Raise Bond Levels 10 times",
+            "description": "Raise your Bond Level with trainees 10 times",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 38.7
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQGA",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Raise Bond Levels 30 times",
+            "description": "Raise your Bond Level with trainees 30 times",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 29.7
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQGg",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Raise Potential Level 5 times",
+            "description": "Raise your trainees' Potential Level 5 times",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 33.7
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQGQ",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Raise Bond Levels 50 times",
+            "description": "Raise your Bond Level with trainees 50 times",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 25.1
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQGw",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Raise Potential Level 10 times",
+            "description": "Raise your trainees' Potential Level 10 times",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 28.2
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQHA",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Raise Potential Level 20 times",
+            "description": "Raise your trainees' Potential Level 20 times",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 21.1
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQHg",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Acquire 50 Support Cards",
+            "description": "Acquire a total of 50 different Support Cards",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 43.1
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQHQ",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Acquire 15 Trainees",
+            "description": "Acquire a total of 15 Trainee Umamusume",
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "hidden": false,
+            "globalPct": 56.1
+        }
+    ],
+    "playtimeForever": 136,
+    "lastPlayedTs": "2026-07-20T09:23:36.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3224770/e6ef0ead88a3ef46988b7aa75e83a8c97c5e48d1.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "CgkIhYPDs_QDEAIQAg",
+            "displayName": "Play through 10 trainees' Careers",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "globalPct": 37.2
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQAw",
+            "displayName": "Play through 30 trainees' Careers",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "globalPct": 27.1
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQBA",
+            "displayName": "Play through 50 trainees' Careers",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "globalPct": 21.9
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQBQ",
+            "displayName": "Reach a good ending in Career",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "globalPct": 39.2
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQCA",
+            "displayName": "Reach 3 good endings in Career",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "globalPct": 31.7
+        },
+        {
+            "apiName": "CgkIhYPDs_QDEAIQCg",
+            "displayName": "Collect 20 trophies",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+            "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+            "globalPct": 36.9
+        }
+    ]
+}

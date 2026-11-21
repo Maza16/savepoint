@@ -1,0 +1,2036 @@
+{
+    "achievementProgress": {
+        "220": {
+            "appId": 220,
+            "hasAchievements": true,
+            "total": 69,
+            "unlocked": 3,
+            "gameName": "Half-Life 2",
+            "playtimeForever": 85,
+            "lastPlayedTs": "2026-01-31T08:51:14.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/fcfb366051782b8ebf2aa297f3b746395858cb62.jpg",
+            "lastUnlockedAt": "2026-01-29T13:36:03.000Z",
+            "lastUnlockName": "Trusty Hardware",
+            "preview": [
+                {
+                    "apiName": "HL2_GET_CROWBAR",
+                    "displayName": "Trusty Hardware",
+                    "unlocked": true,
+                    "unlockedAt": "2026-01-29T13:36:03.000Z",
+                    "iconUrl": "hl2_get_crowbar.jpg",
+                    "iconGrayUrl": "hl2_get_crowbar_bw.jpg",
+                    "globalPct": 67.5
+                },
+                {
+                    "apiName": "HL2_ESCAPE_APARTMENTRAID",
+                    "displayName": "Malcontent",
+                    "unlocked": true,
+                    "unlockedAt": "2026-01-28T13:19:13.000Z",
+                    "iconUrl": "hl2_escape_apartmentraid.jpg",
+                    "iconGrayUrl": "hl2_escape_apartmentraid_bw.jpg",
+                    "globalPct": 70.7
+                },
+                {
+                    "apiName": "HL2_HIT_CANCOP_WITHCAN",
+                    "displayName": "Defiant",
+                    "unlocked": true,
+                    "unlockedAt": "2026-01-28T13:08:27.000Z",
+                    "iconUrl": "hl2_hit_cancop_withcan.jpg",
+                    "iconGrayUrl": "hl2_hit_cancop_withcan_bw.jpg",
+                    "globalPct": 33.4
+                },
+                {
+                    "apiName": "HL2_PUT_CANINTRASH",
+                    "displayName": "Submissive",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "hl2_put_canintrash.jpg",
+                    "iconGrayUrl": "hl2_put_canintrash_bw.jpg",
+                    "globalPct": 45.5
+                },
+                {
+                    "apiName": "HL2_BREAK_MINITELEPORTER",
+                    "displayName": "What cat?",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "hl2_break_miniteleporter.jpg",
+                    "iconGrayUrl": "hl2_break_miniteleporter_bw.jpg",
+                    "globalPct": 12.4
+                },
+                {
+                    "apiName": "HL2_KILL_BARNACLESWITHBARREL",
+                    "displayName": "Barnacle Bowling",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "hl2_kill_barnacleswithbarrel.jpg",
+                    "iconGrayUrl": "hl2_kill_barnacleswithbarrel_bw.jpg",
+                    "globalPct": 37.2
+                }
+            ]
+        },
+        "550": {
+            "appId": 550,
+            "hasAchievements": true,
+            "total": 101,
+            "unlocked": 4,
+            "gameName": "Left 4 Dead 2",
+            "playtimeForever": 391,
+            "lastPlayedTs": "2026-07-01T08:48:02.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/550/7d5a243f9500d2f8467312822f8af2a2928777ed.jpg",
+            "lastUnlockedAt": "2026-07-01T06:23:50.000Z",
+            "lastUnlockName": "ACID REFLEX",
+            "preview": [
+                {
+                    "apiName": "ACH_KILL_SPITTER_FAST",
+                    "displayName": "ACID REFLEX",
+                    "unlocked": true,
+                    "unlockedAt": "2026-07-01T06:23:50.000Z",
+                    "iconUrl": "8d94a8ffcb20fd11de547a6972bcef319fd93bf6.jpg",
+                    "iconGrayUrl": "19c4af0f9bb24b719a086cbd3b63961d8348bf2b.jpg",
+                    "globalPct": 67
+                },
+                {
+                    "apiName": "ACH_SAVE_PLAYER_FROM_JOCKEY_FAST",
+                    "displayName": "A RIDE DENIED",
+                    "unlocked": true,
+                    "unlockedAt": "2026-06-26T15:03:06.000Z",
+                    "iconUrl": "b65a6518c0680448e996e2190d1ed6b00ad14935.jpg",
+                    "iconGrayUrl": "95bb3011848b129b4b7483017a970700a0a22bd1.jpg",
+                    "globalPct": 65.5
+                },
+                {
+                    "apiName": "ACH_BILE_A_TANK",
+                    "displayName": "SEPTIC TANK",
+                    "unlocked": true,
+                    "unlockedAt": "2026-06-26T14:55:35.000Z",
+                    "iconUrl": "415db2343ce702f2ff1f60f25e62b856cd7d5827.jpg",
+                    "iconGrayUrl": "31505f883ee5fd9e3b9548d882c2247e4bc6251b.jpg",
+                    "globalPct": 32.8
+                },
+                {
+                    "apiName": "GLOBAL_GNOME_ALONE",
+                    "displayName": "GNOME ALONE",
+                    "unlocked": true,
+                    "unlockedAt": "2026-01-05T11:49:32.000Z",
+                    "iconUrl": "81522571f3f42048be3e9985a05f7206f7d35e5e.jpg",
+                    "iconGrayUrl": "4f56a3e9550c8097c51fa3e55daa4628bbb79a2d.jpg",
+                    "globalPct": 70
+                },
+                {
+                    "apiName": "ACH_HONK_A_CLOWNS_NOSE",
+                    "displayName": "CL0WND",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "3e5f908b03356376b53cfc3ea3f7e9eda974be89.jpg",
+                    "iconGrayUrl": "9378a26e8de03f3809eb75c835510a2399bd0684.jpg",
+                    "globalPct": 9.8
+                },
+                {
+                    "apiName": "ACH_INCENDIARY_CLOWN_POSSE",
+                    "displayName": "FRIED PIPER",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "8a1dbb0d78c8e288ed5ce990a20454073d01ba9b.jpg",
+                    "iconGrayUrl": "d00f26828f010c50d2659f83acc2d07db37f716b.jpg",
+                    "globalPct": 15.8
+                }
+            ]
+        },
+        "8980": {
+            "appId": 8980,
+            "hasAchievements": true,
+            "total": 80,
+            "unlocked": 11,
+            "gameName": "Borderlands GOTY",
+            "playtimeForever": 310,
+            "lastPlayedTs": "2026-11-20T20:28:44.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/8980/eb45fb32b7f4e75564a30a52aa3c35a191253ea0.jpg",
+            "lastUnlockedAt": "2026-11-20T13:40:09.000Z",
+            "lastUnlockName": "Rootinest, Tootinest, Shootinest",
+            "preview": [
+                {
+                    "apiName": "Achievement_29",
+                    "displayName": "Rootinest, Tootinest, Shootinest",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-20T13:40:09.000Z",
+                    "iconUrl": "2a3b79bbe5b3973a08932034bbd8ac3e184c67e7.jpg",
+                    "iconGrayUrl": "5ff021e88e9b6b215697a49a6c2c416c97b7210b.jpg",
+                    "globalPct": 53.8
+                },
+                {
+                    "apiName": "Achievement_31",
+                    "displayName": "Fence",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-20T13:33:48.000Z",
+                    "iconUrl": "7152c5b157aeced02e160f1a0637f8a679db4260.jpg",
+                    "iconGrayUrl": "8a63d7af0835cd4622f055a98c2c2fbb82096ffb.jpg",
+                    "globalPct": 50.7
+                },
+                {
+                    "apiName": "Achievement_42",
+                    "displayName": "1.21 Gigawatts",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-16T12:34:57.000Z",
+                    "iconUrl": "da215bcf2ce6cea97031310e6c7367f0152d85f3.jpg",
+                    "iconGrayUrl": "65dc6968ca31a076aa343ecb1e9ce3709e1ae831.jpg",
+                    "globalPct": 42.8
+                },
+                {
+                    "apiName": "Achievement_20",
+                    "displayName": "Discovered Sledge's Safe House",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-16T12:24:41.000Z",
+                    "iconUrl": "d9d6166ea65476e3e3970fd20a922a920725b053.jpg",
+                    "iconGrayUrl": "b43d0987b77853cfe7375e4166d0cb798c62c698.jpg",
+                    "globalPct": 56.7
+                },
+                {
+                    "apiName": "Achievement_28",
+                    "displayName": "Get A Little Blood on the Tires",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-16T11:49:57.000Z",
+                    "iconUrl": "c39d978183f33a2bc9be266e5ff6122929b2d733.jpg",
+                    "iconGrayUrl": "62364459dece1905604a315abeea62e415145125.jpg",
+                    "globalPct": 53.9
+                },
+                {
+                    "apiName": "Achievement_48",
+                    "displayName": "Careful, He Bites",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-15T10:52:20.000Z",
+                    "iconUrl": "ecbf18aadbd848691f87a223c83d6d39627574c5.jpg",
+                    "iconGrayUrl": "ce1754d36bb8272284fe9d692adaec7dff33337e.jpg",
+                    "globalPct": 25.4
+                }
+            ]
+        },
+        "105600": {
+            "appId": 105600,
+            "hasAchievements": true,
+            "total": 137,
+            "unlocked": 106,
+            "gameName": "Terraria",
+            "playtimeForever": 5530,
+            "lastPlayedTs": "2026-10-19T12:36:35.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/858961e95fbf869f136e1770d586e0caefd4cfac.jpg",
+            "lastUnlockedAt": "2026-03-31T11:03:55.000Z",
+            "lastUnlockName": "Hero of Etheria",
+            "preview": [
+                {
+                    "apiName": "DEFEAT_OLD_ONES_ARMY_TIER3",
+                    "displayName": "Hero of Etheria",
+                    "unlocked": true,
+                    "unlockedAt": "2026-03-31T11:03:55.000Z",
+                    "iconUrl": "2c1f94b506fc34b6f3cb805c08b1b19484e4c5aa.jpg",
+                    "iconGrayUrl": "7df01b8161f74f4955b862736c0b5b8bcf045d23.jpg",
+                    "globalPct": 12.2
+                },
+                {
+                    "apiName": "GAIN_TORCH_GODS_FAVOR",
+                    "displayName": "Torch God",
+                    "unlocked": true,
+                    "unlockedAt": "2026-03-29T06:50:56.000Z",
+                    "iconUrl": "a3ec24fea5772694e7b994a5435736c48a310e50.jpg",
+                    "iconGrayUrl": "2d90ca6d4475fb2103f5c9d8c6b469f81652a809.jpg",
+                    "globalPct": 10.5
+                },
+                {
+                    "apiName": "DEFEAT_EMPRESS_OF_LIGHT",
+                    "displayName": "Fae Flayer",
+                    "unlocked": true,
+                    "unlockedAt": "2026-03-12T10:40:23.000Z",
+                    "iconUrl": "ae620dba9905fffad026095e82548c0cddb31b94.jpg",
+                    "iconGrayUrl": "9aedb19301a931e82d22736eff0c068e07ed0760.jpg",
+                    "globalPct": 15.5
+                },
+                {
+                    "apiName": "YOU_AND_WHAT_ARMY",
+                    "displayName": "You and What Army?",
+                    "unlocked": true,
+                    "unlockedAt": "2026-03-12T10:17:50.000Z",
+                    "iconUrl": "3b575ae17236ef4fda976015685e0e2c55b4c2e4.jpg",
+                    "iconGrayUrl": "3720f2cb46ac0ae9474d4bf7de094eb2d28d9080.jpg",
+                    "globalPct": 13.6
+                },
+                {
+                    "apiName": "GOOD_LITTLE_SLAVE",
+                    "displayName": "Good Little Slave",
+                    "unlocked": true,
+                    "unlockedAt": "2026-03-12T08:57:30.000Z",
+                    "iconUrl": "d3c8364503839510538d9689703a49ebf7871354.jpg",
+                    "iconGrayUrl": "dff9d0c485bfaca3b75b6d72ea8683882742b71b.jpg",
+                    "globalPct": 12.7
+                },
+                {
+                    "apiName": "DEFEAT_DREADNAUTILUS",
+                    "displayName": "Don't Dread on Me",
+                    "unlocked": true,
+                    "unlockedAt": "2026-03-12T08:45:48.000Z",
+                    "iconUrl": "f36753b1fe186f04edf1a7ae791b85f70b07302b.jpg",
+                    "iconGrayUrl": "613f71db1cf2797cbb409c2bfc139114298512bd.jpg",
+                    "globalPct": 9.7
+                }
+            ]
+        },
+        "108710": {
+            "appId": 108710,
+            "hasAchievements": true,
+            "total": 67,
+            "unlocked": 31,
+            "gameName": "Alan Wake",
+            "playtimeForever": 870,
+            "lastPlayedTs": "2024-12-30T12:35:57.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/108710/ec7953511aaaf5a2c2093b872b5b43c6cab56462.jpg",
+            "lastUnlockedAt": "2024-12-20T13:59:50.000Z",
+            "lastUnlockName": "Departure",
+            "preview": [
+                {
+                    "apiName": "17",
+                    "displayName": "Departure",
+                    "unlocked": true,
+                    "unlockedAt": "2024-12-20T13:59:50.000Z",
+                    "iconUrl": "04282dc43b371095c3237789e066cc3d9166fca8.jpg",
+                    "iconGrayUrl": "73cd3b4b7bdb0400224689860d34ea1074da8f35.jpg",
+                    "globalPct": 27
+                },
+                {
+                    "apiName": "18",
+                    "displayName": "Hardboiled Writer",
+                    "unlocked": true,
+                    "unlockedAt": "2024-12-20T13:59:50.000Z",
+                    "iconUrl": "31af5ca5983431b681701351d2380e4350148d16.jpg",
+                    "iconGrayUrl": "c6a377f480d5754928bad9d5c2bec1636288a3a1.jpg",
+                    "globalPct": 20.5
+                },
+                {
+                    "apiName": "16",
+                    "displayName": "Tornado Wrangler",
+                    "unlocked": true,
+                    "unlockedAt": "2024-12-20T13:50:17.000Z",
+                    "iconUrl": "a84b7fd58dac43905008a78e886b6388fefbcd1c.jpg",
+                    "iconGrayUrl": "3c9e21d233137fc3ef8d4de2924627cce7794461.jpg",
+                    "globalPct": 27
+                },
+                {
+                    "apiName": "15",
+                    "displayName": "The Lady of the Light",
+                    "unlocked": true,
+                    "unlockedAt": "2024-12-17T13:51:45.000Z",
+                    "iconUrl": "06023a21544daaae19a040f444ae9dc6d27c9608.jpg",
+                    "iconGrayUrl": "b151cf3552d6bddfa5d3a2d9bdde332199c61136.jpg",
+                    "globalPct": 28
+                },
+                {
+                    "apiName": "14",
+                    "displayName": "Gatekeeper",
+                    "unlocked": true,
+                    "unlockedAt": "2024-12-17T12:24:30.000Z",
+                    "iconUrl": "42ddb852a2f38012bc2fdf9bd5948a996ab24f51.jpg",
+                    "iconGrayUrl": "847b54c472226174d25402aa4d51b1841d8b0d4f.jpg",
+                    "globalPct": 28.2
+                },
+                {
+                    "apiName": "24",
+                    "displayName": "It's Not Just a Typewriter Brand",
+                    "unlocked": true,
+                    "unlockedAt": "2024-12-17T11:35:50.000Z",
+                    "iconUrl": "504cd22c83ae16cd8ffc778bd78c1a59c35e5823.jpg",
+                    "iconGrayUrl": "a3110817afc6af898a7f31c0263101a0011f1f44.jpg",
+                    "globalPct": 28.9
+                }
+            ]
+        },
+        "220240": {
+            "appId": 220240,
+            "hasAchievements": true,
+            "total": 44,
+            "unlocked": 18,
+            "gameName": "Far Cry® 3",
+            "playtimeForever": 1162,
+            "lastPlayedTs": "2026-03-27T11:47:49.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220240/8231f43d3dd47fb4b4111fd6bd4a849e73eb0520.jpg",
+            "lastUnlockedAt": "2025-03-18T06:27:50.000Z",
+            "lastUnlockName": "First Blood",
+            "preview": [
+                {
+                    "apiName": "FarCry3_Ach_1",
+                    "displayName": "First Blood",
+                    "unlocked": true,
+                    "unlockedAt": "2025-03-18T06:27:50.000Z",
+                    "iconUrl": "07ff0ae5e79913c8755b6cfd31f23d04df2127a0.jpg",
+                    "iconGrayUrl": "007a501957b25b3303be7991930306152a2c7a87.jpg",
+                    "globalPct": 20.7
+                },
+                {
+                    "apiName": "FarCry3_Ach_2",
+                    "displayName": "Magic Mushroom",
+                    "unlocked": true,
+                    "unlockedAt": "2025-03-18T06:27:50.000Z",
+                    "iconUrl": "c60ebf677749e56087a1bb1e50b179af8bed263d.jpg",
+                    "iconGrayUrl": "941ab6fbe811de92f1e5683e027218113d712ad6.jpg",
+                    "globalPct": 15.8
+                },
+                {
+                    "apiName": "FarCry3_Ach_3",
+                    "displayName": "Worst Date Ever",
+                    "unlocked": true,
+                    "unlockedAt": "2025-03-18T06:27:50.000Z",
+                    "iconUrl": "2469a54c7518c8f1313014ad62c909dc4edcf2df.jpg",
+                    "iconGrayUrl": "b8f592145912d253bd1976087c41a4c5fb2a1f71.jpg",
+                    "globalPct": 13.3
+                },
+                {
+                    "apiName": "FarCry3_Ach_4",
+                    "displayName": "One of Us",
+                    "unlocked": true,
+                    "unlockedAt": "2025-03-18T06:27:50.000Z",
+                    "iconUrl": "99c359c13454546e25911f5ad74f1640e3200ae9.jpg",
+                    "iconGrayUrl": "a0fabf2497ebb874945a4e532600900706d29350.jpg",
+                    "globalPct": 12.4
+                },
+                {
+                    "apiName": "FarCry3_Ach_14",
+                    "displayName": "Inked Up",
+                    "unlocked": true,
+                    "unlockedAt": "2025-03-18T06:27:50.000Z",
+                    "iconUrl": "08516e09466e885a45b2c77414a73a2f9dbfa20a.jpg",
+                    "iconGrayUrl": "fe2fe5644caa2ece8d6f5abd380901d67cfca7b4.jpg",
+                    "globalPct": 14.9
+                },
+                {
+                    "apiName": "FarCry3_Ach_16",
+                    "displayName": "Money to Burn",
+                    "unlocked": true,
+                    "unlockedAt": "2025-03-18T06:27:50.000Z",
+                    "iconUrl": "40b541f4a1303e626fa66afcfabf4a0654a4e351.jpg",
+                    "iconGrayUrl": "9716a372757a0e586505d4c9cb01d9936dcf1679.jpg",
+                    "globalPct": 11.5
+                }
+            ]
+        },
+        "230410": {
+            "appId": 230410,
+            "hasAchievements": true,
+            "total": 193,
+            "unlocked": 72,
+            "gameName": "Warframe",
+            "playtimeForever": 2415,
+            "lastPlayedTs": "2026-05-16T04:29:49.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/230410/22064646470f4c53388ba87774c7ac10f0a91ffa.jpg",
+            "lastUnlockedAt": "2026-04-29T14:37:07.000Z",
+            "lastUnlockName": "Heavy Weapon Proficiency III",
+            "preview": [
+                {
+                    "apiName": "ACHIEVEMENT_45",
+                    "displayName": "Heavy Weapon Proficiency III",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-29T14:37:07.000Z",
+                    "iconUrl": "e928737003bb5a4654a4a94f2a0cb32b42d7376f.jpg",
+                    "iconGrayUrl": "857183ecf3200765dbb3773fcbb2535581e93275.jpg",
+                    "globalPct": 15.6
+                },
+                {
+                    "apiName": "ACHIEVEMENT_65",
+                    "displayName": "Gold Novice",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-29T14:37:07.000Z",
+                    "iconUrl": "9e6029fbd2ed3ea04c99ae834f74d0d0a16a675c.jpg",
+                    "iconGrayUrl": "174c4c9ec7a6c7e6d7b658a83d337e63259b3fe3.jpg",
+                    "globalPct": 16.1
+                },
+                {
+                    "apiName": "ACHIEVEMENT_191",
+                    "displayName": "Gonna Need a Bigger Boat",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-29T10:50:51.000Z",
+                    "iconUrl": "069378d6016a998a63be3fb15787ceec93ca330b.jpg",
+                    "iconGrayUrl": "3e2561d857ad8361995a6d235b6650dba214291c.jpg",
+                    "globalPct": 13.2
+                },
+                {
+                    "apiName": "ACHIEVEMENT_44",
+                    "displayName": "Heavy Weapon Proficiency II",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-27T13:14:01.000Z",
+                    "iconUrl": "4518c4ae839264edfd374d41eb6df28cf445ed42.jpg",
+                    "iconGrayUrl": "2b753d49f81929ee3480bb47302275d0de66668a.jpg",
+                    "globalPct": 16.3
+                },
+                {
+                    "apiName": "ACHIEVEMENT_117",
+                    "displayName": "Shotgun Proficiency I",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-27T13:14:01.000Z",
+                    "iconUrl": "713c5c0374867ac7cd61ede0593cd72b48d2588a.jpg",
+                    "iconGrayUrl": "50257e0e5bf6d56ba3f978a5dbefdb01f6f06401.jpg",
+                    "globalPct": 17.3
+                },
+                {
+                    "apiName": "ACHIEVEMENT_14",
+                    "displayName": "Bow Proficiency III",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-27T10:56:37.000Z",
+                    "iconUrl": "19193181ccbe6a3ff69a5f0c6ae15fac10c47429.jpg",
+                    "iconGrayUrl": "62b557d73182b80fc7decf0a7453df26d2f88f1c.jpg",
+                    "globalPct": 17.7
+                }
+            ]
+        },
+        "286690": {
+            "appId": 286690,
+            "hasAchievements": true,
+            "total": 49,
+            "unlocked": 15,
+            "gameName": "Metro 2033 Redux",
+            "playtimeForever": 599,
+            "lastPlayedTs": "2026-06-13T07:16:30.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/286690/353ea01a045c084215bca95519808eaa7319ce0c.jpg",
+            "lastUnlockedAt": "2026-06-10T07:51:58.000Z",
+            "lastUnlockName": "If it's hostile, you kill it.",
+            "preview": [
+                {
+                    "apiName": "2033_true_ranger",
+                    "displayName": "If it's hostile, you kill it.",
+                    "unlocked": true,
+                    "unlockedAt": "2026-06-10T07:51:58.000Z",
+                    "iconUrl": "6d668bd9ece2006f26c39cc46e2ffd4bb0b11fca.jpg",
+                    "iconGrayUrl": "955747179aab607d0be0e276cd824f46b2034263.jpg",
+                    "globalPct": 32.3
+                },
+                {
+                    "apiName": "2033_survival",
+                    "displayName": "Survivor 2033",
+                    "unlocked": true,
+                    "unlockedAt": "2026-06-10T07:51:49.000Z",
+                    "iconUrl": "20199771d4ccc26990f194ff0fa552ab47252109.jpg",
+                    "iconGrayUrl": "955747179aab607d0be0e276cd824f46b2034263.jpg",
+                    "globalPct": 23.2
+                },
+                {
+                    "apiName": "2033_inquisitor",
+                    "displayName": "Inquisitor",
+                    "unlocked": true,
+                    "unlockedAt": "2026-06-10T07:37:08.000Z",
+                    "iconUrl": "23decef7644d80d814a4611856e864916d8d71c6.jpg",
+                    "iconGrayUrl": "955747179aab607d0be0e276cd824f46b2034263.jpg",
+                    "globalPct": 26.8
+                },
+                {
+                    "apiName": "2033_hunter",
+                    "displayName": "Hunter",
+                    "unlocked": true,
+                    "unlockedAt": "2026-06-10T07:30:30.000Z",
+                    "iconUrl": "bc8abf848cdc8ced11ac0b2f8c4323a229712e7e.jpg",
+                    "iconGrayUrl": "955747179aab607d0be0e276cd824f46b2034263.jpg",
+                    "globalPct": 37
+                },
+                {
+                    "apiName": "2033_watchman_hunter",
+                    "displayName": "Watchman hunter",
+                    "unlocked": true,
+                    "unlockedAt": "2026-06-10T07:29:01.000Z",
+                    "iconUrl": "76bd60a98eca07d4ba672853cff149ba82f40326.jpg",
+                    "iconGrayUrl": "955747179aab607d0be0e276cd824f46b2034263.jpg",
+                    "globalPct": 38.1
+                },
+                {
+                    "apiName": "2033_pyro",
+                    "displayName": "Pyro",
+                    "unlocked": true,
+                    "unlockedAt": "2026-06-09T07:35:54.000Z",
+                    "iconUrl": "f7cfee9571424414bf12644385d72a391cab53bd.jpg",
+                    "iconGrayUrl": "955747179aab607d0be0e276cd824f46b2034263.jpg",
+                    "globalPct": 17
+                }
+            ]
+        },
+        "373420": {
+            "appId": 373420,
+            "hasAchievements": true,
+            "total": 54,
+            "unlocked": 4,
+            "gameName": "Divinity: Original Sin Enhanced Edition",
+            "playtimeForever": 405,
+            "lastPlayedTs": "2026-02-08T03:52:58.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/373420/822ff912b2e464fbebbedf7a75ae1eb24921f16b.jpg",
+            "lastUnlockedAt": "2025-01-04T04:12:38.000Z",
+            "lastUnlockName": "Trick bag",
+            "preview": [
+                {
+                    "apiName": "quest3",
+                    "displayName": "Trick bag",
+                    "unlocked": true,
+                    "unlockedAt": "2025-01-04T04:12:38.000Z",
+                    "iconUrl": "28725dd8d0b47f4756aab433b15a4cc32d0597e5.jpg",
+                    "iconGrayUrl": "61eb37180f1986cb4f510049710dfadfbfb4638d.jpg",
+                    "globalPct": 57.8
+                },
+                {
+                    "apiName": "questee23",
+                    "displayName": "Memory Motel",
+                    "unlocked": true,
+                    "unlockedAt": "2025-01-04T03:46:04.000Z",
+                    "iconUrl": "c8e557cd79433b748fc9177b61b2e605a86d42eb.jpg",
+                    "iconGrayUrl": "e20cec29c88a0fdbfa5bea2e6b80770421fc4323.jpg",
+                    "globalPct": 38.8
+                },
+                {
+                    "apiName": "quest11",
+                    "displayName": "Suspicious minds",
+                    "unlocked": true,
+                    "unlockedAt": "2025-01-04T03:38:11.000Z",
+                    "iconUrl": "d1bbcdfea50157178577b2f5cb43a381c79ce3ee.jpg",
+                    "iconGrayUrl": "32f9f503aa61f6ff4b5dcff2d0a155b1bbe81c53.jpg",
+                    "globalPct": 56.1
+                },
+                {
+                    "apiName": "quest1",
+                    "displayName": "Shell shock",
+                    "unlocked": true,
+                    "unlockedAt": "2024-12-24T12:46:13.000Z",
+                    "iconUrl": "2528f8e4593cddbed5e0ec1ea03e65341b9b9f30.jpg",
+                    "iconGrayUrl": "782073007d31e307423c97a78346a05fd77e718d.jpg",
+                    "globalPct": 45.1
+                },
+                {
+                    "apiName": "quest2",
+                    "displayName": "Is anyone home?",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "96c07851032774f74ee3d7f8b24b0541a17c3968.jpg",
+                    "iconGrayUrl": "4dd78c79f93b17bda81956c79ab561d1d371e0d9.jpg",
+                    "globalPct": 26.7
+                },
+                {
+                    "apiName": "quest5",
+                    "displayName": "Caught in the game",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "43a792c1f37bab0810abe5247b2b8dbfee4a1c96.jpg",
+                    "iconGrayUrl": "57a8f628d92c3bed11c9316a1df8b8d625d66c3a.jpg",
+                    "globalPct": 5.9
+                }
+            ]
+        },
+        "380600": {
+            "appId": 380600,
+            "hasAchievements": true,
+            "total": 17,
+            "unlocked": 0,
+            "gameName": "Fishing Planet",
+            "playtimeForever": 9,
+            "lastPlayedTs": "2026-06-08T05:19:39.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/380600/df6785140de8c32f6baec7fd7fd74c5823459250.jpg",
+            "lastUnlockedAt": null,
+            "lastUnlockName": null,
+            "preview": [
+                {
+                    "apiName": "ACH_F2P_TIGHT_LINES",
+                    "displayName": "Tight Lines!",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "8a09ed7aba5792e9fd3fa36b82be7087593f1fd6.jpg",
+                    "iconGrayUrl": "542e05faa30d002354ea7157f1d9e32e691b077a.jpg",
+                    "globalPct": 53
+                },
+                {
+                    "apiName": "ACH_F2P_BASS_MASTER",
+                    "displayName": "Bass Master",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "efb4c993a743d55d80a97169fe88658f538eb618.jpg",
+                    "iconGrayUrl": "5050fe0681b3e1440a41ee04c6a6ff69b5876e33.jpg",
+                    "globalPct": 2.3
+                },
+                {
+                    "apiName": "ACH_F2P_TROUT_MASTER",
+                    "displayName": "Trout Master",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "861056c191c7ec2d1e4e52946c9a4fa01783b4e0.jpg",
+                    "iconGrayUrl": "feff005c9e7261b768dfbdaee82bb32a3fbd9e38.jpg",
+                    "globalPct": 2.1
+                },
+                {
+                    "apiName": "ACH_F2P_PIKE_MASTER",
+                    "displayName": "Pike Master",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "3f7f22c3afbf0da371a53e06c5dbfc5b22a7f62b.jpg",
+                    "iconGrayUrl": "ea8beca12a75268225e1c0da1eba4003d70e978d.jpg",
+                    "globalPct": 2
+                },
+                {
+                    "apiName": "ACH_F2P_PANFISH_OVERLORD",
+                    "displayName": "Panfish Overlord",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "3bd416fc66af1df100c88a6c5d5f508d887f642e.jpg",
+                    "iconGrayUrl": "1de0e52862d596350034db30e9ebb6efac920727.jpg",
+                    "globalPct": 2
+                },
+                {
+                    "apiName": "ACH_F2P_CATFISH_MASTER",
+                    "displayName": "Catfish Master",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "7fb7013845b029a02545ae06c71761a2ca9afb18.jpg",
+                    "iconGrayUrl": "f9e09cb0a24d24a87fd1a7e590fd8903924437a5.jpg",
+                    "globalPct": 1.3
+                }
+            ]
+        },
+        "412020": {
+            "appId": 412020,
+            "hasAchievements": true,
+            "total": 68,
+            "unlocked": 0,
+            "gameName": "Metro Exodus",
+            "lastUnlockedAt": null,
+            "lastUnlockName": null,
+            "preview": [
+                {
+                    "apiName": "coachman",
+                    "displayName": "Brakeman",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "8d162e9a834d4a224320af0ba190bc71790da745.jpg",
+                    "iconGrayUrl": "3163dedb2d9bced02f9563331c38bab0136f416e.jpg",
+                    "globalPct": 5
+                },
+                {
+                    "apiName": "exodus",
+                    "displayName": "Exodus",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "5ed2d78de7c6fd9509f29b60a2b5775459b47036.jpg",
+                    "iconGrayUrl": "3163dedb2d9bced02f9563331c38bab0136f416e.jpg",
+                    "globalPct": 70.2
+                },
+                {
+                    "apiName": "aurora",
+                    "displayName": "Aurora",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "e6e30081fcc1112739115e182514a1945eac66cd.jpg",
+                    "iconGrayUrl": "3163dedb2d9bced02f9563331c38bab0136f416e.jpg",
+                    "globalPct": 69
+                },
+                {
+                    "apiName": "regatta",
+                    "displayName": "Regatta",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "b13a8b4205bbf6fbd90a1d8ea8be407a5a4d3321.jpg",
+                    "iconGrayUrl": "3163dedb2d9bced02f9563331c38bab0136f416e.jpg",
+                    "globalPct": 67
+                },
+                {
+                    "apiName": "railwayman",
+                    "displayName": "Railwayman",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "bfb06d8a4812e713577231156ba1a3e75610af67.jpg",
+                    "iconGrayUrl": "3163dedb2d9bced02f9563331c38bab0136f416e.jpg",
+                    "globalPct": 50
+                },
+                {
+                    "apiName": "crew_friend",
+                    "displayName": "Friend of the Crew",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "f345b4928511d99b004605a183a6273184e063cb.jpg",
+                    "iconGrayUrl": "3163dedb2d9bced02f9563331c38bab0136f416e.jpg",
+                    "globalPct": 39.3
+                }
+            ]
+        },
+        "413150": {
+            "appId": 413150,
+            "hasAchievements": true,
+            "total": 49,
+            "unlocked": 16,
+            "gameName": "Stardew Valley",
+            "playtimeForever": 3858,
+            "lastPlayedTs": "2026-11-15T14:49:52.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg",
+            "lastUnlockedAt": "2026-11-01T03:38:30.000Z",
+            "lastUnlockName": "Moving Up",
+            "preview": [
+                {
+                    "apiName": "18",
+                    "displayName": "Moving Up",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-01T03:38:30.000Z",
+                    "iconUrl": "67f2c064873468b80c57218f0992c15f7d2fe83e.jpg",
+                    "iconGrayUrl": "7c1023f2d0451e46774d3fe48061add05595739c.jpg",
+                    "globalPct": 42.7
+                },
+                {
+                    "apiName": "Achievement_SingularTalent",
+                    "displayName": "Singular Talent",
+                    "unlocked": true,
+                    "unlockedAt": "2026-10-31T13:33:46.000Z",
+                    "iconUrl": "1ec2b88c7f5e482edfc962a649360b40c38a4401.jpg",
+                    "iconGrayUrl": "0633bdab9800ec8f3458167f9da582bc708ff4f0.jpg",
+                    "globalPct": 40.8
+                },
+                {
+                    "apiName": "Achievement_TheBottom",
+                    "displayName": "The Bottom",
+                    "unlocked": true,
+                    "unlockedAt": "2026-10-24T14:20:49.000Z",
+                    "iconUrl": "d013c91bc0788fd047be29bf04447c4ada43b57c.jpg",
+                    "iconGrayUrl": "2d12730539cce0e1635d6242090d22e38284c27d.jpg",
+                    "globalPct": 43.1
+                },
+                {
+                    "apiName": "2",
+                    "displayName": "Homesteader",
+                    "unlocked": true,
+                    "unlockedAt": "2026-10-24T14:16:31.000Z",
+                    "iconUrl": "b81de530e1de874a4add0b690d372df3ffc44ea2.jpg",
+                    "iconGrayUrl": "54b8d609ae49a3bfc55ba518622f7eeb155863df.jpg",
+                    "globalPct": 44.4
+                },
+                {
+                    "apiName": "11",
+                    "displayName": "Cliques",
+                    "unlocked": true,
+                    "unlockedAt": "2026-08-05T10:27:14.000Z",
+                    "iconUrl": "dafe0ceff688bebb1c8554cbfa478e9826eb7074.jpg",
+                    "iconGrayUrl": "c0e16fe2b61793bfd49d7e2af4b7d1b0593b1b31.jpg",
+                    "globalPct": 28.8
+                },
+                {
+                    "apiName": "7",
+                    "displayName": "Best Friends",
+                    "unlocked": true,
+                    "unlockedAt": "2026-08-01T12:54:52.000Z",
+                    "iconUrl": "da975460e6ca17e1cf397d598d4eb9c65502f786.jpg",
+                    "iconGrayUrl": "ecc68d32d9c812da5bc43676d4c3315113682f95.jpg",
+                    "globalPct": 32
+                }
+            ]
+        },
+        "429660": {
+            "appId": 429660,
+            "hasAchievements": true,
+            "total": 51,
+            "unlocked": 0,
+            "gameName": "Tales of Berseria",
+            "playtimeForever": 155,
+            "lastPlayedTs": "2026-10-13T07:36:59.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/429660/bc14b91107afcf731e5c324e3f1ef83098d8a8fa.jpg",
+            "lastUnlockedAt": null,
+            "lastUnlockName": null,
+            "preview": [
+                {
+                    "apiName": "TROPHY_ID_COMPLETE",
+                    "displayName": "Champion of Berseria",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "5743c0718cc51fcac716eb0f1f42ed853f746498.jpg",
+                    "iconGrayUrl": "85de709d475a577a54bac421045503292b43b2cb.jpg",
+                    "globalPct": 1.2
+                },
+                {
+                    "apiName": "TROPHY_ID_SCENARIO_001",
+                    "displayName": "The Beast Uncaged",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "fd7a1b2435bab43bb4bc28b9f366c4b51b37fd99.jpg",
+                    "iconGrayUrl": "85de709d475a577a54bac421045503292b43b2cb.jpg",
+                    "globalPct": 67
+                },
+                {
+                    "apiName": "TROPHY_ID_SCENARIO_002",
+                    "displayName": "The Hero's Bane",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "d11bba307c73d206e2b860c43667de907fefc0cc.jpg",
+                    "iconGrayUrl": "85de709d475a577a54bac421045503292b43b2cb.jpg",
+                    "globalPct": 36.5
+                },
+                {
+                    "apiName": "TROPHY_ID_SCENARIO_003",
+                    "displayName": "The Sower of Strife",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "618c8fd41eeb895a965d395c529539e491dfffcb.jpg",
+                    "iconGrayUrl": "85de709d475a577a54bac421045503292b43b2cb.jpg",
+                    "globalPct": 25.8
+                },
+                {
+                    "apiName": "TROPHY_ID_SCENARIO_004",
+                    "displayName": "The Transgressor's Chains",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "a4053c04358bfff8fd8f543d758b3db243774870.jpg",
+                    "iconGrayUrl": "85de709d475a577a54bac421045503292b43b2cb.jpg",
+                    "globalPct": 22.3
+                },
+                {
+                    "apiName": "TROPHY_ID_SCENARIO_005",
+                    "displayName": "The Unquenchable Flame",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "bc4a3c67d132e9def93de906d28be188afbda2d8.jpg",
+                    "iconGrayUrl": "85de709d475a577a54bac421045503292b43b2cb.jpg",
+                    "globalPct": 21.9
+                }
+            ]
+        },
+        "438490": {
+            "appId": 438490,
+            "hasAchievements": true,
+            "total": 47,
+            "unlocked": 1,
+            "gameName": "GOD EATER 2 Rage Burst",
+            "playtimeForever": 20,
+            "lastPlayedTs": "2025-11-06T09:51:12.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/438490/c694868390c63d40956b78e61dc0df27ce493a8c.jpg",
+            "lastUnlockedAt": "2025-11-06T09:38:33.000Z",
+            "lastUnlockName": "God Arc Compatible",
+            "preview": [
+                {
+                    "apiName": "TROPHY_ID_StoryDemo_01",
+                    "displayName": "God Arc Compatible",
+                    "unlocked": true,
+                    "unlockedAt": "2025-11-06T09:38:33.000Z",
+                    "iconUrl": "52409457b8ab66a4bed29bc7b44a3afb08213490.jpg",
+                    "iconGrayUrl": "8b7363df4262a8fc53ad7a87a700bd7a6afdffb9.jpg",
+                    "globalPct": 80.4
+                },
+                {
+                    "apiName": "TROPHY_ID_PLATINUM",
+                    "displayName": "Paragon God Eater",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "515053a204d35c74b64bb8eb984766fd5695ebe3.jpg",
+                    "iconGrayUrl": "8feb141beaf097b3bec8f3b5fde8c4413ad016cd.jpg",
+                    "globalPct": 1.7
+                },
+                {
+                    "apiName": "TROPHY_ID_StoryDemo_02",
+                    "displayName": "The Distant East",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "52409457b8ab66a4bed29bc7b44a3afb08213490.jpg",
+                    "iconGrayUrl": "8b7363df4262a8fc53ad7a87a700bd7a6afdffb9.jpg",
+                    "globalPct": 24.5
+                },
+                {
+                    "apiName": "TROPHY_ID_StoryDemo_03",
+                    "displayName": "Mourning",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "52409457b8ab66a4bed29bc7b44a3afb08213490.jpg",
+                    "iconGrayUrl": "8b7363df4262a8fc53ad7a87a700bd7a6afdffb9.jpg",
+                    "globalPct": 13.8
+                },
+                {
+                    "apiName": "TROPHY_ID_StoryDemo_04",
+                    "displayName": "Overcoming Grief",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "52409457b8ab66a4bed29bc7b44a3afb08213490.jpg",
+                    "iconGrayUrl": "8b7363df4262a8fc53ad7a87a700bd7a6afdffb9.jpg",
+                    "globalPct": 12.6
+                },
+                {
+                    "apiName": "TROPHY_ID_StoryDemo_05",
+                    "displayName": "The Spiral Tree",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "52409457b8ab66a4bed29bc7b44a3afb08213490.jpg",
+                    "iconGrayUrl": "8b7363df4262a8fc53ad7a87a700bd7a6afdffb9.jpg",
+                    "globalPct": 10.8
+                }
+            ]
+        },
+        "460870": {
+            "appId": 460870,
+            "hasAchievements": true,
+            "total": 33,
+            "unlocked": 9,
+            "gameName": "GOD EATER RESURRECTION",
+            "playtimeForever": 205,
+            "lastPlayedTs": "2026-11-14T08:23:28.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/460870/0b3a9c5f24bbc389654d2f189093cafe3cad6e7a.jpg",
+            "lastUnlockedAt": "2026-04-18T11:01:49.000Z",
+            "lastUnlockName": "Camaraderie",
+            "preview": [
+                {
+                    "apiName": "TROPHY_ID_NpcAbility",
+                    "displayName": "Camaraderie",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-18T11:01:49.000Z",
+                    "iconUrl": "9f64e852e26cf75c5f2f365a99dea5a074fcf669.jpg",
+                    "iconGrayUrl": "6fe60150e9f8a0d11079689a6ba92993e9234acf.jpg",
+                    "globalPct": 35.7
+                },
+                {
+                    "apiName": "TROPHY_ID_AttributeCritical",
+                    "displayName": "Exploiting Weakness",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-18T10:25:20.000Z",
+                    "iconUrl": "9f64e852e26cf75c5f2f365a99dea5a074fcf669.jpg",
+                    "iconGrayUrl": "6fe60150e9f8a0d11079689a6ba92993e9234acf.jpg",
+                    "globalPct": 38.7
+                },
+                {
+                    "apiName": "TROPHY_ID_ClearRareMission",
+                    "displayName": "Urgent Mission Accomplished",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-17T14:03:56.000Z",
+                    "iconUrl": "9f64e852e26cf75c5f2f365a99dea5a074fcf669.jpg",
+                    "iconGrayUrl": "6fe60150e9f8a0d11079689a6ba92993e9234acf.jpg",
+                    "globalPct": 37.1
+                },
+                {
+                    "apiName": "TROPHY_ID_EquipComp",
+                    "displayName": "New Gear",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-14T11:47:10.000Z",
+                    "iconUrl": "9f64e852e26cf75c5f2f365a99dea5a074fcf669.jpg",
+                    "iconGrayUrl": "6fe60150e9f8a0d11079689a6ba92993e9234acf.jpg",
+                    "globalPct": 45.9
+                },
+                {
+                    "apiName": "TROPHY_ID_EnemyRegionBreak",
+                    "displayName": "Broken Bond",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-14T11:41:48.000Z",
+                    "iconUrl": "9f64e852e26cf75c5f2f365a99dea5a074fcf669.jpg",
+                    "iconGrayUrl": "6fe60150e9f8a0d11079689a6ba92993e9234acf.jpg",
+                    "globalPct": 51.4
+                },
+                {
+                    "apiName": "TROPHY_ID_EquipReinforce",
+                    "displayName": "God Arc Tuning",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-14T11:32:33.000Z",
+                    "iconUrl": "9f64e852e26cf75c5f2f365a99dea5a074fcf669.jpg",
+                    "iconGrayUrl": "6fe60150e9f8a0d11079689a6ba92993e9234acf.jpg",
+                    "globalPct": 44.1
+                }
+            ]
+        },
+        "489630": {
+            "appId": 489630,
+            "hasAchievements": true,
+            "total": 166,
+            "unlocked": 0,
+            "gameName": "Warhammer 40,000: Gladius - Relics of War",
+            "playtimeForever": 2,
+            "lastPlayedTs": "2026-01-28T12:35:02.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/489630/ba6ea4fbeec62073763e103450e8aa7c5373d010.jpg",
+            "lastUnlockedAt": null,
+            "lastUnlockName": null,
+            "preview": [
+                {
+                    "apiName": "WinAsAstraMilitarum",
+                    "displayName": "We Have Tanks On Our Side",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "f4b12fee5d8fffa2343d36b3de9c74676e187e61.jpg",
+                    "iconGrayUrl": "fb66d92f4ebb04c5e8aef1f27fff741a6b7506c0.jpg",
+                    "globalPct": 9.2
+                },
+                {
+                    "apiName": "ExecuteCoward",
+                    "displayName": "Innocence Is No Defence",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "2f9dae2e018356bdaac1d4ecb9777121b5742f53.jpg",
+                    "iconGrayUrl": "0f5c5abd2a35051e68904706e9883bb61b553a1f.jpg",
+                    "globalPct": 5
+                },
+                {
+                    "apiName": "FinishAstraMilitarumStory",
+                    "displayName": "Teching No Prisoners",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "9c42aa90566f4fd67b94a7a7f9966ff994e45111.jpg",
+                    "iconGrayUrl": "fe2142f59264ca5d06e202fd8fd4f466dbb4652c.jpg",
+                    "globalPct": 5.9
+                },
+                {
+                    "apiName": "StartAstraMilitarumEdict",
+                    "displayName": "Dictum Administratum",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "5bb73aaa2c99982d981343215c66d0696f01cdae.jpg",
+                    "iconGrayUrl": "f3b53c232bfdfa50056b3fcaa903516142ac80ae.jpg",
+                    "globalPct": 15.1
+                },
+                {
+                    "apiName": "FoundCity",
+                    "displayName": "Where It All Starts",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "f97593a64062485510bbf3168c142db94802d4f4.jpg",
+                    "iconGrayUrl": "99bd2a129340b9916ff6420401438e43110a2dc1.jpg",
+                    "globalPct": 74.5
+                },
+                {
+                    "apiName": "FoundSecondCity",
+                    "displayName": "Second Foundation",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "5c8f80cf94e50c766c66a58bb35600343c9c29c7.jpg",
+                    "iconGrayUrl": "271c51b5c981ff52ce8ba5d49cb3feda04799d9a.jpg",
+                    "globalPct": 26.5
+                }
+            ]
+        },
+        "521200": {
+            "appId": 521200,
+            "hasAchievements": true,
+            "total": 60,
+            "unlocked": 17,
+            "gameName": "Epic Battle Fantasy 3",
+            "playtimeForever": 253,
+            "lastPlayedTs": "2026-10-18T11:38:10.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/521200/dfe5ade1e6718e0cf4fb7d3441a946fa092b4c6d.jpg",
+            "lastUnlockedAt": "2026-09-30T08:30:23.000Z",
+            "lastUnlockName": "Equip Fan",
+            "preview": [
+                {
+                    "apiName": "Equip Fan",
+                    "displayName": "Equip Fan",
+                    "unlocked": true,
+                    "unlockedAt": "2026-09-30T08:30:23.000Z",
+                    "iconUrl": "afc1a5f751b2aa49d80d09651d81243691ad70ab.jpg",
+                    "iconGrayUrl": "7f094cb18de96cbfb2a7327ca3cb287511f5cc6b.jpg",
+                    "globalPct": 36.1
+                },
+                {
+                    "apiName": "Helper",
+                    "displayName": "Helper",
+                    "unlocked": true,
+                    "unlockedAt": "2026-09-30T08:30:13.000Z",
+                    "iconUrl": "6b55d697d0699467522176c82a411f8ce449b111.jpg",
+                    "iconGrayUrl": "7f094cb18de96cbfb2a7327ca3cb287511f5cc6b.jpg",
+                    "globalPct": 35.2
+                },
+                {
+                    "apiName": "Forest Treasure",
+                    "displayName": "Forest Treasure",
+                    "unlocked": true,
+                    "unlockedAt": "2026-09-29T10:35:56.000Z",
+                    "iconUrl": "b4e82aecc80358d5eb7636eb6870bf077ab9e458.jpg",
+                    "iconGrayUrl": "7f094cb18de96cbfb2a7327ca3cb287511f5cc6b.jpg",
+                    "globalPct": 29.9
+                },
+                {
+                    "apiName": "Pirate Treasure",
+                    "displayName": "Pirate Treasure",
+                    "unlocked": true,
+                    "unlockedAt": "2026-09-29T10:24:23.000Z",
+                    "iconUrl": "6239224543f3e50da6a4d063533e872e2b49d70e.jpg",
+                    "iconGrayUrl": "7f094cb18de96cbfb2a7327ca3cb287511f5cc6b.jpg",
+                    "globalPct": 32.6
+                },
+                {
+                    "apiName": "Swordsman",
+                    "displayName": "Swordsman",
+                    "unlocked": true,
+                    "unlockedAt": "2026-09-29T10:20:44.000Z",
+                    "iconUrl": "cedf1c19506546bc76a1aa26ed3444e94080f62c.jpg",
+                    "iconGrayUrl": "be3575dedc8ff55ce46aa2fb87b204fb81c53495.jpg",
+                    "globalPct": 40.7
+                },
+                {
+                    "apiName": "Narwhal Surfer",
+                    "displayName": "Narwhal Surfer",
+                    "unlocked": true,
+                    "unlockedAt": "2026-09-27T11:02:16.000Z",
+                    "iconUrl": "58ba4ee3c77edfe8f303c80867035ab37b0c1b3e.jpg",
+                    "iconGrayUrl": "7f094cb18de96cbfb2a7327ca3cb287511f5cc6b.jpg",
+                    "globalPct": 27.8
+                }
+            ]
+        },
+        "548430": {
+            "appId": 548430,
+            "hasAchievements": true,
+            "total": 69,
+            "unlocked": 29,
+            "gameName": "Deep Rock Galactic",
+            "playtimeForever": 5603,
+            "lastPlayedTs": "2026-11-06T10:14:04.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/548430/e033e23c29a192a17c16a7645a2b423ac64ff447.jpg",
+            "lastUnlockedAt": "2026-11-05T10:40:31.000Z",
+            "lastUnlockName": "Big Game Hunter",
+            "preview": [
+                {
+                    "apiName": "BIGGAMEHUNTER",
+                    "displayName": "Big Game Hunter",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-05T10:40:31.000Z",
+                    "iconUrl": "e0eb69c2e088f01884537534566e531e0257214b.jpg",
+                    "iconGrayUrl": "ee6370e20f9b0f67732ae139f34a281fcd0f12dc.jpg",
+                    "globalPct": 12.6
+                },
+                {
+                    "apiName": "ITSMYPARTY",
+                    "displayName": "It's My Party",
+                    "unlocked": true,
+                    "unlockedAt": "2026-10-25T03:37:01.000Z",
+                    "iconUrl": "d6f66923fb67f3688eeebabb4e6ffde93bfd6e0e.jpg",
+                    "iconGrayUrl": "faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg",
+                    "globalPct": 9.9
+                },
+                {
+                    "apiName": "CORPORATECLIMBER",
+                    "displayName": "Corporate Climber",
+                    "unlocked": true,
+                    "unlockedAt": "2026-10-15T09:54:27.000Z",
+                    "iconUrl": "7208c7355c290f20c58ae74cff1baee757696305.jpg",
+                    "iconGrayUrl": "faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg",
+                    "globalPct": 13
+                },
+                {
+                    "apiName": "MUTATEDSCAVENGER",
+                    "displayName": "Mutated Scavenger",
+                    "unlocked": true,
+                    "unlockedAt": "2026-10-15T09:24:10.000Z",
+                    "iconUrl": "72f5499186bc1ec21de0f354b438b61abe2ef672.jpg",
+                    "iconGrayUrl": "faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg",
+                    "globalPct": 17.4
+                },
+                {
+                    "apiName": "GOODSHEPHERD",
+                    "displayName": "Good Shepherd",
+                    "unlocked": true,
+                    "unlockedAt": "2026-07-02T09:06:50.000Z",
+                    "iconUrl": "387201e02fd453f632895f2dc3a30af5e823ef20.jpg",
+                    "iconGrayUrl": "faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg",
+                    "globalPct": 12.1
+                },
+                {
+                    "apiName": "EXPERTMINER",
+                    "displayName": "Expert Miner",
+                    "unlocked": true,
+                    "unlockedAt": "2026-06-13T00:11:42.000Z",
+                    "iconUrl": "17848de404d275a933178c572a38296c35f9d3d9.jpg",
+                    "iconGrayUrl": "faf096df4e64bb1b785f97dbdd0987b95ed24c41.jpg",
+                    "globalPct": 16.9
+                }
+            ]
+        },
+        "582010": {
+            "appId": 582010,
+            "hasAchievements": true,
+            "total": 100,
+            "unlocked": 26,
+            "gameName": "Monster Hunter: World",
+            "playtimeForever": 2328,
+            "lastPlayedTs": "2026-11-20T20:28:44.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/582010/6ec147f2d423f435e15eb79b3d82f771913de634.jpg",
+            "lastUnlockedAt": "2026-11-19T11:44:31.000Z",
+            "lastUnlockName": "Personal Treasure",
+            "preview": [
+                {
+                    "apiName": "Achievement74",
+                    "displayName": "Personal Treasure",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-19T11:44:31.000Z",
+                    "iconUrl": "2942a56e55e3163f37238466f64161935aac1514.jpg",
+                    "iconGrayUrl": "24d6a548b49c3736c752da409fc0aa2f7dccf7d7.jpg",
+                    "globalPct": 34.7
+                },
+                {
+                    "apiName": "Achievement33",
+                    "displayName": "Miniature Crown",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-19T09:49:51.000Z",
+                    "iconUrl": "e4c73c7e29668074e719b8ba8b51a87071e8352b.jpg",
+                    "iconGrayUrl": "5135d6ea3b06f26c9ac74b1f96c0ad3fae288d81.jpg",
+                    "globalPct": 38.8
+                },
+                {
+                    "apiName": "Achievement76",
+                    "displayName": "Experienced Rider",
+                    "unlocked": true,
+                    "unlockedAt": "2026-10-07T10:19:05.000Z",
+                    "iconUrl": "acdcc3490dc8fdc4b6ace2f70e6005dd72de9c3e.jpg",
+                    "iconGrayUrl": "b8c50715e4941a267ac14fcaa400f8b7f45b59b1.jpg",
+                    "globalPct": 24.8
+                },
+                {
+                    "apiName": "Achievement94",
+                    "displayName": "The True Hunt Begins",
+                    "unlocked": true,
+                    "unlockedAt": "2026-10-03T10:02:42.000Z",
+                    "iconUrl": "f9c980e8730f2cc4c65fc6a869bafe4bda342893.jpg",
+                    "iconGrayUrl": "31572773c3999c2d324b6eb733926ceb37fa6c94.jpg",
+                    "globalPct": 36.9
+                },
+                {
+                    "apiName": "Achievement51",
+                    "displayName": "The Beginning of a New Expedition",
+                    "unlocked": true,
+                    "unlockedAt": "2026-10-03T10:02:41.000Z",
+                    "iconUrl": "765fa26a30f56f66b4624e4d2b38c18f7e5f17e8.jpg",
+                    "iconGrayUrl": "5adbe4f7bd30b4cc6c231b25d5e2aef4b4cfa771.jpg",
+                    "globalPct": 37.1
+                },
+                {
+                    "apiName": "Achievement46",
+                    "displayName": "Hunters United",
+                    "unlocked": true,
+                    "unlockedAt": "2026-09-20T10:36:11.000Z",
+                    "iconUrl": "1f753f3edfc578c88d3c076f9f6fc4e0d272f4a9.jpg",
+                    "iconGrayUrl": "667ef144f47b859fb19c809357a20411d29f9f5e.jpg",
+                    "globalPct": 67
+                }
+            ]
+        },
+        "599140": {
+            "appId": 599140,
+            "hasAchievements": true,
+            "total": 125,
+            "unlocked": 4,
+            "gameName": "Graveyard Keeper",
+            "playtimeForever": 22,
+            "lastPlayedTs": "2026-04-11T09:29:56.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/599140/b37ef6d7eb243b4d9fc017dec7bc11b234f34cc2.jpg",
+            "lastUnlockedAt": "2026-04-11T09:27:54.000Z",
+            "lastUnlockName": "Shady Snake",
+            "preview": [
+                {
+                    "apiName": "meet_snake",
+                    "displayName": "Shady Snake",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-11T09:27:54.000Z",
+                    "iconUrl": "66b8bef014921bbfe046714378b33b3f6e6cf635.jpg",
+                    "iconGrayUrl": "6a1ea75b757af63c3befabd1a2ab1bdee5b9644d.jpg",
+                    "globalPct": 79.1
+                },
+                {
+                    "apiName": "meet_bishop",
+                    "displayName": "Sweetheart Bishop",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-11T09:15:48.000Z",
+                    "iconUrl": "6af917b3f9155cba585a0456add5447a6f4bb444.jpg",
+                    "iconGrayUrl": "fc36393766de5af91cfb713e2d82492308c64a84.jpg",
+                    "globalPct": 91.8
+                },
+                {
+                    "apiName": "bury_1_body",
+                    "displayName": "Novice gravedigger",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-11T09:15:33.000Z",
+                    "iconUrl": "54f64095383771d79bf2b9f20849116ae045162e.jpg",
+                    "iconGrayUrl": "e2d3abb94996332f1bc2d92f2a37cf75d67926bb.jpg",
+                    "globalPct": 92
+                },
+                {
+                    "apiName": "first_slice",
+                    "displayName": "First slice",
+                    "unlocked": true,
+                    "unlockedAt": "2026-04-11T09:13:20.000Z",
+                    "iconUrl": "49b97c3f9c1580ccf8c1bad21229f60cb86b7ca3.jpg",
+                    "iconGrayUrl": "1be3af219306bc768d863ec55d1001b16905bd19.jpg",
+                    "globalPct": 93.2
+                },
+                {
+                    "apiName": "bury_10_bodies",
+                    "displayName": "Advanced gravedigger",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "9d3a274c423e67d6c70b426034371d5216e246ae.jpg",
+                    "iconGrayUrl": "7744436200b06a17713eb37d09b008dc28996057.jpg",
+                    "globalPct": 41
+                },
+                {
+                    "apiName": "bury_50_bodies",
+                    "displayName": "Shovel master",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "5e4d9e44ddc61a254411f3a5b2f0c78ef9843462.jpg",
+                    "iconGrayUrl": "ff7fb66a77c77b8f2ef9120d626fc112235519ff.jpg",
+                    "globalPct": 8.8
+                }
+            ]
+        },
+        "648800": {
+            "appId": 648800,
+            "hasAchievements": true,
+            "total": 104,
+            "unlocked": 93,
+            "gameName": "Raft",
+            "playtimeForever": 3208,
+            "lastPlayedTs": "2026-11-21T06:54:56.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg",
+            "lastUnlockedAt": "2026-11-21T06:46:00.000Z",
+            "lastUnlockName": "Expert Wrangler!",
+            "preview": [
+                {
+                    "apiName": "ach_captureAnimal_50",
+                    "displayName": "Expert Wrangler!",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-21T06:46:00.000Z",
+                    "iconUrl": "65a367b2e33b90669fbe1e080ef7ec485a2bd772.jpg",
+                    "iconGrayUrl": "38ac4edc91be062acafd1ab6200d8f3619362161.jpg",
+                    "globalPct": 1.2
+                },
+                {
+                    "apiName": "ach_bearKiller_50",
+                    "displayName": "Expert Bear Hunter!",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-21T05:49:13.000Z",
+                    "iconUrl": "0cfc588c27f73d1bd3c87e4b5c8e2d3a08512a83.jpg",
+                    "iconGrayUrl": "45098ab1f183ff3a1dcf4d1fe9a9fe13cb6a95f1.jpg",
+                    "globalPct": 2.8
+                },
+                {
+                    "apiName": "ach_excevator_50",
+                    "displayName": "Expert Excavator!",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-21T05:42:34.000Z",
+                    "iconUrl": "7738966b0a8e6fd625d8f6adfc7f8b458591f667.jpg",
+                    "iconGrayUrl": "b86ebfc2e11f994fcc6459836b3ded564a42c6fe.jpg",
+                    "globalPct": 3
+                },
+                {
+                    "apiName": "ach_hoarder",
+                    "displayName": "Hoarder!",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-21T04:31:57.000Z",
+                    "iconUrl": "b580e4ab8f2f31af3e403e491367904273edd851.jpg",
+                    "iconGrayUrl": "2f779d93fe91cac1913259bfe875eeb38d56c4f0.jpg",
+                    "globalPct": 24.2
+                },
+                {
+                    "apiName": "ach_fireworks_50",
+                    "displayName": "Real Fireworks!",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-21T04:17:47.000Z",
+                    "iconUrl": "59ac292988a48d6cada423bd8a527c3886d6e47e.jpg",
+                    "iconGrayUrl": "aa2631369d41c5e8b9e383a701eca87e33a8c686.jpg",
+                    "globalPct": 4.3
+                },
+                {
+                    "apiName": "ach_stoneBirdKiller_50",
+                    "displayName": "Expert Screecher Hunter!",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-21T03:33:29.000Z",
+                    "iconUrl": "906ad0d09f8e2e275f1fc5ef662c14ff3fe419e7.jpg",
+                    "iconGrayUrl": "20eec4125f79031112e6d701d04fc330a4b40fe6.jpg",
+                    "globalPct": 0.9
+                }
+            ]
+        },
+        "728530": {
+            "appId": 728530,
+            "hasAchievements": true,
+            "total": 39,
+            "unlocked": 0,
+            "gameName": "SD GUNDAM G GENERATION CROSS RAYS",
+            "playtimeForever": 72,
+            "lastPlayedTs": null,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/728530/1e55756cc65f139cbc898ec753076f6640f0778d.jpg",
+            "lastUnlockedAt": null,
+            "lastUnlockName": null,
+            "preview": [
+                {
+                    "apiName": "SD_GUNDAM_G_GENERATION_CROSS_RAYS",
+                    "displayName": "SD Gundam: G Generation Cross Rays",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "b5b9d8611e2ea3fb51ece2b877970cc99f2e6963.jpg",
+                    "iconGrayUrl": "d9c8a53641ae92bdee02ce003470303702d0520e.jpg",
+                    "globalPct": 5.4
+                },
+                {
+                    "apiName": "THE_FINAL_VICTOR",
+                    "displayName": "The Final Victor",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "c8af60a542f1758384e19a3160e2f28533693bfd.jpg",
+                    "iconGrayUrl": "6020c6fb710bac0d4224dafc7836cab1c0bb11cb.jpg",
+                    "globalPct": 31.5
+                },
+                {
+                    "apiName": "PATH_TO_PEACE",
+                    "displayName": "Path to Peace",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "2c1d6b349f8094c56554957fc32250619c033cf7.jpg",
+                    "iconGrayUrl": "54bec585ddc5a8d686f5081e62298aeb1ec1e8e3.jpg",
+                    "globalPct": 28.7
+                },
+                {
+                    "apiName": "RETURN_TO_FOREVER",
+                    "displayName": "Return to Forever",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "0fb95c84c1436a6015ae55a5c9ffe8b151164573.jpg",
+                    "iconGrayUrl": "54ba69cd62d97491044db01534b6d3891c916319.jpg",
+                    "globalPct": 33.1
+                },
+                {
+                    "apiName": "A_FUTURE_THAT_NEVER_ENDS",
+                    "displayName": "A Future that Never Ends",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "8363a1f27979d80c9eba92f397f2242901d1098a.jpg",
+                    "iconGrayUrl": "8f22be26373c06d09c10198f717ada0ecbed9379.jpg",
+                    "globalPct": 31.8
+                },
+                {
+                    "apiName": "THOSE_WHO_WENT_ASTRAY",
+                    "displayName": "Those Who Went Astray",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "28a21873d382a1052f71f778ce39a29ad2c152db.jpg",
+                    "iconGrayUrl": "856dff7d7130507e1d508a8387dcf3422b90e01f.jpg",
+                    "globalPct": 25.3
+                }
+            ]
+        },
+        "809890": {
+            "appId": 809890,
+            "hasAchievements": true,
+            "total": 47,
+            "unlocked": 12,
+            "gameName": "Shining Resonance Refrain",
+            "playtimeForever": 498,
+            "lastPlayedTs": "2026-06-29T08:05:17.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/809890/a1148a6b5b7f652f281d375afd6659b90aaa110e.jpg",
+            "lastUnlockedAt": "2025-10-05T13:32:00.000Z",
+            "lastUnlockName": "Resonance Forte",
+            "preview": [
+                {
+                    "apiName": "tr_battle_resoance_1",
+                    "displayName": "Resonance Forte",
+                    "unlocked": true,
+                    "unlockedAt": "2025-10-05T13:32:00.000Z",
+                    "iconUrl": "6224a6c5ca39caf929bcf1a14938647711447d22.jpg",
+                    "iconGrayUrl": "e00c3ff015e49ec07f0bd9e3bb18b3179bf5c56b.jpg",
+                    "globalPct": 32.1
+                },
+                {
+                    "apiName": "tr_BAND_1",
+                    "displayName": "B.A.N.D. Member",
+                    "unlocked": true,
+                    "unlockedAt": "2025-10-05T13:20:29.000Z",
+                    "iconUrl": "6224a6c5ca39caf929bcf1a14938647711447d22.jpg",
+                    "iconGrayUrl": "e00c3ff015e49ec07f0bd9e3bb18b3179bf5c56b.jpg",
+                    "globalPct": 29.3
+                },
+                {
+                    "apiName": "tr_monster_hunter_2",
+                    "displayName": "Dragoneer, Forward!",
+                    "unlocked": true,
+                    "unlockedAt": "2025-10-05T13:02:03.000Z",
+                    "iconUrl": "6224a6c5ca39caf929bcf1a14938647711447d22.jpg",
+                    "iconGrayUrl": "e00c3ff015e49ec07f0bd9e3bb18b3179bf5c56b.jpg",
+                    "globalPct": 24.8
+                },
+                {
+                    "apiName": "tr_battle_narrow_margin",
+                    "displayName": "Sound of Silence",
+                    "unlocked": true,
+                    "unlockedAt": "2024-11-20T10:11:24.000Z",
+                    "iconUrl": "6224a6c5ca39caf929bcf1a14938647711447d22.jpg",
+                    "iconGrayUrl": "e00c3ff015e49ec07f0bd9e3bb18b3179bf5c56b.jpg",
+                    "globalPct": 40.3
+                },
+                {
+                    "apiName": "tr_battle_advantage_encount",
+                    "displayName": "Swift Conductor",
+                    "unlocked": true,
+                    "unlockedAt": "2024-11-20T09:48:01.000Z",
+                    "iconUrl": "6224a6c5ca39caf929bcf1a14938647711447d22.jpg",
+                    "iconGrayUrl": "e00c3ff015e49ec07f0bd9e3bb18b3179bf5c56b.jpg",
+                    "globalPct": 30.1
+                },
+                {
+                    "apiName": "tr_battle_force_1",
+                    "displayName": "Force Medley",
+                    "unlocked": true,
+                    "unlockedAt": "2024-11-19T14:34:40.000Z",
+                    "iconUrl": "6224a6c5ca39caf929bcf1a14938647711447d22.jpg",
+                    "iconGrayUrl": "62e26e8e7520340cd44142a233d05951449fb498.jpg",
+                    "globalPct": 28.7
+                }
+            ]
+        },
+        "814380": {
+            "appId": 814380,
+            "hasAchievements": true,
+            "total": 34,
+            "unlocked": 3,
+            "gameName": "Sekiro™: Shadows Die Twice",
+            "lastUnlockedAt": "2026-11-02T12:48:27.000Z",
+            "lastUnlockName": "Resurrection",
+            "preview": [
+                {
+                    "apiName": "ACH19",
+                    "displayName": "Resurrection",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-02T12:48:27.000Z",
+                    "iconUrl": "1fa9f3969c2e07bc44b9607031b10572dc7d8275.jpg",
+                    "iconGrayUrl": "b5883cbaab97e3066a74b91b6dde756d1313905d.jpg",
+                    "globalPct": 85.4
+                },
+                {
+                    "apiName": "ACH17",
+                    "displayName": "Shinobi Prosthetic",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-02T12:34:01.000Z",
+                    "iconUrl": "2a664af0026dcd3489d7f60122e232f241889cde.jpg",
+                    "iconGrayUrl": "1333e81b9077adcf22aba20b783d4bcc59e0232b.jpg",
+                    "globalPct": 89.6
+                },
+                {
+                    "apiName": "ACH16",
+                    "displayName": "Revered Blade",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-02T12:11:04.000Z",
+                    "iconUrl": "4f2088f8818ec2eb60119b3cd3a9213509bab46d.jpg",
+                    "iconGrayUrl": "1333e81b9077adcf22aba20b783d4bcc59e0232b.jpg",
+                    "globalPct": 93.9
+                },
+                {
+                    "apiName": "ACH00",
+                    "displayName": "Sekiro",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "5b4b096ea3b03a5d9cb1367e53d85dd4a4300dc8.jpg",
+                    "iconGrayUrl": "1333e81b9077adcf22aba20b783d4bcc59e0232b.jpg",
+                    "globalPct": 10
+                },
+                {
+                    "apiName": "ACH01",
+                    "displayName": "Man Without Equal",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "99a3f76eb4e25f821826575f361a0b8ec4de718e.jpg",
+                    "iconGrayUrl": "1333e81b9077adcf22aba20b783d4bcc59e0232b.jpg",
+                    "globalPct": 14.7
+                },
+                {
+                    "apiName": "ACH02",
+                    "displayName": "Ashina Traveler",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "3ff93d2915cfc175d391eeebc1780c68d0054b98.jpg",
+                    "iconGrayUrl": "1333e81b9077adcf22aba20b783d4bcc59e0232b.jpg",
+                    "globalPct": 35.7
+                }
+            ]
+        },
+        "1446780": {
+            "appId": 1446780,
+            "hasAchievements": true,
+            "total": 100,
+            "unlocked": 2,
+            "gameName": "MONSTER HUNTER RISE",
+            "playtimeForever": 611,
+            "lastPlayedTs": null,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1446780/560dd364b52075b783424961a43c01f9b69fde15.jpg",
+            "lastUnlockedAt": "2026-11-07T13:44:18.000Z",
+            "lastUnlockName": "Ancestral Blade",
+            "preview": [
+                {
+                    "apiName": "GC_Award_N_03",
+                    "displayName": "Ancestral Blade",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-07T13:44:18.000Z",
+                    "iconUrl": "6b34be035f7e6fc366e8235d1264fb9e5d1d1ba7.jpg",
+                    "iconGrayUrl": "01455a2b7f8dc5efd5494ed4d0316763b5f7fd53.jpg",
+                    "globalPct": 45.4
+                },
+                {
+                    "apiName": "GC_Award_N_02",
+                    "displayName": "Kamura Amulet",
+                    "unlocked": true,
+                    "unlockedAt": "2026-10-13T13:00:02.000Z",
+                    "iconUrl": "01c4593add4173fdfdfcf8e50b6e99438c7895e8.jpg",
+                    "iconGrayUrl": "961a1210bdcade769e4539b478b1127675be706b.jpg",
+                    "globalPct": 86.8
+                },
+                {
+                    "apiName": "GC_Award_N_04",
+                    "displayName": "Apex Shortsword",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "c36c01f2859cca82536d83f328143f5c205c7139.jpg",
+                    "iconGrayUrl": "a4f7c9c55c6c4627ad8999a21755919bbdca0ce8.jpg",
+                    "globalPct": 54.6
+                },
+                {
+                    "apiName": "GC_Award_N_05",
+                    "displayName": "Tempestuous Triumph Scroll",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "f011c91fdc3c772cc1d3f1e313b538a7d4ed14b3.jpg",
+                    "iconGrayUrl": "6e34c3ac742c766f035b7ed4d9ecf2691841b4b0.jpg",
+                    "globalPct": 46.5
+                },
+                {
+                    "apiName": "GC_Award_N_22",
+                    "displayName": "Beat-up Construction Kit",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "bcee69f441e1ba5203c71a641925a4b3c2107775.jpg",
+                    "iconGrayUrl": "15ed1c63c6b37a7d2e92f9821fcc471939d03c37.jpg",
+                    "globalPct": 17.3
+                },
+                {
+                    "apiName": "GC_Award_N_01",
+                    "displayName": "Badge of Excellence",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "2ce51903cd7509eccd1d93db15e23f3c355e8ccf.jpg",
+                    "iconGrayUrl": "01abc7889a6f8a6d952f6c03d8b2a1233e892556.jpg",
+                    "globalPct": 1
+                }
+            ]
+        },
+        "1449850": {
+            "appId": 1449850,
+            "hasAchievements": true,
+            "total": 11,
+            "unlocked": 6,
+            "gameName": "Yu-Gi-Oh!  Master Duel",
+            "playtimeForever": 1480,
+            "lastPlayedTs": "2026-11-08T12:44:12.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1449850/35626d2f6ccc0ef2fd167a8b519a2f4f944a9bb5.jpg",
+            "lastUnlockedAt": "2026-05-09T08:07:42.000Z",
+            "lastUnlockName": "Beginner No More",
+            "preview": [
+                {
+                    "apiName": "jp.konami.masterduel.ach.006",
+                    "displayName": "Beginner No More",
+                    "unlocked": true,
+                    "unlockedAt": "2026-05-09T08:07:42.000Z",
+                    "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+                    "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+                    "globalPct": 31.6
+                },
+                {
+                    "apiName": "jp.konami.masterduel.ach.007",
+                    "displayName": "Master of Spells ＆ Traps",
+                    "unlocked": true,
+                    "unlockedAt": "2026-05-09T08:07:42.000Z",
+                    "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+                    "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+                    "globalPct": 28.6
+                },
+                {
+                    "apiName": "jp.konami.masterduel.ach.009",
+                    "displayName": "Necromancer",
+                    "unlocked": true,
+                    "unlockedAt": "2026-03-28T13:01:25.000Z",
+                    "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+                    "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+                    "globalPct": 23.1
+                },
+                {
+                    "apiName": "jp.konami.masterduel.ach.003",
+                    "displayName": "Master of Special Summoning",
+                    "unlocked": true,
+                    "unlockedAt": "2026-01-17T13:28:43.000Z",
+                    "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+                    "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+                    "globalPct": 37.3
+                },
+                {
+                    "apiName": "jp.konami.masterduel.ach.008",
+                    "displayName": "Ultra Burst",
+                    "unlocked": true,
+                    "unlockedAt": "2026-01-13T10:48:36.000Z",
+                    "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+                    "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+                    "globalPct": 33.9
+                },
+                {
+                    "apiName": "jp.konami.masterduel.ach.001",
+                    "displayName": "Welcome to MASTER DUEL",
+                    "unlocked": true,
+                    "unlockedAt": "2025-11-08T11:54:57.000Z",
+                    "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+                    "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+                    "globalPct": 85.7
+                }
+            ]
+        },
+        "2864560": {
+            "appId": 2864560,
+            "hasAchievements": true,
+            "total": 81,
+            "unlocked": 1,
+            "gameName": "Rune Factory: Guardians of Azuma",
+            "lastUnlockedAt": "2026-11-05T11:06:21.000Z",
+            "lastUnlockName": "Clash of Dragons",
+            "preview": [
+                {
+                    "apiName": "ACH_001",
+                    "displayName": "Clash of Dragons",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-05T11:06:21.000Z",
+                    "iconUrl": "caf681fa38542571680db69dd4ae1d35fbb3ae72.jpg",
+                    "iconGrayUrl": "a3f2463d9f763b548fc32af303deebfd2e7da9dc.jpg",
+                    "globalPct": 97.8
+                },
+                {
+                    "apiName": "ACH_000",
+                    "displayName": "Earth Dancer",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "61013ce687d23ae4f7308fcf64c5ecbe3e2cd41a.jpg",
+                    "iconGrayUrl": "6e10d95a4892c491175c78ce31c89a03aaa4614e.jpg",
+                    "globalPct": 1.5
+                },
+                {
+                    "apiName": "ACH_002",
+                    "displayName": "The Spring God's Dream Visit",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "095c0dc38f10db6a547de1bf9c837283ca881afd.jpg",
+                    "iconGrayUrl": "e81bd77e069a2e8e6a92ba971124152258a1be10.jpg",
+                    "globalPct": 93.6
+                },
+                {
+                    "apiName": "ACH_003",
+                    "displayName": "Ulalaka's Return",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "7bca832df7d250cd74188cbc43a59868fd33ec4f.jpg",
+                    "iconGrayUrl": "344b6eb95533d3c9cab1adeb12525086620b4cfd.jpg",
+                    "globalPct": 92.5
+                },
+                {
+                    "apiName": "ACH_004",
+                    "displayName": "A Village Reborn",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "fb384275706adfa5e7b1cd4579ffdeec84a0cfc7.jpg",
+                    "iconGrayUrl": "7c68ea355e3a4f59c0ea778b935337c9779ff2e6.jpg",
+                    "globalPct": 90.5
+                },
+                {
+                    "apiName": "ACH_005",
+                    "displayName": "Cooking 101",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "f644bd78fe7e81040b27edb58d31f7eed69c601a.jpg",
+                    "iconGrayUrl": "4835322581146a0402010c0b85557b704221a295.jpg",
+                    "globalPct": 87.1
+                }
+            ]
+        },
+        "3052450": {
+            "appId": 3052450,
+            "hasAchievements": true,
+            "total": 33,
+            "unlocked": 1,
+            "gameName": "Morimens",
+            "playtimeForever": 292,
+            "lastPlayedTs": "2026-07-21T11:00:58.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3052450/9a4db170bbeeee41dd48dc4533b65bcadbf40deb.jpg",
+            "lastUnlockedAt": "2026-06-20T11:29:35.000Z",
+            "lastUnlockName": "Golden Foil",
+            "preview": [
+                {
+                    "apiName": "SteamAchievAPI_05",
+                    "displayName": "Golden Foil",
+                    "unlocked": true,
+                    "unlockedAt": "2026-06-20T11:29:35.000Z",
+                    "iconUrl": "204f4119c913ff89f4b03a650f7cda3c6df68246.jpg",
+                    "iconGrayUrl": "e9eaf0ab0273d92d1bc669808faa5eb0052a3328.jpg",
+                    "globalPct": 22.1
+                },
+                {
+                    "apiName": "SteamAchievAPI_04",
+                    "displayName": "Riddles in the Wax",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "fffafac0273f53f53a0ee586725c49314ddac6f0.jpg",
+                    "iconGrayUrl": "741e05c9e870f8714b24985895a65d5d9c427674.jpg",
+                    "globalPct": 18.2
+                },
+                {
+                    "apiName": "SteamAchievAPI_01",
+                    "displayName": "The Eye Beyond Dimensions",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "1cff5e062c7f37d83228140a2d7d9d3667091817.jpg",
+                    "iconGrayUrl": "397534fe7ef7ff1ee9032f5c0e64e8cab757a8d1.jpg",
+                    "globalPct": 15.3
+                },
+                {
+                    "apiName": "SteamAchievAPI_03",
+                    "displayName": "Mama, I Feel No Pain",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "bcdd2bfd9037335f4c531d1b768b69f86a988253.jpg",
+                    "iconGrayUrl": "f292acc63d7a267a6fd5fccc61796be703e41c98.jpg",
+                    "globalPct": 13
+                },
+                {
+                    "apiName": "SteamAchievAPI_06",
+                    "displayName": "The Lost Triangle",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "324373576223dec03dbad69ab28d864420c7b683.jpg",
+                    "iconGrayUrl": "4202af9bfc3da48d2e58bf89250254cf0bfe9d9b.jpg",
+                    "globalPct": 10.3
+                },
+                {
+                    "apiName": "SteamAchievAPI_08",
+                    "displayName": "Denying the Call",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "9d6a07083b3e480d4bb61e77f130a9e364f44350.jpg",
+                    "iconGrayUrl": "a045944cde7c402cb7edc3545761bf54a877e79c.jpg",
+                    "globalPct": 8.9
+                }
+            ]
+        },
+        "3224770": {
+            "appId": 3224770,
+            "hasAchievements": true,
+            "total": 20,
+            "unlocked": 0,
+            "gameName": "Umamusume: Pretty Derby",
+            "playtimeForever": 136,
+            "lastPlayedTs": "2026-07-20T09:23:36.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3224770/e6ef0ead88a3ef46988b7aa75e83a8c97c5e48d1.jpg",
+            "lastUnlockedAt": null,
+            "lastUnlockName": null,
+            "preview": [
+                {
+                    "apiName": "CgkIhYPDs_QDEAIQAg",
+                    "displayName": "Play through 10 trainees' Careers",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+                    "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+                    "globalPct": 37.2
+                },
+                {
+                    "apiName": "CgkIhYPDs_QDEAIQAw",
+                    "displayName": "Play through 30 trainees' Careers",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+                    "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+                    "globalPct": 27.1
+                },
+                {
+                    "apiName": "CgkIhYPDs_QDEAIQBA",
+                    "displayName": "Play through 50 trainees' Careers",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+                    "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+                    "globalPct": 21.9
+                },
+                {
+                    "apiName": "CgkIhYPDs_QDEAIQBQ",
+                    "displayName": "Reach a good ending in Career",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+                    "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+                    "globalPct": 39.2
+                },
+                {
+                    "apiName": "CgkIhYPDs_QDEAIQCA",
+                    "displayName": "Reach 3 good endings in Career",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+                    "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+                    "globalPct": 31.7
+                },
+                {
+                    "apiName": "CgkIhYPDs_QDEAIQCg",
+                    "displayName": "Collect 20 trophies",
+                    "unlocked": false,
+                    "unlockedAt": null,
+                    "iconUrl": "0239d87a92fdebb9abc77768b223cb07720bd4d1.jpg",
+                    "iconGrayUrl": "e198c2cca167ba121cde44f629158240a9a8e39d.jpg",
+                    "globalPct": 36.9
+                }
+            ]
+        },
+        "3678970": {
+            "appId": 3678970,
+            "hasAchievements": true,
+            "total": 80,
+            "unlocked": 47,
+            "gameName": "TBH: Task Bar Hero",
+            "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/be640d1ea4db8d9139069e3799d8d4553f0c2131/header.jpg",
+            "playtimeForever": 14804,
+            "lastPlayedTs": "2026-11-15T01:38:32.000Z",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/293a05477b85149969a15de321eb0ed066187f51.jpg",
+            "lastUnlockedAt": "2026-11-12T08:37:36.000Z",
+            "lastUnlockName": "Embrace the Blight",
+            "preview": [
+                {
+                    "apiName": "STEAM_ACHIEVEMENT_118001",
+                    "displayName": "Embrace the Blight",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-12T08:37:36.000Z",
+                    "iconUrl": "4908b9d5e4717de975d8dc5ef2c9b12d3f96742a.jpg",
+                    "iconGrayUrl": "4bc32f71003747c07f0c5cfc25bd9e33ee5af4f5.jpg",
+                    "globalPct": 5.2
+                },
+                {
+                    "apiName": "STEAM_ACHIEVEMENT_100006",
+                    "displayName": "Hell? Better Than Monday.",
+                    "unlocked": true,
+                    "unlockedAt": "2026-07-25T03:14:07.000Z",
+                    "iconUrl": "e2c16b1b07f312b751d700007437134d2ff90085.jpg",
+                    "iconGrayUrl": "ab25a2f3ec4b50dfd1e90cd47f7d0dfa30ab57ad.jpg",
+                    "globalPct": 59.9
+                },
+                {
+                    "apiName": "STEAM_ACHIEVEMENT_113002",
+                    "displayName": "Outshining Jewels",
+                    "unlocked": true,
+                    "unlockedAt": "2026-07-14T12:46:44.000Z",
+                    "iconUrl": "cc02f4b8f4df8898b5c9a4388cad6dcabe8becab.jpg",
+                    "iconGrayUrl": "919646eb0488130aff08843f47a57eadb34264c1.jpg",
+                    "globalPct": 35
+                },
+                {
+                    "apiName": "STEAM_ACHIEVEMENT_122007",
+                    "displayName": "Legend of the Taskbar",
+                    "unlocked": true,
+                    "unlockedAt": "2026-07-11T12:59:31.000Z",
+                    "iconUrl": "25dc6652ee2db5e3b701ec8ea5826919cb7f84e1.jpg",
+                    "iconGrayUrl": "acc1a34922885e733d4246d9a37819bea5e748d5.jpg",
+                    "globalPct": 39.1
+                },
+                {
+                    "apiName": "STEAM_ACHIEVEMENT_103003",
+                    "displayName": "Heaven-Sent Gear",
+                    "unlocked": true,
+                    "unlockedAt": "2026-07-11T07:14:46.000Z",
+                    "iconUrl": "71ebaf794682b681701baa95baeec9adcc351437.jpg",
+                    "iconGrayUrl": "a6afadbff794ceb8d8d526cdad2a2cd7d16e6a2f.jpg",
+                    "globalPct": 55.3
+                },
+                {
+                    "apiName": "STEAM_ACHIEVEMENT_103002",
+                    "displayName": "Gear Beyond Limits",
+                    "unlocked": true,
+                    "unlockedAt": "2026-07-06T08:47:48.000Z",
+                    "iconUrl": "613d06e7374839896723e3036084d40aec8c1e6d.jpg",
+                    "iconGrayUrl": "0d1a023f8118a6875cbae0292be7c674992160d7.jpg",
+                    "globalPct": 71.7
+                }
+            ]
+        }
+    }
+}

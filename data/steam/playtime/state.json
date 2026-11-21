@@ -1,0 +1,660 @@
+{
+    "asOf": 1795244096538,
+    "games": {
+        "220": {
+            "total": 85,
+            "lastPlayed": 1769849474000,
+            "lastEnd": null
+        },
+        "320": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "360": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "500": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "550": {
+            "total": 391,
+            "lastPlayed": 1782895682000,
+            "lastEnd": null
+        },
+        "6100": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "8980": {
+            "total": 310,
+            "lastPlayed": null,
+            "lastEnd": 1795206524196
+        },
+        "22330": {
+            "total": 124,
+            "lastPlayed": 1775570036000,
+            "lastEnd": null
+        },
+        "29900": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "40990": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "43110": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "43160": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "46500": {
+            "total": 32,
+            "lastPlayed": 1734858502000,
+            "lastEnd": null
+        },
+        "46510": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "49520": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "105600": {
+            "total": 5530,
+            "lastPlayed": 1792413395000,
+            "lastEnd": null
+        },
+        "108710": {
+            "total": 870,
+            "lastPlayed": 1735562157000,
+            "lastEnd": null
+        },
+        "204450": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "214340": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "215830": {
+            "total": 97,
+            "lastPlayed": 1779015231000,
+            "lastEnd": null
+        },
+        "219950": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "220240": {
+            "total": 1162,
+            "lastPlayed": 1774612069000,
+            "lastEnd": null
+        },
+        "220700": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "230230": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "230410": {
+            "total": 2415,
+            "lastPlayed": 1778905789000,
+            "lastEnd": null
+        },
+        "231430": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "235900": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "249050": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "282800": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "283270": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "286690": {
+            "total": 599,
+            "lastPlayed": 1781334990000,
+            "lastEnd": null
+        },
+        "289130": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "297130": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "322330": {
+            "total": 347,
+            "lastPlayed": 1736670565000,
+            "lastEnd": null
+        },
+        "339800": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "346110": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "368230": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "373420": {
+            "total": 405,
+            "lastPlayed": 1770522778000,
+            "lastEnd": null
+        },
+        "373600": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "380600": {
+            "total": 9,
+            "lastPlayed": 1780895979000,
+            "lastEnd": null
+        },
+        "383180": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "383270": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "405640": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "407530": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "413150": {
+            "total": 3858,
+            "lastPlayed": null,
+            "lastEnd": 1794754192849
+        },
+        "418670": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "424840": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "429660": {
+            "total": 155,
+            "lastPlayed": 1791877019000,
+            "lastEnd": null
+        },
+        "438490": {
+            "total": 20,
+            "lastPlayed": 1762422672000,
+            "lastEnd": null
+        },
+        "442070": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "443910": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "460870": {
+            "total": 205,
+            "lastPlayed": 1794644608000,
+            "lastEnd": 1794644608000
+        },
+        "475150": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "489520": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "489630": {
+            "total": 2,
+            "lastPlayed": 1769603702000,
+            "lastEnd": null
+        },
+        "493540": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "521200": {
+            "total": 253,
+            "lastPlayed": 1792323490000,
+            "lastEnd": null
+        },
+        "532210": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "548430": {
+            "total": 5603,
+            "lastPlayed": 1793960044000,
+            "lastEnd": null
+        },
+        "552500": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "569610": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "571310": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "577740": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "582010": {
+            "total": 2328,
+            "lastPlayed": null,
+            "lastEnd": 1795206524196
+        },
+        "582660": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "599140": {
+            "total": 22,
+            "lastPlayed": 1775899796000,
+            "lastEnd": null
+        },
+        "606150": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "613100": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "616560": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "619700": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "633360": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "635850": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "638650": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "640700": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "645630": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "648800": {
+            "total": 3208,
+            "lastPlayed": null,
+            "lastEnd": 1795244096538
+        },
+        "660160": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "674750": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "699920": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "728530": {
+            "total": 72,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "729460": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "738520": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "740240": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "785890": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "809890": {
+            "total": 498,
+            "lastPlayed": 1782720317000,
+            "lastEnd": null
+        },
+        "813540": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "814380": {
+            "total": 206,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "836620": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "858710": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "899440": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "978520": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "993090": {
+            "total": 47,
+            "lastPlayed": 1782715481000,
+            "lastEnd": null
+        },
+        "1022310": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1035110": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1053710": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1070580": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1110910": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1134700": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1140630": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1176710": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1272160": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1281930": {
+            "total": 532,
+            "lastPlayed": 1771419605000,
+            "lastEnd": null
+        },
+        "1433340": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1446780": {
+            "total": 611,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1449850": {
+            "total": 1480,
+            "lastPlayed": 1794141852000,
+            "lastEnd": null
+        },
+        "1455900": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1507190": {
+            "total": 91,
+            "lastPlayed": 1794562550000,
+            "lastEnd": null
+        },
+        "1510580": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1583850": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1712840": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1741160": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "1986840": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "2019300": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "2071500": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "2149010": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "2218460": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "2752710": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "2828500": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "2835590": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "2864560": {
+            "total": 27,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "2881650": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "3017580": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "3052450": {
+            "total": 292,
+            "lastPlayed": 1784631658000,
+            "lastEnd": null
+        },
+        "3144950": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "3224770": {
+            "total": 136,
+            "lastPlayed": 1784539416000,
+            "lastEnd": null
+        },
+        "3241660": {
+            "total": 70,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "3463050": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "3550490": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "3587490": {
+            "total": 0,
+            "lastPlayed": null,
+            "lastEnd": null
+        },
+        "3678970": {
+            "total": 14804,
+            "lastPlayed": 1794706712000,
+            "lastEnd": 1794706712000
+        },
+        "4125930": {
+            "total": 229,
+            "lastPlayed": 1789218095000,
+            "lastEnd": null
+        }
+    }
+}

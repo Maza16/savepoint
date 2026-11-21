@@ -1,0 +1,158 @@
+{
+    "metadata": {
+        "extractionTimestamp": "2026-11-21T06:54:04.237Z"
+    },
+    "profile": {
+        "steamId": "76561199053767945",
+        "displayName": "Maza",
+        "avatar": "https://avatars.steamstatic.com/4ba4f41d017e7d21e7e59c76b97bdd952dbbf27a_full.jpg",
+        "profileUrl": "https://steamcommunity.com/profiles/76561199053767945/",
+        "status": 1,
+        "lastOnline": "2026-11-20T13:45:22.000Z",
+        "countryCode": "ID"
+    },
+    "stats": {
+        "totalGames": 122,
+        "totalPlaytimeMin": 36435,
+        "totalPlaytimeHrs": 607,
+        "gamesWithPlaytime": 29,
+        "totalAchievements": 1767,
+        "unlockedAchievements": 531,
+        "gamesWithAchievements": 24,
+        "perfectCount": 0,
+        "completionPct": 30,
+        "avgPlaytimeMin": 1256
+    },
+    "recentlyPlayed": [
+        {
+            "appId": 648800,
+            "name": "Raft",
+            "playtime2Weeks": 1374,
+            "playtimeForever": 3208,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg",
+            "storeUrl": "https://store.steampowered.com/app/648800",
+            "lastPlayedTs": "2026-11-21T06:54:56.000Z",
+            "achUnlocked": 93,
+            "achTotal": 104
+        },
+        {
+            "appId": 8980,
+            "name": "Borderlands GOTY",
+            "playtime2Weeks": 310,
+            "playtimeForever": 310,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/8980/eb45fb32b7f4e75564a30a52aa3c35a191253ea0.jpg",
+            "storeUrl": "https://store.steampowered.com/app/8980",
+            "lastPlayedTs": "2026-11-20T20:28:44.000Z",
+            "achUnlocked": 11,
+            "achTotal": 80
+        },
+        {
+            "appId": 582010,
+            "name": "Monster Hunter: World",
+            "playtime2Weeks": 283,
+            "playtimeForever": 2328,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/582010/6ec147f2d423f435e15eb79b3d82f771913de634.jpg",
+            "storeUrl": "https://store.steampowered.com/app/582010",
+            "lastPlayedTs": "2026-11-20T20:28:44.000Z",
+            "achUnlocked": 26,
+            "achTotal": 100
+        },
+        {
+            "appId": 413150,
+            "name": "Stardew Valley",
+            "playtime2Weeks": 143,
+            "playtimeForever": 3858,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg",
+            "storeUrl": "https://store.steampowered.com/app/413150",
+            "lastPlayedTs": "2026-11-15T14:49:52.000Z",
+            "achUnlocked": 16,
+            "achTotal": 49
+        },
+        {
+            "appId": 3678970,
+            "name": "TBH: Task Bar Hero",
+            "playtime2Weeks": 953,
+            "playtimeForever": 14804,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/293a05477b85149969a15de321eb0ed066187f51.jpg",
+            "storeUrl": "https://store.steampowered.com/app/3678970",
+            "lastPlayedTs": "2026-11-15T01:38:32.000Z",
+            "achUnlocked": 47,
+            "achTotal": 80
+        },
+        {
+            "appId": 460870,
+            "name": "GOD EATER RESURRECTION",
+            "playtime2Weeks": 4,
+            "playtimeForever": 205,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/460870/0b3a9c5f24bbc389654d2f189093cafe3cad6e7a.jpg",
+            "storeUrl": "https://store.steampowered.com/app/460870",
+            "lastPlayedTs": "2026-11-14T08:23:28.000Z",
+            "achUnlocked": 9,
+            "achTotal": 33
+        },
+        {
+            "appId": 1507190,
+            "name": "Machinika Museum",
+            "playtime2Weeks": 91,
+            "playtimeForever": 91,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1507190/f4bb2176803e4b08c0da1032ea59d9a995ccff5b.jpg",
+            "storeUrl": "https://store.steampowered.com/app/1507190",
+            "lastPlayedTs": "2026-11-13T09:35:50.000Z",
+            "achUnlocked": null,
+            "achTotal": null
+        },
+        {
+            "appId": 1449850,
+            "name": "Yu-Gi-Oh!  Master Duel",
+            "playtime2Weeks": 5,
+            "playtimeForever": 1480,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1449850/35626d2f6ccc0ef2fd167a8b519a2f4f944a9bb5.jpg",
+            "storeUrl": "https://store.steampowered.com/app/1449850",
+            "lastPlayedTs": "2026-11-08T12:44:12.000Z",
+            "achUnlocked": 6,
+            "achTotal": 11
+        },
+        {
+            "appId": 1446780,
+            "name": "MONSTER HUNTER RISE",
+            "playtime2Weeks": 94,
+            "playtimeForever": 611,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1446780/560dd364b52075b783424961a43c01f9b69fde15.jpg",
+            "storeUrl": "https://store.steampowered.com/app/1446780",
+            "lastPlayedTs": null,
+            "achUnlocked": 2,
+            "achTotal": 100
+        },
+        {
+            "appId": 728530,
+            "name": "SD GUNDAM G GENERATION CROSS RAYS",
+            "playtime2Weeks": 1,
+            "playtimeForever": 72,
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/728530/1e55756cc65f139cbc898ec753076f6640f0778d.jpg",
+            "storeUrl": "https://store.steampowered.com/app/728530",
+            "lastPlayedTs": null,
+            "achUnlocked": 0,
+            "achTotal": 39
+        }
+    ],
+    "mostRecentGame": {
+        "appId": 648800,
+        "name": "Raft",
+        "playtime2Weeks": 1374,
+        "playtimeForever": 3208,
+        "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg",
+        "storeUrl": "https://store.steampowered.com/app/648800",
+        "lastPlayedTs": "2026-11-21T06:54:56.000Z"
+    },
+    "mostRecentUnlock": {
+        "appId": 648800,
+        "gameName": "Raft",
+        "apiName": "ach_captureAnimal_50",
+        "displayName": "Expert Wrangler!",
+        "description": "Capture 50 animals.",
+        "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/65a367b2e33b90669fbe1e080ef7ec485a2bd772.jpg",
+        "unlockedAt": "2026-11-21T06:46:00.000Z",
+        "globalPct": 1.2
+    },
+    "perfectGames": []
+}

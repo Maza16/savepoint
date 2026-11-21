@@ -1,0 +1,433 @@
+{
+    "appId": 3052450,
+    "hasAchievements": true,
+    "total": 33,
+    "unlocked": 1,
+    "gameName": "Morimens",
+    "achievements": [
+        {
+            "apiName": "SteamAchievAPI_05",
+            "unlocked": true,
+            "unlockedAt": "2026-06-20T11:29:35.000Z",
+            "displayName": "Golden Foil",
+            "description": "Complete Investigation Event \"East District's Enigma\"",
+            "iconUrl": "204f4119c913ff89f4b03a650f7cda3c6df68246.jpg",
+            "iconGrayUrl": "e9eaf0ab0273d92d1bc669808faa5eb0052a3328.jpg",
+            "hidden": false,
+            "globalPct": 22.1
+        },
+        {
+            "apiName": "SteamAchievAPI_04",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Riddles in the Wax",
+            "description": "Complete Investigation Event \"Waxen Legacy\"",
+            "iconUrl": "fffafac0273f53f53a0ee586725c49314ddac6f0.jpg",
+            "iconGrayUrl": "741e05c9e870f8714b24985895a65d5d9c427674.jpg",
+            "hidden": false,
+            "globalPct": 18.2
+        },
+        {
+            "apiName": "SteamAchievAPI_01",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Eye Beyond Dimensions",
+            "description": "Complete Investigation Event \"Beware of Hounds\"",
+            "iconUrl": "1cff5e062c7f37d83228140a2d7d9d3667091817.jpg",
+            "iconGrayUrl": "397534fe7ef7ff1ee9032f5c0e64e8cab757a8d1.jpg",
+            "hidden": false,
+            "globalPct": 15.3
+        },
+        {
+            "apiName": "SteamAchievAPI_03",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Mama, I Feel No Pain",
+            "description": "Complete Investigation Event \"In Silence\"",
+            "iconUrl": "bcdd2bfd9037335f4c531d1b768b69f86a988253.jpg",
+            "iconGrayUrl": "f292acc63d7a267a6fd5fccc61796be703e41c98.jpg",
+            "hidden": false,
+            "globalPct": 13
+        },
+        {
+            "apiName": "SteamAchievAPI_06",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Lost Triangle",
+            "description": "Complete Investigation Event \"Eye of the Storm\"",
+            "iconUrl": "324373576223dec03dbad69ab28d864420c7b683.jpg",
+            "iconGrayUrl": "4202af9bfc3da48d2e58bf89250254cf0bfe9d9b.jpg",
+            "hidden": false,
+            "globalPct": 10.3
+        },
+        {
+            "apiName": "SteamAchievAPI_08",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Denying the Call",
+            "description": "Complete the Investigation Event \"Twisted Stars\"",
+            "iconUrl": "9d6a07083b3e480d4bb61e77f130a9e364f44350.jpg",
+            "iconGrayUrl": "a045944cde7c402cb7edc3545761bf54a877e79c.jpg",
+            "hidden": false,
+            "globalPct": 8.9
+        },
+        {
+            "apiName": "SteamAchievAPI_23",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "When the Sacred Tree Burns",
+            "description": "Complete Investigation Event \"River of Desire\"",
+            "iconUrl": "59900505d7b0fa4d5b33f64ee1d127e29dafa284.jpg",
+            "iconGrayUrl": "d56d1cdead4847ffa29fe45915d7488c62f57133.jpg",
+            "hidden": false,
+            "globalPct": 7.4
+        },
+        {
+            "apiName": "SteamAchievAPI_28",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Battle for Remembrance",
+            "description": "Complete Main Story\"Last Symphony\"",
+            "iconUrl": "3920dc30685f8485f33f9a6a559866682f7d1a33.jpg",
+            "iconGrayUrl": "3f056a8b22c4b7daa8145ad21a182976b720bd45.jpg",
+            "hidden": false,
+            "globalPct": 5.9
+        },
+        {
+            "apiName": "SteamAchievAPI_17",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Witch of an Era",
+            "description": "Complete Special record \"Shadow of Rain Town\"",
+            "iconUrl": "eea118b3174492af012ce3bbbd989bbf943a0691.jpg",
+            "iconGrayUrl": "2891f1f558e9338989c5fa5e6d345f8d5ad8aa00.jpg",
+            "hidden": false,
+            "globalPct": 3.6
+        },
+        {
+            "apiName": "SteamAchievAPI_19",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Red Roses Never Stay Silent",
+            "description": "Complete Special record \"Ode to the Rose\"",
+            "iconUrl": "a31991c79c23218212b19b881088d617e9faf319.jpg",
+            "iconGrayUrl": "25b34bea7ddc82723f1021d4b7971aa57190e8cb.jpg",
+            "hidden": false,
+            "globalPct": 2.8
+        },
+        {
+            "apiName": "SteamAchievAPI_18",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "An Ordinary Childhood",
+            "description": "Complete Special record \"Magic of Stories\"",
+            "iconUrl": "7c9d8790b4e8bb3d1f4a42fc666a1f09090e0d21.jpg",
+            "iconGrayUrl": "9fcbaeff7dc2963f461be5e348d76c2cf4a51416.jpg",
+            "hidden": false,
+            "globalPct": 2.5
+        },
+        {
+            "apiName": "SteamAchievAPI_20",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Mercy Eternal",
+            "description": "Complete Special record \"The Color of Blood\"",
+            "iconUrl": "71b2b968918af7d2c4697eeb559e6a2bb3bb2913.jpg",
+            "iconGrayUrl": "8e1bc04231866c564ed98b0dd2276197a2d00d46.jpg",
+            "hidden": false,
+            "globalPct": 3.5
+        },
+        {
+            "apiName": "SteamAchievAPI_22",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Return to the River's Source",
+            "description": "Complete Special record \"Serene Fission\"",
+            "iconUrl": "ac49c933218f5354e61dceda95998ae5cd6f4f6f.jpg",
+            "iconGrayUrl": "dba99a54539aa6016723436a0900479cd0dd07d5.jpg",
+            "hidden": false,
+            "globalPct": 3.8
+        },
+        {
+            "apiName": "SteamAchievAPI_26",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Scent of Flowers and Poetry",
+            "description": "Complete Special record \"Rose's Abode\"",
+            "iconUrl": "536df1801ec947cf8d2f745868a764e7b06acc49.jpg",
+            "iconGrayUrl": "c59fe171b6923afcc3477eeeb6e74cddbc5c5152.jpg",
+            "hidden": false,
+            "globalPct": 6
+        },
+        {
+            "apiName": "SteamAchievAPI_27",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Fate's Cruel Jest",
+            "description": "Complete Special record \"Happy Hunting!\"",
+            "iconUrl": "6ab7d80318f2484c091d7596f0b7ff7a94639a4d.jpg",
+            "iconGrayUrl": "cac103c9ad1b3ce85776825a87d44fd1e52b494b.jpg",
+            "hidden": false,
+            "globalPct": 3
+        },
+        {
+            "apiName": "SteamAchievAPI_24",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Life Breaks Through the Mountain",
+            "description": "Complete Special record \"Elworth's Returnee\"",
+            "iconUrl": "10d2514268f2d02116b4666b12944d834cd2547c.jpg",
+            "iconGrayUrl": "e50a5a77bbc6718c5a4da268033f1f42a198ad7f.jpg",
+            "hidden": false,
+            "globalPct": 6
+        },
+        {
+            "apiName": "SteamAchievAPI_09",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "1001 Nights",
+            "description": "Complete Psyche Deepdive \"The Knight's Wish\"",
+            "iconUrl": "6c2baefeb385ca8b280ab1e22b1d8bafbbe9e2ba.jpg",
+            "iconGrayUrl": "bef1f58dc774f44b5f314a06337a5ba1beb96ea7.jpg",
+            "hidden": false,
+            "globalPct": 11.8
+        },
+        {
+            "apiName": "SteamAchievAPI_13",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Nothing New Under the Moon",
+            "description": "Complete Psyche Deepdive \"Feast of Flames\"",
+            "iconUrl": "f204f9aab3abe51de98ef7579d2f714d6beedae3.jpg",
+            "iconGrayUrl": "9c3729927f7bce3bf61ae2b96f51eb44ad7e3699.jpg",
+            "hidden": false,
+            "globalPct": 4.3
+        },
+        {
+            "apiName": "SteamAchievAPI_14",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Secret of Aleph",
+            "description": "Complete Psyche Deepdive \"Melodic Sculpting\"",
+            "iconUrl": "b6a465202ac76cbd20cafd54aed86e193fa24f81.jpg",
+            "iconGrayUrl": "047dbd4b1ace7de3f78fd4c2def1baa15b09e58b.jpg",
+            "hidden": false,
+            "globalPct": 4.3
+        },
+        {
+            "apiName": "SteamAchievAPI_11",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Thus Spoke the Beast",
+            "description": "Complete Psyche Deepdive \"Blood and Sand\"",
+            "iconUrl": "49cf75c81cd5f33f79e3b22b6f785cfa4d744e6f.jpg",
+            "iconGrayUrl": "e033e6b683c3aa1016333bf666d91b2354494ea6.jpg",
+            "hidden": false,
+            "globalPct": 3.8
+        },
+        {
+            "apiName": "SteamAchievAPI_12",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Do Mechanical Dolls Dream?",
+            "description": "Complete Psyche Deepdive \"Twisted Core\"",
+            "iconUrl": "f59e42290f010e060c828b50cd5f5c1e839cbd7a.jpg",
+            "iconGrayUrl": "99b41b7cd858c8ee1a673cfb25965f75f68a702e.jpg",
+            "hidden": false,
+            "globalPct": 3.3
+        },
+        {
+            "apiName": "SteamAchievAPI_15",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "My Demian",
+            "description": "Complete Psyche Deepdive \"Pale Descendant\"",
+            "iconUrl": "2488a0db2f35f919ed17969eb4da1372571267f9.jpg",
+            "iconGrayUrl": "a18d15edc4b5ec7fe97ddcde24f4acbf635cdd66.jpg",
+            "hidden": false,
+            "globalPct": 3.1
+        },
+        {
+            "apiName": "SteamAchievAPI_16",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Circuit Messenger",
+            "description": "Complete Psyche Deepdive \"One Step Away\"",
+            "iconUrl": "02a7a7c8c108d6bc4eb26f03acdb2c0205db70ac.jpg",
+            "iconGrayUrl": "4b6cb3839c545d002a1874da57fd519ca862bf98.jpg",
+            "hidden": false,
+            "globalPct": 7.6
+        },
+        {
+            "apiName": "SteamAchievAPI_10",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Invisible City",
+            "description": "Complete the Psyche Deepdive \"Eadem Omnia\"",
+            "iconUrl": "cb62dd73014a99bd9d6881a26ea839226a17f2cc.jpg",
+            "iconGrayUrl": "c8b83ffd9adf06134748b6fa79e9bfee51fd18b2.jpg",
+            "hidden": false,
+            "globalPct": 3.5
+        },
+        {
+            "apiName": "SteamAchievAPI_21",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Peerless Ferocity",
+            "description": "Complete the Psyche Deepdive \"The Fall of Giant\"",
+            "iconUrl": "02f6eb1350e55cbc04ec5e446bddfca7aea6c248.jpg",
+            "iconGrayUrl": "d766b674104b5bbed5c620ec5714146c310e30da.jpg",
+            "hidden": false,
+            "globalPct": 3.3
+        },
+        {
+            "apiName": "SteamAchievAPI_31",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Eternal Sovereignty",
+            "description": "Complete Psyche Deepdive \"Coronation Day\"",
+            "iconUrl": "814c3c000c2e11bada41f7a9633aaf5997876f5a.jpg",
+            "iconGrayUrl": "5f05c05f69bf4530d6b140d8ad5f37fdc57239eb.jpg",
+            "hidden": false,
+            "globalPct": 5.6
+        },
+        {
+            "apiName": "SteamAchievAPI_32",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Dance of the Emerald Flames",
+            "description": "Complete the Psyche Deepdive \"Passion to Dust\"",
+            "iconUrl": "00c83b0acca1ec6dfbbfd384c066795a511284a1.jpg",
+            "iconGrayUrl": "aef3055a3bd9db152e80f097c536bf707e80395c.jpg",
+            "hidden": false,
+            "globalPct": 2.8
+        },
+        {
+            "apiName": "SteamAchievAPI_51",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Chirp!",
+            "description": "Complete the Psyche Deepdive \"No More the Shore\"",
+            "iconUrl": "8c1ecd27a6ceb66c068a09cc983f8328f2d7f2c0.jpg",
+            "iconGrayUrl": "0e9959376e11c0cc0ca47a0be5bcb59e358c9066.jpg",
+            "hidden": false,
+            "globalPct": 5.1
+        },
+        {
+            "apiName": "SteamAchievAPI_25",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Twisted Fanaticism",
+            "description": "Complete the \"Desecration\" in the Dreamscape",
+            "iconUrl": "528a5472569d67051c50cd97cacec75ee70fc5d6.jpg",
+            "iconGrayUrl": "c146ad9cbc0093154249dc86b4d9a68bc907f7a5.jpg",
+            "hidden": false,
+            "globalPct": 5
+        },
+        {
+            "apiName": "SteamAchievAPI_36",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "The Descent",
+            "description": "Complete the Dreamscape \"Beyond the Horizon：Upper\"",
+            "iconUrl": "60496f40f5700b7752794a490a821aa9a2e7c182.jpg",
+            "iconGrayUrl": "8038e1bf458e63fd9014a7c8444992a1dfa11c8a.jpg",
+            "hidden": false,
+            "globalPct": 5.9
+        },
+        {
+            "apiName": "SteamAchievAPI_41",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Above the Blue Sky",
+            "description": "Complete Dreamscape \"Beyond the Skies: Part II\"",
+            "iconUrl": "1f348ec658bf06f3527eb52ed188db24792a1174.jpg",
+            "iconGrayUrl": "acfbeb9a506c6dfcd622014f6f450631f313ea57.jpg",
+            "hidden": false,
+            "globalPct": 3.9
+        },
+        {
+            "apiName": "SteamAchievAPI_33",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Cosmos Reversal",
+            "description": "Complete Multiverse Link \"My Turn\"",
+            "iconUrl": "c9cc3cef7fce31578a06ec82364c45ee6f1fd6de.jpg",
+            "iconGrayUrl": "f6e7f377bd67a2cf082879fb012df218e347d772.jpg",
+            "hidden": false,
+            "globalPct": 5.9
+        },
+        {
+            "apiName": "SteamAchievAPI_42",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Ecstasy! Fury! Tears!",
+            "description": "Complete Dreamscape \"Culinary Domination\"",
+            "iconUrl": "e2ed6d37e26723da67480fc74a733e4b7814d598.jpg",
+            "iconGrayUrl": "df296ff8c52b94131b68d184e76243012eaa67b6.jpg",
+            "hidden": false,
+            "globalPct": 5
+        }
+    ],
+    "playtimeForever": 292,
+    "lastPlayedTs": "2026-07-21T11:00:58.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3052450/9a4db170bbeeee41dd48dc4533b65bcadbf40deb.jpg",
+    "lastUnlockedAt": "2026-06-20T11:29:35.000Z",
+    "lastUnlockName": "Golden Foil",
+    "preview": [
+        {
+            "apiName": "SteamAchievAPI_05",
+            "displayName": "Golden Foil",
+            "unlocked": true,
+            "unlockedAt": "2026-06-20T11:29:35.000Z",
+            "iconUrl": "204f4119c913ff89f4b03a650f7cda3c6df68246.jpg",
+            "iconGrayUrl": "e9eaf0ab0273d92d1bc669808faa5eb0052a3328.jpg",
+            "globalPct": 22.1
+        },
+        {
+            "apiName": "SteamAchievAPI_04",
+            "displayName": "Riddles in the Wax",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "fffafac0273f53f53a0ee586725c49314ddac6f0.jpg",
+            "iconGrayUrl": "741e05c9e870f8714b24985895a65d5d9c427674.jpg",
+            "globalPct": 18.2
+        },
+        {
+            "apiName": "SteamAchievAPI_01",
+            "displayName": "The Eye Beyond Dimensions",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "1cff5e062c7f37d83228140a2d7d9d3667091817.jpg",
+            "iconGrayUrl": "397534fe7ef7ff1ee9032f5c0e64e8cab757a8d1.jpg",
+            "globalPct": 15.3
+        },
+        {
+            "apiName": "SteamAchievAPI_03",
+            "displayName": "Mama, I Feel No Pain",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "bcdd2bfd9037335f4c531d1b768b69f86a988253.jpg",
+            "iconGrayUrl": "f292acc63d7a267a6fd5fccc61796be703e41c98.jpg",
+            "globalPct": 13
+        },
+        {
+            "apiName": "SteamAchievAPI_06",
+            "displayName": "The Lost Triangle",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "324373576223dec03dbad69ab28d864420c7b683.jpg",
+            "iconGrayUrl": "4202af9bfc3da48d2e58bf89250254cf0bfe9d9b.jpg",
+            "globalPct": 10.3
+        },
+        {
+            "apiName": "SteamAchievAPI_08",
+            "displayName": "Denying the Call",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "9d6a07083b3e480d4bb61e77f130a9e364f44350.jpg",
+            "iconGrayUrl": "a045944cde7c402cb7edc3545761bf54a877e79c.jpg",
+            "globalPct": 8.9
+        }
+    ]
+}
