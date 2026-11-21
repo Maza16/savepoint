@@ -11,7 +11,8 @@
   <a href="https://yozuryu.github.io/savepoint-site/">Website and docs</a> ·
   <a href="https://yozuryu.github.io/savepoint-site/#demo">Live demo</a> ·
   <a href="#setup">Set up your own</a> ·
-  <a href="#the-admin-panel">Admin panel</a>
+  <a href="#the-admin-panel">Admin panel</a> ·
+  <a href="https://github.com/yozuryu/savepoint">Template</a>
 </p>
 
 ---
@@ -255,7 +256,7 @@ Optional keys for the admin, all in `.env`:
 
 <img src="docs/images/memory.jpg" alt="Memory Card: one year in games" width="100%">
 
-Every year with unlocks or play time gets its own page at `/memory-card/<year>/` (`/memory-card/` is the latest), linked from the hub header. It is made for other people: a title for the year picked from what made it stand out, the top five games, finished games, rarest unlocks, a save-block calendar of the year and when you play. **Play** runs the year back as full-screen slides, each one a card you can share from the slide itself. **Share** hands out a tall or wide picture of it in five styles (Card, Cover, Blocks, Shelf, Title) or any of the story's cards, and a shared link previews that year's picture.
+Every year with unlocks or play time gets its own page at `/memory-card/<year>/` (`/memory-card/` is the latest), linked from the hub header. It is made for other people: a title for the year picked from what made it stand out, the top five games, finished games, rarest unlocks, a save-block calendar of the year and when you play. Each year takes its colour from its top game's art. **Play** runs the year back as full-screen slides, each one a card you can share from the slide itself; every slide opens on a line about the year, and the lines and the way they move differ for every year and every player. **Share** hands out a tall or wide picture of it in five styles (Card, Cover, Blocks, Shelf, Title) or any of the story's cards, and a shared link previews that year's picture.
 
 The pages and pictures are built on every deploy (`scripts/build-recap.js`, then `scripts/render-recap.js` with the runner's Chrome). Locally, `npm run data:pull` builds the pages; run `node scripts/render-recap.js` for the pictures. Farms and hidden games are left out, idle games count without their play time. Play time only exists from your first data run, so earlier years rank games by unlocks.
 
@@ -299,6 +300,12 @@ Every file you changed shows as a conflict this one time: keep your own `data/hu
 ## Privacy
 
 Your repository and site are public, so your stats and play history are public too, like your profiles on the platforms themselves. Your API keys are not: they live in GitHub's encrypted secrets and your local `.env`, which is never committed.
+
+## Made with Savepoint
+
+This site is built with [Savepoint](https://github.com/yozuryu/savepoint), a free template by [yozuryu](https://github.com/yozuryu): <https://github.com/yozuryu/savepoint>. Docs and a live demo are at <https://yozuryu.github.io/savepoint-site/>.
+
+If this is your copy, please keep this section, so people who like your site can find the template and make their own.
 
 ## License
 
