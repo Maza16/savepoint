@@ -809,7 +809,7 @@
                     "unlockedAt": "2026-08-01T12:54:52.000Z",
                     "iconUrl": "da975460e6ca17e1cf397d598d4eb9c65502f786.jpg",
                     "iconGrayUrl": "ecc68d32d9c812da5bc43676d4c3315113682f95.jpg",
-                    "globalPct": 32
+                    "globalPct": 32.1
                 }
             ]
         },
@@ -1363,8 +1363,8 @@
             "total": 104,
             "unlocked": 93,
             "gameName": "Raft",
-            "playtimeForever": 3208,
-            "lastPlayedTs": "2026-11-21T06:54:56.000Z",
+            "playtimeForever": 3248,
+            "lastPlayedTs": "2026-11-21T11:15:53.000Z",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg",
             "lastUnlockedAt": "2026-11-21T06:46:00.000Z",
             "lastUnlockName": "Expert Wrangler!",
@@ -1992,7 +1992,7 @@
                     "unlockedAt": "2026-07-25T03:14:07.000Z",
                     "iconUrl": "e2c16b1b07f312b751d700007437134d2ff90085.jpg",
                     "iconGrayUrl": "ab25a2f3ec4b50dfd1e90cd47f7d0dfa30ab57ad.jpg",
-                    "globalPct": 59.9
+                    "globalPct": 59.8
                 },
                 {
                     "apiName": "STEAM_ACHIEVEMENT_113002",
@@ -2028,7 +2028,7 @@
                     "unlockedAt": "2026-07-06T08:47:48.000Z",
                     "iconUrl": "613d06e7374839896723e3036084d40aec8c1e6d.jpg",
                     "iconGrayUrl": "0d1a023f8118a6875cbae0292be7c674992160d7.jpg",
-                    "globalPct": 71.7
+                    "globalPct": 71.6
                 }
             ]
         }

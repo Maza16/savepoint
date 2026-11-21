@@ -69,7 +69,7 @@
             "iconUrl": "e2c16b1b07f312b751d700007437134d2ff90085.jpg",
             "iconGrayUrl": "ab25a2f3ec4b50dfd1e90cd47f7d0dfa30ab57ad.jpg",
             "hidden": false,
-            "globalPct": 59.9
+            "globalPct": 59.8
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_101001",
@@ -102,7 +102,7 @@
             "iconUrl": "6faede05b252fcb524a38db41eee09db6b7af276.jpg",
             "iconGrayUrl": "af3ea5a737ae2b49733f3c58eea7ea76a0778adf.jpg",
             "hidden": false,
-            "globalPct": 82.4
+            "globalPct": 82.3
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_102001",
@@ -157,7 +157,7 @@
             "iconUrl": "613d06e7374839896723e3036084d40aec8c1e6d.jpg",
             "iconGrayUrl": "0d1a023f8118a6875cbae0292be7c674992160d7.jpg",
             "hidden": false,
-            "globalPct": 71.7
+            "globalPct": 71.6
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_103003",
@@ -311,7 +311,7 @@
             "iconUrl": "7126e62ab2542d94a7f7fd02885acea18fadcf12.jpg",
             "iconGrayUrl": "740580ff4331113389d326478cb1b5a1d1b99555.jpg",
             "hidden": false,
-            "globalPct": 45.8
+            "globalPct": 45.7
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_116001",
@@ -355,7 +355,7 @@
             "iconUrl": "f4d2e2aa1cb9bef66ae8e56ec375123b21b95660.jpg",
             "iconGrayUrl": "4349655f0a042e490449d1f1f62934eee78c65c6.jpg",
             "hidden": false,
-            "globalPct": 39.3
+            "globalPct": 39.2
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_120001",
@@ -630,7 +630,7 @@
             "iconUrl": "ece18465225f8803379f3329e810cf54f88b0588.jpg",
             "iconGrayUrl": "ba5610b020385c57209ad735a93201562253332a.jpg",
             "hidden": false,
-            "globalPct": 8.4
+            "globalPct": 8.5
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_105002",
@@ -641,7 +641,7 @@
             "iconUrl": "9e1b3daaa08990f6d03c7f0f39002653c1be3f87.jpg",
             "iconGrayUrl": "98fdd5ff4c5391e0c9edf2463980b8c0206de6c2.jpg",
             "hidden": false,
-            "globalPct": 3
+            "globalPct": 3.1
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_105003",
@@ -663,7 +663,7 @@
             "iconUrl": "23d8d37e757f047aef4b0dab96cae941c37379bc.jpg",
             "iconGrayUrl": "ab9d80265d3babf34b22e62f6d6c259d69cfa057.jpg",
             "hidden": false,
-            "globalPct": 1.8
+            "globalPct": 1.9
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_105005",
@@ -718,7 +718,7 @@
             "iconUrl": "c21c70099e0da8a401d1ec70ca51f8b88a787958.jpg",
             "iconGrayUrl": "13b682ae1bcf99483c3596abf4dc32925e04eaf0.jpg",
             "hidden": false,
-            "globalPct": 0.9
+            "globalPct": 1
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_105010",
@@ -751,7 +751,7 @@
             "iconUrl": "ea8be2f248c5646992e893a63127bcc7c5c89eec.jpg",
             "iconGrayUrl": "ca03a9d62d25a7f1d885322963d7781ca26879da.jpg",
             "hidden": false,
-            "globalPct": 1
+            "globalPct": 1.1
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_105013",
@@ -784,7 +784,7 @@
             "iconUrl": "954c396bee4c62f2f730022be8a83ae7cdd6ca05.jpg",
             "iconGrayUrl": "eeafd8f0772129b375f50e5e5f5515fb4f8a4e45.jpg",
             "hidden": false,
-            "globalPct": 5.5
+            "globalPct": 5.6
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_118001",
@@ -817,7 +817,7 @@
             "iconUrl": "2b0a754a4dd3e4a4ffb7786593e92f6733496ba7.jpg",
             "iconGrayUrl": "8a106b01d5de503e466b7f5e54915599b57e463c.jpg",
             "hidden": false,
-            "globalPct": 3.7
+            "globalPct": 3.8
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_124003",
@@ -872,7 +872,7 @@
             "iconUrl": "3b713c5698a017882657557dd47331b52bfab354.jpg",
             "iconGrayUrl": "c1f9820300e44589953f357f49950d3ecb56ec7c.jpg",
             "hidden": false,
-            "globalPct": 2.5
+            "globalPct": 2.6
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_124008",
@@ -909,7 +909,7 @@
             "unlockedAt": "2026-07-25T03:14:07.000Z",
             "iconUrl": "e2c16b1b07f312b751d700007437134d2ff90085.jpg",
             "iconGrayUrl": "ab25a2f3ec4b50dfd1e90cd47f7d0dfa30ab57ad.jpg",
-            "globalPct": 59.9
+            "globalPct": 59.8
         },
         {
             "apiName": "STEAM_ACHIEVEMENT_113002",
@@ -945,7 +945,7 @@
             "unlockedAt": "2026-07-06T08:47:48.000Z",
             "iconUrl": "613d06e7374839896723e3036084d40aec8c1e6d.jpg",
             "iconGrayUrl": "0d1a023f8118a6875cbae0292be7c674992160d7.jpg",
-            "globalPct": 71.7
+            "globalPct": 71.6
         }
     ]
 }

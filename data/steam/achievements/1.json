@@ -118,7 +118,7 @@
             "description": "Kill 10 Warthogs.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/5af5692e1aad10295486ae7e8d714376c752a998.jpg",
             "unlockedAt": "2026-11-18T13:41:05.000Z",
-            "globalPct": 15.7
+            "globalPct": 15.8
         },
         {
             "appId": 648800,
@@ -388,7 +388,7 @@
             "description": "Disrupt 20 Butler-Bots.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/ec2793ecd76f15d1056ba7ace323413fccb4090c.jpg",
             "unlockedAt": "2026-11-08T08:22:39.000Z",
-            "globalPct": 8
+            "globalPct": 8.1
         },
         {
             "appId": 648800,
@@ -948,7 +948,7 @@
             "description": "Use your first Raider Ride.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/582010/9bbdd36ddac55e4c4cec7edc884af29c663db5fb.jpg",
             "unlockedAt": "2026-08-30T03:04:46.000Z",
-            "globalPct": 43
+            "globalPct": 43.1
         },
         {
             "appId": 582010,
