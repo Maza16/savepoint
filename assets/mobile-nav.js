@@ -11,6 +11,11 @@
 
   const path = window.location.pathname;
 
+  // Update notice (new deploy → "Savepoint updated", tap to reload), shared by every page with this nav
+  const upd = document.createElement('script');
+  upd.src = BASE + '/assets/update-notice.js';
+  document.head.appendChild(upd);
+
   // The owner's name in the breadcrumbs ([data-site-user]): drawn by CSS from --site-user, so it
   // shows whenever React renders the bar; remembered so the next page has it before the config loads
   const setUser = (name) => document.documentElement.style.setProperty('--site-user', JSON.stringify(name));

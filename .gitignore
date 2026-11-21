@@ -32,3 +32,4 @@ data/hub/recap-colours.json
 /memory-card/[0-9][0-9][0-9][0-9]/
 /memory-card/share/
 /.posters/
+/version.json
