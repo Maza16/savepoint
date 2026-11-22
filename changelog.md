@@ -7,8 +7,12 @@ Memory Card sections share as story videos
 
 - new: **Memory Card** sections share as story videos
   Share › Video: pick a part of the latest year and share it as a 10-second video, animated just like the story, ready for an Instagram or Facebook story.
-- improved: **Memory Card** story pictures keep the top clear
-  The tall pictures and the videos leave the top for the app's own bars and your name.
+- improved: **Memory Card** story pictures and videos stay clear of the story's bars and reply bar
+  The tall pictures and the videos keep the top and the bottom free for Instagram and Facebook, with one item fewer where a card was full.
+- improved: **Memory Card** Share opens faster
+  Its picture choices are small thumbnails now.
+- improved: **Memory Card** deploys render only the years that changed
+  Pictures of unchanged years are reused from your site.
 - improved: **Memory Card** for the running year opens in October
   Until then the latest card is last year's.
 
