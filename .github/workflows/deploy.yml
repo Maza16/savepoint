@@ -9,6 +9,11 @@ on:
     branches: [main]
   workflow_dispatch:
   workflow_call:
+    inputs:
+      videos:
+        description: 'Render the Memory Card story videos again if the latest year changed (else reuse the live ones)'
+        type: string        # 'false' reuses; anything else (a push has no inputs at all) renders. Not a boolean: an absent input equals false in expressions
+        default: 'true'
 
 permissions:
   contents: read
@@ -84,7 +89,9 @@ jobs:
           # Memory Card: one page per year from memory-card/page.html, then each year's share pictures
           node scripts/build-recap.js _site
           rm -f _site/memory-card/page.html
-          node scripts/render-recap.js _site || echo "::warning::Memory Card share pictures were not rendered"
+          # The latest year's story videos need ffmpeg (not on every runner image)
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null) || echo "::warning::ffmpeg not installed: no story videos"
+          RECAP_VIDEO_RENDER=${{ inputs.videos == 'false' && '0' || '1' }} node scripts/render-recap.js _site || echo "::warning::Memory Card share pictures were not rendered"
           # App version for the update notice (assets/update-notice.js): a hash of the app files only,
           # so the deploys that follow a data run keep the same version
           V=$(cd _site && find . -type f ! -path './data/*' ! -path './memory-card/*' -print0 | sort -z | xargs -0 sha1sum | sha1sum | cut -c1-12)

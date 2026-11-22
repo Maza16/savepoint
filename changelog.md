@@ -1,5 +1,17 @@
 # Changelog
 
+## v26.11.22
+Memory Card sections share as story videos
+
+### Structure
+
+- new: **Memory Card** sections share as story videos
+  Share › Video: pick a part of the latest year and share it as a 10-second video, animated just like the story, ready for an Instagram or Facebook story.
+- improved: **Memory Card** story pictures keep the top clear
+  The tall pictures and the videos leave the top for the app's own bars and your name.
+- improved: **Memory Card** for the running year opens in October
+  Until then the latest card is last year's.
+
 ## v26.11.21
 Every game opens its own sheet in place, and Completions uses the same marks everywhere
 

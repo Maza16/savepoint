@@ -269,6 +269,9 @@
         .pv { display: grid; grid-template: minmax(0, 1fr) / minmax(0, 1fr); place-items: center; padding: 10px; height: min(46vh, 380px); border-radius: 6px; background: #0a0c13; border: 1px solid var(--line); overflow: hidden; }
         .pv img { width: 100%; height: 100%; object-fit: contain; display: block; border-radius: 6px; animation: fade 220ms ease-out backwards; }
         .pv p { margin: 0; padding: 20px; text-align: center; color: var(--dim); font-size: 13.5px; }
+        .seg [hidden] { display: none; }
+        /* Video: the section's film plays in the preview */
+        .pv video { width: 100%; height: 100%; object-fit: contain; display: block; border-radius: 6px; background: #000; animation: fade 220ms ease-out backwards; }
         .acts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
         .acts .btn { justify-content: center; height: 44px; font-size: 14px; }
         .acts .btn.wide { grid-column: 1 / -1; }
@@ -490,6 +493,9 @@
         @media (prefers-reduced-motion: reduce) { .sbars .on b { transform: none; } }
         /* The same slide as a picture: no bars, no buttons, nothing moving */
         .story.still { position: static; width: 450px; height: 800px; animation: none; }
+        .story.film { animation: none; } .story.film .stop button { display: none; }      /* filmed: no controls in the picture */
+        .story.film .sbars { visibility: hidden; }
+        .story.film .stop, .story.still:not(.wide) .stop { top: 116px; } .story.film .stage, .story.still:not(.wide) .stage { padding-top: 162px; zoom: 0.94; }      /* the tall slide pictures too */      /* the brand row below the top ~14% where Instagram / Facebook put the poster's name, the slide under it */      /* nor the story bars: Instagram / Facebook draw their own (hidden, not removed: their end tells the film the section is over) */
         .story.still *, .story.still *::before { animation: none !important; }
         .story.still .stop { top: 20px; } .story.still .stage { padding-top: 54px; }
         /* Desktop mode: the same slides laid out wide, 800 × 420 (the wide card's shape) and scaled to the window. Slides
@@ -620,6 +626,8 @@
         .sc-story.v-title .tf h3 { font-size: 32px; } .sc-story.v-title .tf b { font-size: 36px; }
 
         .sc-story { width: 1080px; height: 1920px; padding: 140px 76px 150px; display: flex; flex-direction: column; }
+        /* The brand below the top ~14% where Instagram / Facebook put the poster's name over a story; what follows ~8% smaller to make room */
+        .sc-story { padding-top: 262px; } .sc-story > :not(.brand, .foot) { zoom: 0.92; }
         .sc-story::before { background: radial-gradient(100% 50% at 50% 0%, rgba(var(--a), 0.3), transparent 70%), linear-gradient(180deg, rgba(9, 11, 18, 0.6) 0%, rgba(9, 11, 18, 0.9) 45%, rgba(9, 11, 18, 0.97) 100%); }
         .sc-story .brand { font-size: 34px; }
         .sc-story .slot { margin-top: 44px; } .sc-story .px { font-size: 20px; } .sc-story .slot i { width: 14px; height: 14px; }
@@ -1185,12 +1193,15 @@
             const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' });
             document.querySelectorAll('.rv').forEach(el => io.observe(el));
         }
+        // While a section is filmed (?card=film) the film's clock drives time: NOW() and RAF() follow it instead of the screen's
+        let FILM_CLOCK = null;
+        const filmTickers = [], NOW = () => FILM_CLOCK ?? performance.now(), RAF = f => FILM_CLOCK != null ? filmTickers.push(f) : requestAnimationFrame(f);
         // Numbers count up once, on the page and on each slide
         const countUp = root => { if (!calm) root.querySelectorAll('[data-count]').forEach(el => {
-            const end = +el.dataset.count, final = el.textContent, t0 = performance.now(), dur = 900;
+            const end = +el.dataset.count, final = el.textContent, t0 = NOW(), dur = 900;
             if (end < 10) return;
-            const tick = t => { const k = Math.max(0, Math.min(1, (t - t0) / dur)), e = 1 - Math.pow(1 - k, 3); el.textContent = k < 1 ? n(Math.round(end * e)) : final; if (k < 1) requestAnimationFrame(tick); };
-            requestAnimationFrame(tick);
+            const tick = t => { const k = Math.max(0, Math.min(1, (t - t0) / dur)), e = 1 - Math.pow(1 - k, 3); el.textContent = k < 1 ? n(Math.round(end * e)) : final; if (k < 1) RAF(tick); };
+            RAF(tick);
         }); };
         countUp(document);
 
@@ -1218,33 +1229,60 @@
                 return 'shared';
             } catch (err) { return err?.name === 'AbortError' ? 'cancelled' : 'failed'; }
         };
+        // ── Story videos: each section of the latest year filmed at deploy (render-recap.js opens ?card=film), saved as
+        //    share/{YYYY}-video-{key}.mp4 and listed in share/video.json; the Share sheet's Video tab offers the ones for this year ──
+        let videoKeys = null;
+        const getVideos = () => videoKeys ??= fetch(`${BASE}memory-card/share/video.json`, { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).catch(() => null)
+            .then(v => v && v.year === R.year ? (v.keys || []).filter(k => SLIDES.some(x => x.key === k)) : []);
+        const videoFile = key => `${R.year}-video-${key}.mp4`;
+        const videoUrl = key => `${BASE}memory-card/share/${videoFile(key)}`;
+        // Shares the video as a file where the device can, saves it otherwise
+        const sendVideo = async (url, name) => {
+            try {
+                const res = await fetch(url);
+                if (!res.ok) return 'failed';
+                const file = new File([await res.blob()], name, { type: 'video/mp4' });
+                if (navigator.canShare?.({ files: [file] })) { await navigator.share({ files: [file], title: shareTitle, text: `${shareTitle} ${pageUrl}` }); return 'shared'; }
+                const a = Object.assign(document.createElement('a'), { href: url, download: name }); document.body.append(a); a.click(); a.remove(); return 'saved';
+            } catch (err) { return err?.name === 'AbortError' ? 'cancelled' : 'failed'; }
+        };
         const openShare = (from = 'story', wide = DESK.matches) => {
             // Three sections, one picture picked from thumbnails in each: the tall and the wide picture in their five styles, and the story's
             // slides (wide ones on a desktop, or when the story was playing wide)
             let kind = from, pick = '';
-            const picks = () => kind === 'slides' ? SLIDES.map(x => ({ id: `slide-${x.key}`, name: x.name, url: slidePic(x.key, wide), file: slideFile(x.key, wide) }))
+            const picks = () => kind === 'video' ? SLIDES.filter(x => vids.includes(x.key)).map(x => ({ id: `video-${x.key}`, name: x.name, url: slidePic(x.key, false), file: videoFile(x.key), video: videoUrl(x.key) }))
+                : kind === 'slides' ? SLIDES.map(x => ({ id: `slide-${x.key}`, name: x.name, url: slidePic(x.key, wide), file: slideFile(x.key, wide) }))
                 : STYLES.map(([id, name]) => ({ id, name, url: imageUrl(kind, id), file: picName(kind, id) }));
             const el = document.createElement('div');
             el.className = 'scrim';
             el.innerHTML = `<div class="sheet" role="dialog" aria-modal="true" aria-label="Share ${R.year}">
                 <header><h2>Share ${R.year}</h2><button class="x" data-close aria-label="Close">${svg.x}</button></header>
-                <div class="pick"><div class="seg" aria-label="Shape"><button data-kind="story">Tall</button><button data-kind="link">Wide</button><button data-kind="slides">Story</button></div></div>
+                <div class="pick"><div class="seg" aria-label="Shape"><button data-kind="story">Tall</button><button data-kind="link">Wide</button><button data-kind="slides">Story</button><button data-kind="video" hidden>Video</button></div></div>
                 <div class="thumbs" aria-label="Picture"></div>
                 <div class="pv"></div>
-                <div class="acts"><button class="btn go" data-send>${svg.share}<span>Share picture</span></button><a class="btn" data-save download>${svg.down}Save picture</a></div>
+                <div class="acts"><button class="btn go" data-send>${svg.share}<span>Share picture</span></button><a class="btn" data-save download>${svg.down}<span>Save picture</span></a></div>
                 <div class="linkrow"><span>${esc(pageUrl.replace(/^https?:\/\//, ''))}</span><button class="btn" data-copy>${svg.link}<span>Copy link</span></button></div></div>`;
             const pv = el.querySelector('.pv'), save = el.querySelector('[data-save]'), send = el.querySelector('[data-send]'), thumbs = el.querySelector('.thumbs');
-            let cur, drawn;
+            let cur, drawn, vids = [];
+            const sendLabel = send.querySelector('span'), saveLabel = save.querySelector('span'), vidBtn = el.querySelector('[data-kind="video"]');
+            getVideos().then(keys => { vids = keys; vidBtn.hidden = !keys.length; });
             const show = () => {
+                const isVid = kind === 'video';
+                sendLabel.textContent = isVid ? 'Share video' : 'Share picture'; saveLabel.textContent = isVid ? 'Save video' : 'Save picture';
                 const list = picks();
                 cur = list.find(x => x.id === pick) ?? list[0]; pick = cur.id;
                 el.querySelectorAll('[data-kind]').forEach(b => b.classList.toggle('on', b.dataset.kind === kind));
                 if (drawn !== kind) {
                     drawn = kind;
-                    thumbs.className = `thumbs k-${kind}${kind === 'slides' && wide ? ' k-wide' : ''}`;
+                    thumbs.className = `thumbs k-${kind === 'video' ? 'slides' : kind}${kind === 'slides' && wide ? ' k-wide' : ''}`;
                     thumbs.innerHTML = list.map(x => `<button class="th" data-pick="${x.id}" aria-label="${esc(x.name)}" title="${esc(x.name)}"><img src="${x.url}" alt="" loading="lazy" onerror="this.parentNode.remove()"></button>`).join('');
                 }
                 thumbs.querySelectorAll('.th').forEach(b => b.classList.toggle('on', b.dataset.pick === pick));
+                if (isVid) {          // the section's film, playing in the preview
+                    pv.innerHTML = `<video src="${cur.video}" poster="${cur.url}" autoplay muted loop playsinline controls aria-label="${esc(`${shareTitle}, ${cur.name}`)}"></video>`;
+                    save.href = cur.video; save.download = `memory-card-${cur.file}`;
+                    return;
+                }
                 const pic = new Image();
                 pic.alt = `${shareTitle}, ${kind === 'link' ? 'wide picture' : kind === 'slides' ? 'story card' : 'tall picture'}, ${cur.name}`;
                 pic.onload = () => { pv.replaceChildren(pic); };
@@ -1260,6 +1298,11 @@
                 if (t?.dataset.kind) { kind = t.dataset.kind; return show(); }
                 if (t?.dataset.pick) { pick = t.dataset.pick; t.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' }); return show(); }
                 if (t?.dataset.copy != null) return copy(t);
+                if (t?.dataset.send != null && kind === 'video') {
+                    const got = await sendVideo(cur.video, `memory-card-${cur.file}`);
+                    if (got === 'saved' || got === 'failed') { sendLabel.textContent = got === 'saved' ? 'Saved instead' : 'Couldn’t share'; setTimeout(() => { sendLabel.textContent = 'Share video'; }, 1600); }
+                    return;
+                }
                 if (t?.dataset.send != null) {
                     const label = send.querySelector('span'), got = await sendPic(cur.url, `memory-card-${cur.file}`);
                     if (got === 'saved' || got === 'failed') { label.textContent = got === 'saved' ? 'Saved instead' : 'Couldn’t share'; setTimeout(() => { label.textContent = 'Share picture'; }, 1600); }
@@ -1273,9 +1316,9 @@
         };
         // ── Story: the slides played back. Each bar on top fills while its slide shows and its end moves on; tap right / left
         //    to step, hold to pause. The share button sends the picture of the slide on screen; the last slide opens the Share sheet ──
-        const openStory = () => {
+        const openStory = ({ start = 0, film = false } = {}) => {
             // Wide on a desktop, where a button in the top bar switches between the two shapes (remembered on this device)
-            let wide = DESK.matches && (() => { try { return localStorage.getItem('mc:storyShape') !== 'tall'; } catch { return true; } })();
+            let wide = !film && DESK.matches && (() => { try { return localStorage.getItem('mc:storyShape') !== 'tall'; } catch { return true; } })();
             const endHtml = () => `<div class="hf1"><div class="sfan sa">${(n => SLIDES.slice(0, 3).map((x, i) => `<img src="${slidePic(x.key, wide)}" alt="" style="--r:${(i - (n - 1) / 2) * 9}deg;--x:${(i - (n - 1) / 2) * 62}px;--i:${i}" onerror="this.remove()">`).join(''))(Math.min(3, SLIDES.length))}</div></div>
                 <div class="hf2"><div class="slot px sa" style="justify-content:center"><i></i>Slot ${slotNo} <b>of ${YEARS.length} · saved</b></div>
                 <h2 class="sa">${R.year} saved</h2>
@@ -1370,8 +1413,9 @@
                 else if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); go(at + 1); }
                 else if (e.key === 'ArrowLeft') go(at - 1);
             };
-            el.addEventListener('animationend', e => { const a = e.animationName; if (a === 'sbar') go(at + 1); else if (a === 'scin') e.target.swap?.(); else if (a === 'scout') e.target.remove(); });
-            el.addEventListener('animationstart', e => { if (e.animationName === 'scout') countUp(frame.querySelector('.stage')); });        // numbers count as the cover leaves
+            if (film) el.classList.add('film', 'paused');       // filmed: nothing runs on its own, the film steps every animation
+            el.addEventListener('animationend', e => { if (film) return; const a = e.animationName; if (a === 'sbar') go(at + 1); else if (a === 'scin') e.target.swap?.(); else if (a === 'scout') e.target.remove(); });
+            el.addEventListener('animationstart', e => { if (!film && e.animationName === 'scout') countUp(frame.querySelector('.stage')); });        // numbers count as the cover leaves
             el.addEventListener('contextmenu', e => e.preventDefault());
             frame.addEventListener('pointerdown', e => { if (!e.target.closest('button')) holdTimer = setTimeout(() => hold(true), 220); });
             frame.addEventListener('pointercancel', () => { clearTimeout(holdTimer); hold(false); });
@@ -1394,8 +1438,38 @@
             document.body.append(el);
             addEventListener('resize', fit);
             fit(); shape();
-            go(0);
+            if (!film) return go(0);
+            // Filming: every frame the renderer calls __filmStep(ms); each animation is paused and set to the time since it appeared,
+            // and what the story does on animation events (cover swaps the slide in, cover leaves and numbers count, bar ends) is done
+            // here when an animation passes that point. Resolves true once the section's bar has filled
+            let clock = 0, over = false;
+            const born = new WeakMap(), ended = new WeakSet(), begun = new WeakSet();
+            window.__filmStep = async dt => {
+                clock += dt; FILM_CLOCK = clock;
+                for (const a of document.getAnimations()) {
+                    if (!born.has(a)) born.set(a, clock - dt);
+                    a.pause(); a.currentTime = Math.max(0, clock - born.get(a));
+                    const name = a.animationName, tg = a.effect?.target, tm = a.effect?.getComputedTiming();
+                    if (name === 'scout' && !begun.has(a) && a.currentTime >= (a.effect.getTiming().delay || 0)) { begun.add(a); countUp(frame.querySelector('.stage')); }
+                    if (!ended.has(a) && tm && isFinite(tm.endTime) && a.currentTime >= tm.endTime) {
+                        ended.add(a);
+                        if (name === 'scin') tg?.swap?.(); else if (name === 'scout') tg?.remove(); else if (name === 'sbar') over = true;
+                    }
+                }
+                filmTickers.splice(0).forEach(f => f(clock));
+                await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+                return over;
+            };
+            // Ready once fonts are in and the section's pictures are loaded (the slide is built only when the cover swaps it in)
+            const pre = document.createElement('div'); pre.innerHTML = slides[start].html;
+            Promise.all([document.fonts.ready, ...[...pre.querySelectorAll('img')].map(i => new Promise(r => { const im = new Image(); im.onload = im.onerror = r; im.src = i.src; }))])
+                .then(() => { go(start); requestAnimationFrame(() => { document.body.dataset.ready = '1'; }); });
         };
+        // ── Filming a section (?card=film&s=<key>, 450 × 800): the story opened on that slide, stepped by render-recap.js ──
+        if (CARD === 'film') {
+            document.body.dataset.slides = SLIDES.map(x => x.key).join(',');
+            openStory({ film: true, start: Math.max(0, SLIDES.findIndex(x => x.key === Q.get('s'))) });
+        }
         document.addEventListener('click', e => {
             const t = e.target.closest('[data-share], [data-copy], [data-play]');
             if (!t || t.closest('.scrim, .story')) return;

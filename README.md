@@ -17,7 +17,7 @@
 
 ---
 
-Savepoint is a template. You make your own copy, add your API keys as secrets, and in about fifteen minutes you have a personal gaming hub at `https://<you>.github.io/savepoint/` that keeps itself up to date. It is designed for your phone first and installs as an app.
+Savepoint is a self-hosted gaming dashboard and achievement tracker for RetroAchievements, Steam and Xbox, made as a GitHub template. You make your own copy, add your API keys as secrets, and in about fifteen minutes you have a personal gaming hub at `https://<you>.github.io/savepoint/` that keeps itself up to date. It is designed for your phone first and installs as an app.
 
 <img src="docs/images/profiles.jpg" alt="Profile pages for RetroAchievements, Steam and Xbox on desktop and phone" width="100%">
 
@@ -256,9 +256,9 @@ Optional keys for the admin, all in `.env`:
 
 <img src="docs/images/memory.jpg" alt="Memory Card: one year in games" width="100%">
 
-Every year with unlocks or play time gets its own page at `/memory-card/<year>/` (`/memory-card/` is the latest), linked from the hub header. It is made for other people: a title for the year picked from what made it stand out, the top five games, finished games, rarest unlocks, a save-block calendar of the year and when you play. Each year takes its colour from its top game's art. **Play** runs the year back as full-screen slides, each one a card you can share from the slide itself; every slide opens on a line about the year, and the lines and the way they move differ for every year and every player. **Share** hands out a tall or wide picture of it in five styles (Card, Cover, Blocks, Shelf, Title) or any of the story's cards, and a shared link previews that year's picture.
+Every year with unlocks or play time gets its own page at `/memory-card/<year>/` (`/memory-card/` is the latest), linked from the hub header. It is made for other people: a title for the year picked from what made it stand out, the top five games, finished games, rarest unlocks, a save-block calendar of the year and when you play. Each year takes its colour from its top game's art. **Play** runs the year back as full-screen slides, each one a card you can share from the slide itself; every slide opens on a line about the year, and the lines and the way they move differ for every year and every player. **Share** hands out a tall or wide picture of it in five styles (Card, Cover, Blocks, Shelf, Title) or any of the story's cards, and a shared link previews that year's picture. For the latest year, **Video** hands out each part of the story as a 10-second video, animated just like the slides, for an Instagram or Facebook story; the tall pictures and videos keep their top clear for the app's own bars and your name. The running year gets its page in October; until then the latest is last year.
 
-The pages and pictures are built on every deploy (`scripts/build-recap.js`, then `scripts/render-recap.js` with the runner's Chrome). Locally, `npm run data:pull` builds the pages; run `node scripts/render-recap.js` for the pictures. Farms and hidden games are left out, idle games count without their play time. Play time only exists from your first data run, so earlier years rank games by unlocks.
+The pages and pictures are built on every deploy (`scripts/build-recap.js`, then `scripts/render-recap.js` with the runner's Chrome). The videos are filmed with ffmpeg (installed by the deploy when the runner lacks it), about five minutes for a year, so only the midnight run and your pushes film them again; the deploys after other data runs reuse the ones already on your site. Locally, `npm run data:pull` builds the pages; run `node scripts/render-recap.js` for the pictures. Farms and hidden games are left out, idle games count without their play time. Play time only exists from your first data run, so earlier years rank games by unlocks.
 
 ## Customising
 
