@@ -1,0 +1,191 @@
+{
+    "appId": 1449850,
+    "hasAchievements": true,
+    "total": 11,
+    "unlocked": 6,
+    "gameName": "Yu-Gi-Oh!  Master Duel",
+    "achievements": [
+        {
+            "apiName": "jp.konami.masterduel.ach.001",
+            "unlocked": true,
+            "unlockedAt": "2025-11-08T11:54:57.000Z",
+            "displayName": "Welcome to MASTER DUEL",
+            "description": "Register your player name",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 85.7
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.002",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Come Forth...",
+            "description": "Tribute Summon a total of 20 or more monsters in Ranked/Event Duels",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 8
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.003",
+            "unlocked": true,
+            "unlockedAt": "2026-01-17T13:28:43.000Z",
+            "displayName": "Master of Special Summoning",
+            "description": "Special Summon a total of 50 or more monsters in Ranked/Event Duels",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 37.3
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.004",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Chain Blazer",
+            "description": "Make a Chain of 5 or more effects (activated by either player) in a Ranked/Event Duel ",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 20.3
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.005",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Let's Duel!",
+            "description": "Declare an attack on a monster 100 or more times in Ranked/Event Duels",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 15.9
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.006",
+            "unlocked": true,
+            "unlockedAt": "2026-05-09T08:07:42.000Z",
+            "displayName": "Beginner No More",
+            "description": "Duel in Standard 30 times or more in Ranked Duels",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 31.6
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.007",
+            "unlocked": true,
+            "unlockedAt": "2026-05-09T08:07:42.000Z",
+            "displayName": "Master of Spells ＆ Traps",
+            "description": "Activate 100 or more Spell/Trap Cards in Ranked/Event Duels",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 28.6
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.008",
+            "unlocked": true,
+            "unlockedAt": "2026-01-13T10:48:36.000Z",
+            "displayName": "Ultra Burst",
+            "description": "Defeat your opponent by dealing more than 4000 damage at a time in a Ranked/Event Duel",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 33.9
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.009",
+            "unlocked": true,
+            "unlockedAt": "2026-03-28T13:01:25.000Z",
+            "displayName": "Necromancer",
+            "description": "Special Summon 50 or more monsters from the Graveyard in Ranked/Event Duels",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 23
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.010",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Burn It All",
+            "description": "Deal a total of 100K or more damage with card effects in Ranked/Event Duels",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 9.5
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.011",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "To Greater Heights",
+            "description": "Reach the Platinum rank or higher in Standard",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "hidden": false,
+            "globalPct": 17.1
+        }
+    ],
+    "playtimeForever": 1480,
+    "lastPlayedTs": "2026-11-08T12:44:12.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1449850/35626d2f6ccc0ef2fd167a8b519a2f4f944a9bb5.jpg",
+    "lastUnlockedAt": "2026-05-09T08:07:42.000Z",
+    "lastUnlockName": "Beginner No More",
+    "preview": [
+        {
+            "apiName": "jp.konami.masterduel.ach.006",
+            "displayName": "Beginner No More",
+            "unlocked": true,
+            "unlockedAt": "2026-05-09T08:07:42.000Z",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "globalPct": 31.6
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.007",
+            "displayName": "Master of Spells ＆ Traps",
+            "unlocked": true,
+            "unlockedAt": "2026-05-09T08:07:42.000Z",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "globalPct": 28.6
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.009",
+            "displayName": "Necromancer",
+            "unlocked": true,
+            "unlockedAt": "2026-03-28T13:01:25.000Z",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "globalPct": 23
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.003",
+            "displayName": "Master of Special Summoning",
+            "unlocked": true,
+            "unlockedAt": "2026-01-17T13:28:43.000Z",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "globalPct": 37.3
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.008",
+            "displayName": "Ultra Burst",
+            "unlocked": true,
+            "unlockedAt": "2026-01-13T10:48:36.000Z",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "globalPct": 33.9
+        },
+        {
+            "apiName": "jp.konami.masterduel.ach.001",
+            "displayName": "Welcome to MASTER DUEL",
+            "unlocked": true,
+            "unlockedAt": "2025-11-08T11:54:57.000Z",
+            "iconUrl": "1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "iconGrayUrl": "cfc8e8dbc8621116fadc92c655dc7a473ce0dccd.jpg",
+            "globalPct": 85.7
+        }
+    ]
+}

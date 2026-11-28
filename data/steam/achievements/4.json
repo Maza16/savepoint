@@ -1,0 +1,714 @@
+{
+    "recentAchievements": [
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "THROW_A_PARTY",
+            "displayName": "Jolly Jamboree",
+            "description": "What you're celebrating doesn't matter, just throw a party already!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/9f723603a35018b1701fd21a222ee26a60ca845c.jpg",
+            "unlockedAt": "2026-02-27T15:49:47.000Z",
+            "globalPct": 26.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "EXTRA_SHINY",
+            "displayName": "Extra Shiny!",
+            "description": "Mine a powerful ore that has been newly blessed upon your world.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/9d573b4067856938a1c13c9c93f3dec66c0c3f72.jpg",
+            "unlockedAt": "2026-02-27T13:47:01.000Z",
+            "globalPct": 35.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "DUNGEON_HEIST",
+            "displayName": "Dungeon Heist",
+            "description": "Steal a key from the dungeon's undead denizens, and unlock one of their precious golden chests.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/ba1daa2f08355bf11e2494b01db49f47fa4f43c7.jpg",
+            "unlockedAt": "2026-02-25T16:11:40.000Z",
+            "globalPct": 40.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "NEW_DIGS",
+            "displayName": "New Digs",
+            "description": "Give any villager a new look.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/cd103cb3f0c7a67c6a7cb658832b350d459a4e52.jpg",
+            "unlockedAt": "2026-02-25T15:31:20.000Z",
+            "globalPct": 3.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "MINER_FOR_FIRE",
+            "displayName": "Miner for Fire",
+            "description": "Craft a molten pickaxe using the hottest of materials.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/bbb5c58dea957db42faaa276c697599f0354f06c.jpg",
+            "unlockedAt": "2026-02-25T15:06:17.000Z",
+            "globalPct": 28.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "ROCK_BOTTOM",
+            "displayName": "Rock Bottom",
+            "description": "The only way is up!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/ef421de200597d9553957957bb16b1504a25c752.jpg",
+            "unlockedAt": "2026-02-25T15:04:22.000Z",
+            "globalPct": 25.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "FREQUENT_FLYER",
+            "displayName": "The Frequent Flyer",
+            "description": "Spend over 1 gold being treated by the nurse.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/af50c3b5549094e0f99d20f04ff6ed4e5fda6889.jpg",
+            "unlockedAt": "2026-02-25T14:11:01.000Z",
+            "globalPct": 28.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "COMPLETELY_AWESOME",
+            "displayName": "Completely Awesome",
+            "description": "Obtain a minishark.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/8ae7da8ea8eb7fd920f499fb762e7efb24fae8fc.jpg",
+            "unlockedAt": "2026-02-25T13:09:47.000Z",
+            "globalPct": 30.8
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "STICKY_SITUATION",
+            "displayName": "Sticky Situation",
+            "description": "Survive the slime rain, where gelatinous organisms fall from the sky in droves.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/d033499586f55832b7ca093fc07077c6d64dfb57.jpg",
+            "unlockedAt": "2026-02-25T10:59:38.000Z",
+            "globalPct": 37.7
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "WORM_FODDER",
+            "displayName": "Worm Fodder",
+            "description": "Defeat the Eater of Worlds, a massive worm whom dwells in the corruption.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/624b8391794e2f02f067295d634d648d6cb0e4a9.jpg",
+            "unlockedAt": "2026-02-23T16:17:46.000Z",
+            "globalPct": 35.2
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "SLIPPERY_SHINOBI",
+            "displayName": "Slippery Shinobi",
+            "description": "Defeat King Slime, the lord of all things slimy.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/839662b6bd88d0babf10cb9e7d5bafd9d89f3efc.jpg",
+            "unlockedAt": "2026-02-23T14:21:29.000Z",
+            "globalPct": 43.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "SLAYER_OF_WORLDS",
+            "displayName": "Slayer of Worlds",
+            "description": "Defeat every boss in Terraria.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/98a47ac6d34f74f0f4d8651a929701bd2aa4ae42.jpg",
+            "unlockedAt": "2026-02-23T14:21:29.000Z",
+            "globalPct": 21
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "BULLDOZER",
+            "displayName": "Bulldozer",
+            "description": "Destroy a total of 10,000 tiles.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/c57a4c06ecbc2ec8fe5af0b1d4cb8cbfe8821a10.jpg",
+            "unlockedAt": "2026-02-22T14:07:15.000Z",
+            "globalPct": 39.4
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "CHAMPION_OF_TERRARIA",
+            "displayName": "Champion of Terraria",
+            "description": "Defeat the Moon Lord.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/c91f1b034b7ce14a89a377320eddaf29f18143f1.jpg",
+            "unlockedAt": "2026-02-16T13:02:21.000Z",
+            "globalPct": 24.8
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "BOULDER_LORD",
+            "displayName": "Boulder Lord",
+            "description": "Prove your worth against the Moon Lord's worst.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/5cbdb2ef87620f6c1a58c79d90e8fa13df64f7b4.jpg",
+            "unlockedAt": "2026-02-16T13:02:21.000Z",
+            "globalPct": 0.7
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "DEFEAT_QUEEN_SLIME",
+            "displayName": "Just Desserts",
+            "description": "Defeat Queen Slime, giving the coup-de-grace to the sovereign of all that jiggles.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/6091aa5a41f25af23b6c408d9669bc0bb8aa067b.jpg",
+            "unlockedAt": "2026-02-16T11:53:42.000Z",
+            "globalPct": 21.8
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "DEFEAT_DEERCLOPS",
+            "displayName": "An Eye For An Eye",
+            "description": "Defeat Deerclops, the chilly one-eyed monstrosity from a foreign land.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/8bbfcf168e0034054d479a72d30e2fe36354f2cc.jpg",
+            "unlockedAt": "2026-02-16T11:50:36.000Z",
+            "globalPct": 16
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "OBSESSIVE_DEVOTION",
+            "displayName": "Obsessive Devotion",
+            "description": "Defeat the Ancient Cultist, fanatical leader of the dungeon coven.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/b9436b13653d95dd441c8a96213e6a4dfbc6b72f.jpg",
+            "unlockedAt": "2026-02-15T15:51:55.000Z",
+            "globalPct": 26.5
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "ROBBING_THE_GRAVE",
+            "displayName": "Robbing the Grave",
+            "description": "Obtain a rare treasure from a difficult monster in the dungeon.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/45884dee9cec706f27db75fbe4567da42d235836.jpg",
+            "unlockedAt": "2026-02-15T15:41:21.000Z",
+            "globalPct": 31.1
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "BEGONE_EVIL",
+            "displayName": "Begone, Evil!",
+            "description": "Smash a demon or crimson altar with a powerful, holy hammer.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/c3917d676fc752415849de9f132549d05ba0ca4c.jpg",
+            "unlockedAt": "2026-02-15T15:38:00.000Z",
+            "globalPct": 37.4
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "FISH_OUT_OF_WATER",
+            "displayName": "Fish Out of Water",
+            "description": "Defeat Duke Fishron, mutant terror of the sea.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/3efe3c4fcbfa43a355df16292f307232559fb3ec.jpg",
+            "unlockedAt": "2026-02-15T15:17:47.000Z",
+            "globalPct": 22.5
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "TIN_FOIL_HATTER",
+            "displayName": "Tin-Foil Hatter",
+            "description": "Triumph over a martian invasion, when beings from out of this world come to scramble your brains and probe you in uncomfortable places.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/c3e587ad5f2dea6f18e3b1dbda3ae258f70edf9c.jpg",
+            "unlockedAt": "2026-02-15T15:06:41.000Z",
+            "globalPct": 24.7
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "GO_LAVA_FISHING",
+            "displayName": "Hot Reels!",
+            "description": "Drop a lure in a pool of lava for a pre-fried haul!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/b69c78cee817dbe14238c10c042bf478003a9c27.jpg",
+            "unlockedAt": "2026-02-15T14:54:47.000Z",
+            "globalPct": 9.1
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "LIHZAHRDIAN_IDOL",
+            "displayName": "Lihzahrdian Idol",
+            "description": "Defeat Golem, the stone-faced ritualistic idol of the lihzahrd tribe.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/3d8a29010ed3e22203cb4f0d52167c88f9c91a5c.jpg",
+            "unlockedAt": "2026-02-15T14:40:00.000Z",
+            "globalPct": 28.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "INTERDIMENSIONAL_RECYCLING",
+            "displayName": "Interdimensional Recycling",
+            "description": "Give the Dryad a can of Joja Cola.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/c1ac7ace184cd9e9bc13fd463e8449eea9b227c0.jpg",
+            "unlockedAt": "2026-02-15T14:34:34.000Z",
+            "globalPct": 1.4
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "STILL_HUNGRY",
+            "displayName": "Still Hungry",
+            "description": "Defeat the Wall of Flesh, the master and core of the world who arises after a great, burning sacrifice.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/02ba42d3df19dc2cd81a6bf4ee29c7ce446e4360.jpg",
+            "unlockedAt": "2026-02-15T14:28:17.000Z",
+            "globalPct": 39.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "THE_GREAT_SOUTHERN_PLANTKILL",
+            "displayName": "The Great Southern Plantkill",
+            "description": "Defeat Plantera, the overgrown monstrosity of the jungle's depths.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/4b52e1dd35f600a9f82f7958abe2a467d68351e7.jpg",
+            "unlockedAt": "2026-02-15T13:46:42.000Z",
+            "globalPct": 29.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "MARATHON_MEDALIST",
+            "displayName": "Marathon Medalist",
+            "description": "Travel a total of 26.2 miles on foot.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/c624a2f9b28c26d804f22337d4c46efffc2d4563.jpg",
+            "unlockedAt": "2026-02-15T13:41:56.000Z",
+            "globalPct": 45.1
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "PHOTOSYNTHESIS",
+            "displayName": "Photosynthesis",
+            "description": "Mine chlorophyte, an organic ore found deep among the thickest of flora.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/2a4c26b8eca5e09cabcd64a50b76115d2679796a.jpg",
+            "unlockedAt": "2026-02-15T13:35:18.000Z",
+            "globalPct": 28.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "BUCKETS_OF_BOLTS",
+            "displayName": "Buckets of Bolts",
+            "description": "Defeat the three nocturnal mechanical menaces: the Twins, the Destroyer, and Skeletron Prime.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/27536dd7b5ee4de46b85be337d0c792d685b14f5.jpg",
+            "unlockedAt": "2026-02-15T13:24:07.000Z",
+            "globalPct": 30.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "QUEEN_MACHINE",
+            "displayName": "Queen Machine",
+            "description": "Defeated the combined form of the 3 mechanical giants.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/d2cc2fa90e9d5237dcafa061b3a32593b81ec3d0.jpg",
+            "unlockedAt": "2026-02-15T13:24:07.000Z",
+            "globalPct": 0.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "BONED",
+            "displayName": "Boned",
+            "description": "Defeat Skeletron, the cursed guardian of the dungeon.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/11b9d704b496f6586f952e93c2158d38dd169377.jpg",
+            "unlockedAt": "2026-02-15T13:19:23.000Z",
+            "globalPct": 43.4
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "WALK_THE_PLANK",
+            "displayName": "Walk the Plank",
+            "description": "Triumph over a pirate invasion, a group of pillagers from the sea out for your booty... and your life!",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/ce10d46dae4218e320e2ae46188507aa39ddf12b.jpg",
+            "unlockedAt": "2026-02-15T13:03:00.000Z",
+            "globalPct": 32.1
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "MY_PEOPLE_NEED_ME",
+            "displayName": "My People Need Me",
+            "description": "Embark on a one way trip into outer space.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/033c42ec01776eda64cdc4aac53c4251afa6ce13.jpg",
+            "unlockedAt": "2026-02-15T12:40:31.000Z",
+            "globalPct": 0.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "ITS_HARD",
+            "displayName": "It's Hard!",
+            "description": "Unleash the ancient spirits of light and darkness across your world, enabling much stronger foes and showering the world with dazzling treasures (and rainbows!).",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/dc65c66c704560c7a940fab6d5023490f7102fb3.jpg",
+            "unlockedAt": "2026-02-15T12:26:27.000Z",
+            "globalPct": 39.1
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "SWORD_OF_THE_HERO",
+            "displayName": "Sword of the Hero",
+            "description": "Obtain a Terra Blade, forged from the finest blades of light and darkness.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/4256db7a8c24e4bfa312b6768d1af19873883b02.jpg",
+            "unlockedAt": "2026-02-15T12:22:15.000Z",
+            "globalPct": 24.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "MASTERMIND",
+            "displayName": "Mastermind",
+            "description": "Defeat the Brain of Cthulhu, an enourmous demon brain which haunts the creeping crimson.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/53b00566871f426e2e2a341de81b143c0fd1be9d.jpg",
+            "unlockedAt": "2026-02-15T12:17:45.000Z",
+            "globalPct": 35.4
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "SMASHING_POPPET",
+            "displayName": "Smashing, Poppet!",
+            "description": "Using explosives or your trusty hammer, smash a Shadow Orb or Crimson Heart in the evil parts of your world.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/7f9006b20f6615ef0e93c72cade8fb26c3818db7.jpg",
+            "unlockedAt": "2026-02-15T12:17:20.000Z",
+            "globalPct": 51
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "PRETTY_IN_PINK",
+            "displayName": "Pretty in Pink",
+            "description": "Kill pinky.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/f00eae3408364653eefe9a6e9283a1610ae8643b.jpg",
+            "unlockedAt": "2026-02-15T12:07:56.000Z",
+            "globalPct": 49.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "TRANSMUTE_ITEM",
+            "displayName": "A Shimmer In The Dark",
+            "description": "Shimmer an item into another item. What other transmutations can you find?",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/2e8221bd7bc11ac180bf2949a1a57bb5649b8cce.jpg",
+            "unlockedAt": "2026-02-15T12:01:42.000Z",
+            "globalPct": 20.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "STING_OPERATION",
+            "displayName": "Sting Operation",
+            "description": "Defeat the Queen Bee, the matriarch of the jungle hives.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/a8ed027c602baf83e6f3d59ba074eec87b1dd2d7.jpg",
+            "unlockedAt": "2026-02-15T11:49:12.000Z",
+            "globalPct": 39.8
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "HEAD_IN_THE_CLOUDS",
+            "displayName": "Head in the Clouds",
+            "description": "Equip a pair of wings.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/55cb91ab9841f538742277b897189ab19aaefc8b.jpg",
+            "unlockedAt": "2026-02-15T10:55:41.000Z",
+            "globalPct": 50.1
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "TOPPED_OFF",
+            "displayName": "Topped Off",
+            "description": "Attain maximum health and mana possible without accessories or buffs.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/6fafd5617f5f2c23a0ffeefc2799d2fbb5a7c801.jpg",
+            "unlockedAt": "2026-02-15T10:55:22.000Z",
+            "globalPct": 26.5
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "GET_A_LIFE",
+            "displayName": "Get a Life",
+            "description": "Consume a life fruit, which grows in the thick of subterranean jungle grass.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/e54172f81aaaac5bdabededcb8e52b8c2d2f7f8e.jpg",
+            "unlockedAt": "2026-02-15T10:55:07.000Z",
+            "globalPct": 32.5
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "GET_TERRASPARK_BOOTS",
+            "displayName": "Boots of the Hero",
+            "description": "Obtain the Terraspark Boots, forged from the finest boots of fire and ice.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/50bae94af5dffa4d3f41d242aefaa84b34a6df1a.jpg",
+            "unlockedAt": "2026-02-15T10:54:18.000Z",
+            "globalPct": 18.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "GET_ANKH_SHIELD",
+            "displayName": "Ankhumulation Complete",
+            "description": "Obtain the Ankh Shield, the finest protection from unpleasant maladies and ailments.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/820ecf21246cb8acb0a293fb5781b479c46bc441.jpg",
+            "unlockedAt": "2026-02-15T10:54:12.000Z",
+            "globalPct": 11.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "GET_ZENITH",
+            "displayName": "Infinity +1 Sword",
+            "description": "Obtain the Zenith, the culmination of a journey forged into the ultimate sword.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/ad65c49e080605670ce5dee3e94c5863e5dcdb76.jpg",
+            "unlockedAt": "2026-02-15T10:54:10.000Z",
+            "globalPct": 17.8
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "PET_THE_PET",
+            "displayName": "Feeling Petty",
+            "description": "Deliver headpats to the town pet.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/89ae5fc62de83ed0c5b472dba2434a2f91940bd1.jpg",
+            "unlockedAt": "2026-02-15T10:40:42.000Z",
+            "globalPct": 32.7
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "WHERES_MY_HONEY",
+            "displayName": "Where's My Honey?",
+            "description": "Discover a large bee's hive deep in the jungle.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/b4b56f2efddc04d7c234de521f58a9ee9e697327.jpg",
+            "unlockedAt": "2026-02-14T13:20:16.000Z",
+            "globalPct": 41.4
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "THROWING_LINES",
+            "displayName": "Throwing Lines",
+            "description": "Throw a yoyo.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/efd06080d5ca93192d2c1dda6e9cf92b424e461e.jpg",
+            "unlockedAt": "2026-02-14T13:07:17.000Z",
+            "globalPct": 45.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "VEHICULAR_MANSLAUGHTER",
+            "displayName": "Vehicular Manslaughter",
+            "description": "Defeat an enemy by running it over with a minecart.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/a959913d98f2195136a4c8acd11b98281e2109e4.jpg",
+            "unlockedAt": "2026-02-14T10:07:32.000Z",
+            "globalPct": 48.9
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "THERE_ARE_SOME_WHO_CALL_HIM",
+            "displayName": "There are Some Who Call Him...",
+            "description": "Kill Tim.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/472bdbff627e1e346f0cff906bc698abde36f9c0.jpg",
+            "unlockedAt": "2026-02-14T10:02:06.000Z",
+            "globalPct": 33.7
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "FASHION_STATEMENT",
+            "displayName": "Fashion Statement",
+            "description": "Equip armor or vanity clothing in all three social slots.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/a21ac001c8eb0eece9a498b094d5c1f8e121727a.jpg",
+            "unlockedAt": "2026-02-14T09:53:43.000Z",
+            "globalPct": 48
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "JEEPERS_CREEPERS",
+            "displayName": "Jeepers Creepers",
+            "description": "Stumble into a spider cavern in the underground.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/d9aeb5789d29be12161f43cb7a6a6e7afb045116.jpg",
+            "unlockedAt": "2026-02-14T09:36:09.000Z",
+            "globalPct": 48.2
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "DIE_TO_DEAD_MANS_CHEST",
+            "displayName": "Dead Men Tell No Tales",
+            "description": "You were so preoccupied with whether or not you could open the chest that you didn't stop to think if you should.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/0dfe1e75f8432cd357cefa8190a11693a2786dc0.jpg",
+            "unlockedAt": "2026-02-14T09:20:49.000Z",
+            "globalPct": 30
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "WATCH_YOUR_STEP",
+            "displayName": "Watch Your Step!",
+            "description": "Become a victim to a nasty underground trap.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/280b95017555560b63ea0a44dbdb3a38e86cd7cd.jpg",
+            "unlockedAt": "2026-02-14T08:46:53.000Z",
+            "globalPct": 59
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "FORTUNE_FAVORS_THE_BOULD",
+            "displayName": "Fortune Favors the Bould",
+            "description": "Discover a friendly boulder.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/60f21cf3ca3149c7c61d15dd1042d7a0ad71cfbc.jpg",
+            "unlockedAt": "2026-02-14T08:43:45.000Z",
+            "globalPct": 8
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "GRAVE_MISTAKE",
+            "displayName": "Grave Mistake",
+            "description": "“Accidentally” kill a friend with your tombstone.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/b820762ec697085af4cab77a1ba10d4bd44bf457.jpg",
+            "unlockedAt": "2026-02-14T08:31:35.000Z",
+            "globalPct": 1.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "THE_CAVALRY",
+            "displayName": "The Cavalry",
+            "description": "Equip a mount.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/da6e31f8c70f22252c7d5c7ec6882093499146f9.jpg",
+            "unlockedAt": "2026-02-14T08:01:51.000Z",
+            "globalPct": 42.5
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "SPICY_LICKS",
+            "displayName": "Spicy Licks",
+            "description": "Jam out on a six stringed instrument.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/7ee84aed998d979b5a23472e8d979114d7787a27.jpg",
+            "unlockedAt": "2026-02-14T05:06:53.000Z",
+            "globalPct": 4.3
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "ITS_GETTING_HOT_IN_HERE",
+            "displayName": "It's Getting Hot in Here",
+            "description": "Spelunk deep enough to reach the molten underworld.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/58efa6a9a0ae6a955c6a82874961b08c8e4def60.jpg",
+            "unlockedAt": "2026-02-14T04:52:39.000Z",
+            "globalPct": 49.6
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "PLAY_ON_A_SPECIAL_SEED",
+            "displayName": "A Rare Realm",
+            "description": "Some very special seeds can lead to unique and rewarding experiences. Can you find one?",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/ee1bf7006604da48b973c5d793c9b13b68ea7b63.jpg",
+            "unlockedAt": "2026-02-14T04:52:39.000Z",
+            "globalPct": 12.7
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "GOING_OLDSCHOOL",
+            "displayName": "Going Oldschool",
+            "description": "Bring back the original title screen.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/04998850ce652bde23901e5a4a5838d03d88c725.jpg",
+            "unlockedAt": "2026-02-14T04:48:07.000Z",
+            "globalPct": 11.2
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "BLOODBATH",
+            "displayName": "Bloodbath",
+            "description": "Survive a blood moon, a nocturnal event where the rivers run red and monsters swarm aplenty.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/ce64b32e5385e779e3c615b2f36a966f8cdf4405.jpg",
+            "unlockedAt": "2026-01-30T15:16:22.000Z",
+            "globalPct": 51.5
+        },
+        {
+            "appId": 105600,
+            "gameName": "Terraria",
+            "apiName": "GOBLIN_PUNTER",
+            "displayName": "Goblin Punter",
+            "description": "Triumph over a goblin invasion, a ragtag regiment of crude, barbaric, pointy-eared warriors and their shadowflame sorcerers.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/105600/984d8201f226319980b9a5f13b0a17455587d187.jpg",
+            "unlockedAt": "2026-01-30T15:10:05.000Z",
+            "globalPct": 46.1
+        },
+        {
+            "appId": 220,
+            "gameName": "Half-Life 2",
+            "apiName": "HL2_GET_CROWBAR",
+            "displayName": "Trusty Hardware",
+            "description": "Get the crowbar.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_get_crowbar.jpg",
+            "unlockedAt": "2026-01-29T13:36:03.000Z",
+            "globalPct": 67.5
+        },
+        {
+            "appId": 220,
+            "gameName": "Half-Life 2",
+            "apiName": "HL2_ESCAPE_APARTMENTRAID",
+            "displayName": "Malcontent",
+            "description": "Escape the apartment block raid.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_escape_apartmentraid.jpg",
+            "unlockedAt": "2026-01-28T13:19:13.000Z",
+            "globalPct": 70.7
+        },
+        {
+            "appId": 220,
+            "gameName": "Half-Life 2",
+            "apiName": "HL2_HIT_CANCOP_WITHCAN",
+            "displayName": "Defiant",
+            "description": "",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/220/hl2_hit_cancop_withcan.jpg",
+            "unlockedAt": "2026-01-28T13:08:27.000Z",
+            "globalPct": 33.5
+        },
+        {
+            "appId": 1449850,
+            "gameName": "Yu-Gi-Oh!  Master Duel",
+            "apiName": "jp.konami.masterduel.ach.003",
+            "displayName": "Master of Special Summoning",
+            "description": "Special Summon a total of 50 or more monsters in Ranked/Event Duels",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1449850/1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "unlockedAt": "2026-01-17T13:28:43.000Z",
+            "globalPct": 37.3
+        },
+        {
+            "appId": 1449850,
+            "gameName": "Yu-Gi-Oh!  Master Duel",
+            "apiName": "jp.konami.masterduel.ach.008",
+            "displayName": "Ultra Burst",
+            "description": "Defeat your opponent by dealing more than 4000 damage at a time in a Ranked/Event Duel",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/1449850/1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+            "unlockedAt": "2026-01-13T10:48:36.000Z",
+            "globalPct": 33.9
+        },
+        {
+            "appId": 550,
+            "gameName": "Left 4 Dead 2",
+            "apiName": "GLOBAL_GNOME_ALONE",
+            "displayName": "GNOME ALONE",
+            "description": "If you are reading this achievement, Gabe Newell has successfully launched Gnome Chompski into space.",
+            "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/550/81522571f3f42048be3e9985a05f7206f7d35e5e.jpg",
+            "unlockedAt": "2026-01-05T11:49:32.000Z",
+            "globalPct": 70.1
+        }
+    ]
+}

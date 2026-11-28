@@ -1,0 +1,257 @@
+{
+    "appId": 380600,
+    "hasAchievements": true,
+    "total": 17,
+    "unlocked": 0,
+    "gameName": "Fishing Planet",
+    "achievements": [
+        {
+            "apiName": "ACH_F2P_TIGHT_LINES",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Tight Lines!",
+            "description": "Complete the Tutorial",
+            "iconUrl": "8a09ed7aba5792e9fd3fa36b82be7087593f1fd6.jpg",
+            "iconGrayUrl": "542e05faa30d002354ea7157f1d9e32e691b077a.jpg",
+            "hidden": false,
+            "globalPct": 53
+        },
+        {
+            "apiName": "ACH_F2P_BASS_MASTER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Bass Master",
+            "description": "Catch 250 Bass",
+            "iconUrl": "efb4c993a743d55d80a97169fe88658f538eb618.jpg",
+            "iconGrayUrl": "5050fe0681b3e1440a41ee04c6a6ff69b5876e33.jpg",
+            "hidden": false,
+            "globalPct": 2.3
+        },
+        {
+            "apiName": "ACH_F2P_TROUT_MASTER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Trout Master",
+            "description": "Catch 250 Trout",
+            "iconUrl": "861056c191c7ec2d1e4e52946c9a4fa01783b4e0.jpg",
+            "iconGrayUrl": "feff005c9e7261b768dfbdaee82bb32a3fbd9e38.jpg",
+            "hidden": false,
+            "globalPct": 2.1
+        },
+        {
+            "apiName": "ACH_F2P_PIKE_MASTER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Pike Master",
+            "description": "Catch 250 Pike",
+            "iconUrl": "3f7f22c3afbf0da371a53e06c5dbfc5b22a7f62b.jpg",
+            "iconGrayUrl": "ea8beca12a75268225e1c0da1eba4003d70e978d.jpg",
+            "hidden": false,
+            "globalPct": 2
+        },
+        {
+            "apiName": "ACH_F2P_PANFISH_OVERLORD",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Panfish Overlord",
+            "description": "Catch 250 Panfish",
+            "iconUrl": "3bd416fc66af1df100c88a6c5d5f508d887f642e.jpg",
+            "iconGrayUrl": "1de0e52862d596350034db30e9ebb6efac920727.jpg",
+            "hidden": false,
+            "globalPct": 2
+        },
+        {
+            "apiName": "ACH_F2P_CATFISH_MASTER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Catfish Master",
+            "description": "Catch 250 Catfish",
+            "iconUrl": "7fb7013845b029a02545ae06c71761a2ca9afb18.jpg",
+            "iconGrayUrl": "f9e09cb0a24d24a87fd1a7e590fd8903924437a5.jpg",
+            "hidden": false,
+            "globalPct": 1.3
+        },
+        {
+            "apiName": "ACH_F2P_WALLEYE_CHIEF",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Zander Chief",
+            "description": "Catch 250 Zander",
+            "iconUrl": "17a11654ce71282e3b80cb5d13e806a1407a5326.jpg",
+            "iconGrayUrl": "88fe603aa3d9c737ed9bf2a6b2552b5db619f4d7.jpg",
+            "hidden": false,
+            "globalPct": 2
+        },
+        {
+            "apiName": "ACH_F2P_SALMON_MASTER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Salmon Master",
+            "description": "Catch 250 Salmon",
+            "iconUrl": "5bb2bda113beff6a3750a9809d24f5bb20c87c5b.jpg",
+            "iconGrayUrl": "72090c2fed152c158dadf8e9ac816ee7b1d534e1.jpg",
+            "hidden": false,
+            "globalPct": 0.7
+        },
+        {
+            "apiName": "ACH_F2P_CARP_MASTER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Carp Master",
+            "description": "Catch 250 Carp",
+            "iconUrl": "272889f839747b90071a062943f4a7c4e8d3c6f8.jpg",
+            "iconGrayUrl": "47d713b2cd3fb7ac598db574223c6c93513125fa.jpg",
+            "hidden": false,
+            "globalPct": 0.9
+        },
+        {
+            "apiName": "ACH_F2P_CRAPPIE_MASTER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Crappie Master",
+            "description": "Catch 250 Crappie",
+            "iconUrl": "8bdc874cefcf7e47ba6cade36edcc3e3fb3027bd.jpg",
+            "iconGrayUrl": "fe50a5e4bd263f63e82a478c4ac3bf86f316fbd7.jpg",
+            "hidden": false,
+            "globalPct": 0.7
+        },
+        {
+            "apiName": "ACH_F2P_PARTAKER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Partaker",
+            "description": "Participate in 100 fishing competitions",
+            "iconUrl": "02dffb1c6df02ca62fc4815b3170813d817b1910.jpg",
+            "iconGrayUrl": "09a10d366f62ad948701ee17dd93fef61c3d96de.jpg",
+            "hidden": false,
+            "globalPct": 0.4
+        },
+        {
+            "apiName": "ACH_F2P_YOURE_IN",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "You’re In!",
+            "description": "Register in 12 fishing tournaments",
+            "iconUrl": "3dcfd47f467c653434dd22de6616910ce17bb277.jpg",
+            "iconGrayUrl": "89616c45264eb889ea95b37ba540ced45a488834.jpg",
+            "hidden": false,
+            "globalPct": 0.4
+        },
+        {
+            "apiName": "ACH_F2P_QUALIFIED_WINNER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Qualified Winner",
+            "description": "Won in 12 qualifying tournaments",
+            "iconUrl": "0a177d7ace461372fd613087f70f6647bab9b07a.jpg",
+            "iconGrayUrl": "22896d00c04ff8e3e6234130b863b050c998e889.jpg",
+            "hidden": false,
+            "globalPct": 0.4
+        },
+        {
+            "apiName": "ACH_F2P_ALMOST_THERE",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Almost There!",
+            "description": "Get to the final round of a tournament",
+            "iconUrl": "11e94558ab1d323cb5ec3da37282760eb71ed2d9.jpg",
+            "iconGrayUrl": "1aa9cd5009b7a095ca6f5f47aadadcb043886a21.jpg",
+            "hidden": false,
+            "globalPct": 0.4
+        },
+        {
+            "apiName": "ACH_F2P_WINNING_STREAK",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Winning Streak",
+            "description": "Be in a competition’s Top-3 winners 5 times in a row",
+            "iconUrl": "291bacafbdbcb480b75841971ee091feff744827.jpg",
+            "iconGrayUrl": "f60618910ee8beff94f37817936693ac96979f47.jpg",
+            "hidden": false,
+            "globalPct": 0.4
+        },
+        {
+            "apiName": "ACH_F2P_TROPHY_COLLECTOR",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Trophy Collector",
+            "description": "Catch 1000 Trophy fish",
+            "iconUrl": "2419d65052dbf5d9e9005295b46d233d4aa69840.jpg",
+            "iconGrayUrl": "4c3061c9da24f35f1414681414ff17715b85fcd5.jpg",
+            "hidden": false,
+            "globalPct": 0.8
+        },
+        {
+            "apiName": "ACH_F2P_UNIQUE_GAINER",
+            "unlocked": false,
+            "unlockedAt": null,
+            "displayName": "Unique Gainer",
+            "description": "Catch 100 Unique fish",
+            "iconUrl": "610ab31b206d26e0f96256a83fe2b70b8729a681.jpg",
+            "iconGrayUrl": "89168dd67dfa1742afee58cf7528297f67753965.jpg",
+            "hidden": false,
+            "globalPct": 1.1
+        }
+    ],
+    "playtimeForever": 9,
+    "lastPlayedTs": "2026-06-08T05:19:39.000Z",
+    "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/380600/df6785140de8c32f6baec7fd7fd74c5823459250.jpg",
+    "lastUnlockedAt": null,
+    "lastUnlockName": null,
+    "preview": [
+        {
+            "apiName": "ACH_F2P_TIGHT_LINES",
+            "displayName": "Tight Lines!",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "8a09ed7aba5792e9fd3fa36b82be7087593f1fd6.jpg",
+            "iconGrayUrl": "542e05faa30d002354ea7157f1d9e32e691b077a.jpg",
+            "globalPct": 53
+        },
+        {
+            "apiName": "ACH_F2P_BASS_MASTER",
+            "displayName": "Bass Master",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "efb4c993a743d55d80a97169fe88658f538eb618.jpg",
+            "iconGrayUrl": "5050fe0681b3e1440a41ee04c6a6ff69b5876e33.jpg",
+            "globalPct": 2.3
+        },
+        {
+            "apiName": "ACH_F2P_TROUT_MASTER",
+            "displayName": "Trout Master",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "861056c191c7ec2d1e4e52946c9a4fa01783b4e0.jpg",
+            "iconGrayUrl": "feff005c9e7261b768dfbdaee82bb32a3fbd9e38.jpg",
+            "globalPct": 2.1
+        },
+        {
+            "apiName": "ACH_F2P_PIKE_MASTER",
+            "displayName": "Pike Master",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "3f7f22c3afbf0da371a53e06c5dbfc5b22a7f62b.jpg",
+            "iconGrayUrl": "ea8beca12a75268225e1c0da1eba4003d70e978d.jpg",
+            "globalPct": 2
+        },
+        {
+            "apiName": "ACH_F2P_PANFISH_OVERLORD",
+            "displayName": "Panfish Overlord",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "3bd416fc66af1df100c88a6c5d5f508d887f642e.jpg",
+            "iconGrayUrl": "1de0e52862d596350034db30e9ebb6efac920727.jpg",
+            "globalPct": 2
+        },
+        {
+            "apiName": "ACH_F2P_CATFISH_MASTER",
+            "displayName": "Catfish Master",
+            "unlocked": false,
+            "unlockedAt": null,
+            "iconUrl": "7fb7013845b029a02545ae06c71761a2ca9afb18.jpg",
+            "iconGrayUrl": "f9e09cb0a24d24a87fd1a7e590fd8903924437a5.jpg",
+            "globalPct": 1.3
+        }
+    ]
+}

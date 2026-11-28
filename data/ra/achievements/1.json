@@ -1,0 +1,42 @@
+{
+    "recentAchievements": [
+        {
+            "date": "2026-09-16 13:57:12",
+            "hardcoreMode": true,
+            "achievementId": 79679,
+            "title": "Enchanted Locksmith",
+            "description": "[DQI] Obtain your first Magic Key in Radatome Castle.",
+            "badgeName": "86033",
+            "points": 1,
+            "trueRatio": 1,
+            "type": null,
+            "author": "jos",
+            "authorUlid": "01BRZXV8Y3W8YY5MST0NR19M97",
+            "gameTitle": "Dragon Quest I & II",
+            "gameIcon": "/Images/038721.png",
+            "gameId": 1405,
+            "consoleName": "SNES/Super Famicom",
+            "badgeUrl": "/Badge/86033.png",
+            "gameUrl": "/game/1405"
+        },
+        {
+            "date": "2026-11-14 23:13:59",
+            "hardcoreMode": true,
+            "achievementId": 338335,
+            "title": "Bonding Beyond Borders",
+            "description": "Meet Omega-Xis for the first time",
+            "badgeName": "476351",
+            "points": 1,
+            "trueRatio": 1,
+            "type": "progression",
+            "author": "Yurana",
+            "authorUlid": "01GZC69PK12HNRTHY3ARWH4QHT",
+            "gameTitle": "~Hack~ Mega Man Star Force DX",
+            "gameIcon": "/Images/126519.png",
+            "gameId": 23701,
+            "consoleName": "Nintendo DS",
+            "badgeUrl": "/Badge/476351.png",
+            "gameUrl": "/game/23701"
+        }
+    ]
+}

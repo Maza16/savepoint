@@ -1,0 +1,85 @@
+{
+    "asOf": 1794949239248,
+    "games": {
+        "510": {
+            "total": 402,
+            "lastPlayed": 1747584844000,
+            "lastEnd": null
+        },
+        "1405": {
+            "total": 2300,
+            "lastPlayed": 1789568622000,
+            "lastEnd": null
+        },
+        "2778": {
+            "total": 12571,
+            "lastPlayed": 1786433952000,
+            "lastEnd": null
+        },
+        "3155": {
+            "total": 600,
+            "lastPlayed": 1784812106000,
+            "lastEnd": null
+        },
+        "3538": {
+            "total": 2346,
+            "lastPlayed": 1748962259000,
+            "lastEnd": null
+        },
+        "3732": {
+            "total": 224219,
+            "lastPlayed": 1761468740000,
+            "lastEnd": null
+        },
+        "4872": {
+            "total": 161,
+            "lastPlayed": 1747741668000,
+            "lastEnd": null
+        },
+        "7788": {
+            "total": 360,
+            "lastPlayed": 1781410856000,
+            "lastEnd": null
+        },
+        "11240": {
+            "total": 3372,
+            "lastPlayed": 1748874594000,
+            "lastEnd": null
+        },
+        "11265": {
+            "total": 3000,
+            "lastPlayed": 1772808676000,
+            "lastEnd": null
+        },
+        "12700": {
+            "total": 360,
+            "lastPlayed": 1792942746000,
+            "lastEnd": null
+        },
+        "17976": {
+            "total": 41277,
+            "lastPlayed": 1761981481000,
+            "lastEnd": null
+        },
+        "19040": {
+            "total": 2965,
+            "lastPlayed": 1786592551000,
+            "lastEnd": null
+        },
+        "19049": {
+            "total": 21129,
+            "lastPlayed": 1784809045000,
+            "lastEnd": null
+        },
+        "21701": {
+            "total": 960,
+            "lastPlayed": 1781408794000,
+            "lastEnd": null
+        },
+        "23701": {
+            "total": 3063,
+            "lastPlayed": 1794920058000,
+            "lastEnd": 1794920058000
+        }
+    }
+}
