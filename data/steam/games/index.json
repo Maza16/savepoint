@@ -208,14 +208,23 @@
             "appId": 35140,
             "hasAchievements": true,
             "total": 47,
-            "unlocked": 4,
+            "unlocked": 5,
             "gameName": "Batman: Arkham Asylum GOTY Edition",
-            "playtimeForever": 43,
-            "lastPlayedTs": null,
+            "playtimeForever": 73,
+            "lastPlayedTs": "2026-11-28T13:09:16.000Z",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/35140/e52f91ecb0d3f20263e96fe188de1bcc8c91643e.jpg",
-            "lastUnlockedAt": "2026-11-23T12:36:44.000Z",
-            "lastUnlockName": "Leave No Man Behind",
+            "lastUnlockedAt": "2026-11-28T12:39:55.000Z",
+            "lastUnlockName": "Malpractice Needs More Practice",
             "preview": [
+                {
+                    "apiName": "NEW_ACHIEVEMENT_1_2",
+                    "displayName": "Malpractice Needs More Practice",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-28T12:39:55.000Z",
+                    "iconUrl": "858eff024794a5620f9c179670dc60c671b1db08.jpg",
+                    "iconGrayUrl": "256664f886e47c527f5a98404462a83ee7a2e37e.jpg",
+                    "globalPct": 71.3
+                },
                 {
                     "apiName": "NEW_ACHIEVEMENT_1_1",
                     "displayName": "Leave No Man Behind",
@@ -251,15 +260,6 @@
                     "iconUrl": "1333bce738d2e3a271c02604058781be184ca9cc.jpg",
                     "iconGrayUrl": "d3c06f9e7f9c0ab24fc9bf793932ad245c5ec4e5.jpg",
                     "globalPct": 77
-                },
-                {
-                    "apiName": "NEW_ACHIEVEMENT_1_2",
-                    "displayName": "Malpractice Needs More Practice",
-                    "unlocked": false,
-                    "unlockedAt": null,
-                    "iconUrl": "858eff024794a5620f9c179670dc60c671b1db08.jpg",
-                    "iconGrayUrl": "256664f886e47c527f5a98404462a83ee7a2e37e.jpg",
-                    "globalPct": 71.3
                 },
                 {
                     "apiName": "NEW_ACHIEVEMENT_1_3",
@@ -817,14 +817,23 @@
             "appId": 413150,
             "hasAchievements": true,
             "total": 49,
-            "unlocked": 16,
+            "unlocked": 17,
             "gameName": "Stardew Valley",
-            "playtimeForever": 3920,
-            "lastPlayedTs": "2026-11-28T07:32:11.000Z",
+            "playtimeForever": 4038,
+            "lastPlayedTs": "2026-11-28T13:09:16.000Z",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg",
-            "lastUnlockedAt": "2026-11-01T03:38:30.000Z",
-            "lastUnlockName": "Moving Up",
+            "lastUnlockedAt": "2026-11-28T07:42:52.000Z",
+            "lastUnlockName": "Millionaire",
             "preview": [
+                {
+                    "apiName": "3",
+                    "displayName": "Millionaire",
+                    "unlocked": true,
+                    "unlockedAt": "2026-11-28T07:42:52.000Z",
+                    "iconUrl": "f96dbf78eebf05e027d1ca2fb25296a7db8f2036.jpg",
+                    "iconGrayUrl": "836d9237fd8fea1556e1697a6186a50c5be26d02.jpg",
+                    "globalPct": 32.5
+                },
                 {
                     "apiName": "18",
                     "displayName": "Moving Up",
@@ -869,15 +878,6 @@
                     "iconUrl": "dafe0ceff688bebb1c8554cbfa478e9826eb7074.jpg",
                     "iconGrayUrl": "c0e16fe2b61793bfd49d7e2af4b7d1b0593b1b31.jpg",
                     "globalPct": 28.8
-                },
-                {
-                    "apiName": "7",
-                    "displayName": "Best Friends",
-                    "unlocked": true,
-                    "unlockedAt": "2026-08-01T12:54:52.000Z",
-                    "iconUrl": "da975460e6ca17e1cf397d598d4eb9c65502f786.jpg",
-                    "iconGrayUrl": "ecc68d32d9c812da5bc43676d4c3315113682f95.jpg",
-                    "globalPct": 32.1
                 }
             ]
         },
@@ -2220,7 +2220,7 @@
                     "unlockedAt": "2026-07-11T07:14:46.000Z",
                     "iconUrl": "71ebaf794682b681701baa95baeec9adcc351437.jpg",
                     "iconGrayUrl": "a6afadbff794ceb8d8d526cdad2a2cd7d16e6a2f.jpg",
-                    "globalPct": 55.1
+                    "globalPct": 55
                 },
                 {
                     "apiName": "STEAM_ACHIEVEMENT_103002",

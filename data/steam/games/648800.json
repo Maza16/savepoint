@@ -80,7 +80,7 @@
             "iconUrl": "e72a2bd7a40f8fcfc0273fe97cb77e1e1f0a826c.jpg",
             "iconGrayUrl": "0c785afd1e1972e24a2cadd86f90a364eabddaa8.jpg",
             "hidden": false,
-            "globalPct": 24.3
+            "globalPct": 24.2
         },
         {
             "apiName": "ach_researcher",
@@ -916,7 +916,7 @@
             "iconUrl": "5e1162e666a0917433c7c474e2719c8c2f3b3e7d.jpg",
             "iconGrayUrl": "c44275b85fddf179dc017b5b6f4616776fde52c2.jpg",
             "hidden": false,
-            "globalPct": 10.2
+            "globalPct": 10.1
         },
         {
             "apiName": "ach_botKiller_1",

@@ -188,7 +188,7 @@
             "description": "Earn 15,000g",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/dac82a85ceb1493bb2155d41890b4a6099f5eaa5.jpg",
             "unlockedAt": "2026-07-25T10:30:38.000Z",
-            "globalPct": 62.7
+            "globalPct": 62.6
         },
         {
             "appId": 3678970,
@@ -208,7 +208,7 @@
             "description": "Spend 30 tokens.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/648800/5e1162e666a0917433c7c474e2719c8c2f3b3e7d.jpg",
             "unlockedAt": "2026-07-19T09:25:36.000Z",
-            "globalPct": 10.2
+            "globalPct": 10.1
         },
         {
             "appId": 648800,
@@ -338,7 +338,7 @@
             "description": "Obtain a Celestial grade gear for the first time.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/71ebaf794682b681701baa95baeec9adcc351437.jpg",
             "unlockedAt": "2026-07-11T07:14:46.000Z",
-            "globalPct": 55.1
+            "globalPct": 55
         },
         {
             "appId": 3678970,
@@ -518,7 +518,7 @@
             "description": "Obtain an Arcana grade gear for the first time.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/b3faec94fd5a7708028c56f758d9579b76e4fc1a.jpg",
             "unlockedAt": "2026-07-03T06:43:02.000Z",
-            "globalPct": 80.7
+            "globalPct": 80.6
         },
         {
             "appId": 3678970,
@@ -868,7 +868,7 @@
             "description": "Clear Nightmare mode for the first time!",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/01377e9dce67aaad1f93c03d6c3b45f52af9d892.jpg",
             "unlockedAt": "2026-06-27T05:33:55.000Z",
-            "globalPct": 70.6
+            "globalPct": 70.5
         },
         {
             "appId": 3678970,
@@ -1058,7 +1058,7 @@
             "description": "Clear stage 2-10 for the first time!",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/6f02168d62194a5640cd62241c72beb1d34a5374.jpg",
             "unlockedAt": "2026-06-13T03:51:46.000Z",
-            "globalPct": 83.9
+            "globalPct": 83.8
         },
         {
             "appId": 548430,
@@ -1328,7 +1328,7 @@
             "description": "Successfully synthesize a Rare grade item for the first time.",
             "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3678970/a996213a9209259fa38ca62cc1a29d2c735e13ad.jpg",
             "unlockedAt": "2026-06-03T11:10:57.000Z",
-            "globalPct": 93.3
+            "globalPct": 93.2
         },
         {
             "appId": 3678970,

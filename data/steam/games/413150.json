@@ -2,7 +2,7 @@
     "appId": 413150,
     "hasAchievements": true,
     "total": 49,
-    "unlocked": 16,
+    "unlocked": 17,
     "gameName": "Stardew Valley",
     "achievements": [
         {
@@ -14,7 +14,7 @@
             "iconUrl": "dac82a85ceb1493bb2155d41890b4a6099f5eaa5.jpg",
             "iconGrayUrl": "6177e17de19eea95ad1af0503f32d6ef74ceacee.jpg",
             "hidden": false,
-            "globalPct": 62.7
+            "globalPct": 62.6
         },
         {
             "apiName": "1",
@@ -40,8 +40,8 @@
         },
         {
             "apiName": "3",
-            "unlocked": false,
-            "unlockedAt": null,
+            "unlocked": true,
+            "unlockedAt": "2026-11-28T07:42:52.000Z",
             "displayName": "Millionaire",
             "description": "Earn 1,000,000g",
             "iconUrl": "f96dbf78eebf05e027d1ca2fb25296a7db8f2036.jpg",
@@ -545,12 +545,21 @@
             "globalPct": 17.6
         }
     ],
-    "playtimeForever": 3920,
-    "lastPlayedTs": "2026-11-28T07:32:11.000Z",
+    "playtimeForever": 4038,
+    "lastPlayedTs": "2026-11-28T13:09:16.000Z",
     "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg",
-    "lastUnlockedAt": "2026-11-01T03:38:30.000Z",
-    "lastUnlockName": "Moving Up",
+    "lastUnlockedAt": "2026-11-28T07:42:52.000Z",
+    "lastUnlockName": "Millionaire",
     "preview": [
+        {
+            "apiName": "3",
+            "displayName": "Millionaire",
+            "unlocked": true,
+            "unlockedAt": "2026-11-28T07:42:52.000Z",
+            "iconUrl": "f96dbf78eebf05e027d1ca2fb25296a7db8f2036.jpg",
+            "iconGrayUrl": "836d9237fd8fea1556e1697a6186a50c5be26d02.jpg",
+            "globalPct": 32.5
+        },
         {
             "apiName": "18",
             "displayName": "Moving Up",
@@ -595,15 +604,6 @@
             "iconUrl": "dafe0ceff688bebb1c8554cbfa478e9826eb7074.jpg",
             "iconGrayUrl": "c0e16fe2b61793bfd49d7e2af4b7d1b0593b1b31.jpg",
             "globalPct": 28.8
-        },
-        {
-            "apiName": "7",
-            "displayName": "Best Friends",
-            "unlocked": true,
-            "unlockedAt": "2026-08-01T12:54:52.000Z",
-            "iconUrl": "da975460e6ca17e1cf397d598d4eb9c65502f786.jpg",
-            "iconGrayUrl": "ecc68d32d9c812da5bc43676d4c3315113682f95.jpg",
-            "globalPct": 32.1
         }
     ]
 }

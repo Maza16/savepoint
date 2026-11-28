@@ -1,5 +1,5 @@
 {
-"metadata": {"generatedAt":"2026-11-28T07:32:11.139Z","year":2026,"count":446},
+"metadata": {"generatedAt":"2026-11-28T13:09:16.261Z","year":2026,"count":448},
 "unlocks": [
 {"t":"2026-01-05T11:49:32Z","g":550,"a":"GLOBAL_GNOME_ALONE","n":"GNOME ALONE","r":70.1},
 {"t":"2026-01-13T10:48:36Z","g":1449850,"a":"jp.konami.masterduel.ach.008","n":"Ultra Burst","r":33.9},
@@ -446,5 +446,7 @@
 {"t":"2026-11-23T12:16:45Z","g":35140,"a":"NEW_ACHIEVEMENT_1_26","n":"Freeflow Combo 10","r":55.7},
 {"t":"2026-11-23T12:30:08Z","g":35140,"a":"NEW_ACHIEVEMENT_1_0","n":"Shocking Rescue","r":74.3},
 {"t":"2026-11-23T12:36:44Z","g":35140,"a":"NEW_ACHIEVEMENT_1_1","n":"Leave No Man Behind","r":68.7},
-{"t":"2026-11-25T09:33:19Z","g":8980,"a":"Achievement_21","n":"Discovered Headstone Mine","r":51.4}
+{"t":"2026-11-25T09:33:19Z","g":8980,"a":"Achievement_21","n":"Discovered Headstone Mine","r":51.4},
+{"t":"2026-11-28T07:42:52Z","g":413150,"a":"3","n":"Millionaire","r":32.5},
+{"t":"2026-11-28T12:39:55Z","g":35140,"a":"NEW_ACHIEVEMENT_1_2","n":"Malpractice Needs More Practice","r":71.3}
 ]}

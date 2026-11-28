@@ -498,7 +498,7 @@
             "iconUrl": "e1a4f449b677eef9ffd5afd94944fd4ac6114659.jpg",
             "iconGrayUrl": "8d08471bd6ec14fe729d23b325490065b310c213.jpg",
             "hidden": true,
-            "globalPct": 9.7
+            "globalPct": 9.6
         },
         {
             "apiName": "ACHIEVEMENT_45",
@@ -575,7 +575,7 @@
             "iconUrl": "f99c8a44df935cd3cad493fac7599a41c9690e67.jpg",
             "iconGrayUrl": "ce6d43920f2dcb9eb7307e3eb39bebebc0e9df1f.jpg",
             "hidden": true,
-            "globalPct": 3.6
+            "globalPct": 3.5
         }
     ],
     "playtimeForever": 1,

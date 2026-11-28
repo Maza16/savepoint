@@ -322,7 +322,7 @@
             "iconUrl": "61f88c7ebfade8edb46d99ea16a94ac59d59d240.jpg",
             "iconGrayUrl": "7bca03728b35215c129a5781533982a7b5aca81e.jpg",
             "hidden": false,
-            "globalPct": 4.3
+            "globalPct": 4.4
         },
         {
             "apiName": "AllBossesNormal",
@@ -388,7 +388,7 @@
             "iconUrl": "ba35ab17366761e2a2a5e3d79474b6ca2d3ee53b.jpg",
             "iconGrayUrl": "8ac8b88dcd286595b72aa0c28546d74fcbb79516.jpg",
             "hidden": true,
-            "globalPct": 0.2
+            "globalPct": 0.3
         },
         {
             "apiName": "GrindLeviathan",

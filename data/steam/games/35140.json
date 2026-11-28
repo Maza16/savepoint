@@ -2,7 +2,7 @@
     "appId": 35140,
     "hasAchievements": true,
     "total": 47,
-    "unlocked": 4,
+    "unlocked": 5,
     "gameName": "Batman: Arkham Asylum GOTY Edition",
     "achievements": [
         {
@@ -29,8 +29,8 @@
         },
         {
             "apiName": "NEW_ACHIEVEMENT_1_2",
-            "unlocked": false,
-            "unlockedAt": null,
+            "unlocked": true,
+            "unlockedAt": "2026-11-28T12:39:55.000Z",
             "displayName": "Malpractice Needs More Practice",
             "description": "Survive the onslaught from the deformed Joker henchman",
             "iconUrl": "858eff024794a5620f9c179670dc60c671b1db08.jpg",
@@ -523,12 +523,21 @@
             "globalPct": 4.2
         }
     ],
-    "playtimeForever": 43,
-    "lastPlayedTs": null,
+    "playtimeForever": 73,
+    "lastPlayedTs": "2026-11-28T13:09:16.000Z",
     "iconUrl": "https://shared.akamai.steamstatic.com/community_assets/images/apps/35140/e52f91ecb0d3f20263e96fe188de1bcc8c91643e.jpg",
-    "lastUnlockedAt": "2026-11-23T12:36:44.000Z",
-    "lastUnlockName": "Leave No Man Behind",
+    "lastUnlockedAt": "2026-11-28T12:39:55.000Z",
+    "lastUnlockName": "Malpractice Needs More Practice",
     "preview": [
+        {
+            "apiName": "NEW_ACHIEVEMENT_1_2",
+            "displayName": "Malpractice Needs More Practice",
+            "unlocked": true,
+            "unlockedAt": "2026-11-28T12:39:55.000Z",
+            "iconUrl": "858eff024794a5620f9c179670dc60c671b1db08.jpg",
+            "iconGrayUrl": "256664f886e47c527f5a98404462a83ee7a2e37e.jpg",
+            "globalPct": 71.3
+        },
         {
             "apiName": "NEW_ACHIEVEMENT_1_1",
             "displayName": "Leave No Man Behind",
@@ -564,15 +573,6 @@
             "iconUrl": "1333bce738d2e3a271c02604058781be184ca9cc.jpg",
             "iconGrayUrl": "d3c06f9e7f9c0ab24fc9bf793932ad245c5ec4e5.jpg",
             "globalPct": 77
-        },
-        {
-            "apiName": "NEW_ACHIEVEMENT_1_2",
-            "displayName": "Malpractice Needs More Practice",
-            "unlocked": false,
-            "unlockedAt": null,
-            "iconUrl": "858eff024794a5620f9c179670dc60c671b1db08.jpg",
-            "iconGrayUrl": "256664f886e47c527f5a98404462a83ee7a2e37e.jpg",
-            "globalPct": 71.3
         },
         {
             "apiName": "NEW_ACHIEVEMENT_1_3",
